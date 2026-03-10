@@ -1,0 +1,231 @@
+/* src/index.css or src/styles/theme.css */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap');
+
+:root {
+  /* Sidebar width */
+  --sidebar-width: 220px;
+  /* TopHeader height */
+  --topheader-height: 100px;
+  /* ============================================
+     TYPOGRAPHY
+     ============================================ */
+  --font-body: 'Inter', system-ui, sans-serif;
+  --font-heading: 'Space Grotesk', sans-serif;
+
+  /* Font sizes - using rem for accessibility */
+  --text-xs: 0.75rem;
+  /* 12px */
+  --text-sm: 0.875rem;
+  /* 14px */
+  --text-base: 1rem;
+  /* 16px - base font size */
+  --text-lg: 1.125rem;
+  /* 18px */
+  --text-xl: 1.25rem;
+  /* 20px */
+  --text-2xl: 1.5rem;
+  /* 24px */
+  --text-3xl: 2rem;
+  /* 32px */
+  --text-4xl: 2.5rem;
+  /* 40px */
+  --text-5xl: 3rem;
+  /* 48px */
+  --text-6xl: 3.75rem;
+  /* 60px */
+
+  /* ============================================
+     SPACING SCALE
+     ============================================ */
+  --space-xs: 0.25rem;
+  /* 4px */
+  --space-sm: 0.5rem;
+  /* 8px */
+  --space-md: 1rem;
+  /* 16px */
+  --space-lg: 1.5rem;
+  /* 24px */
+  --space-xl: 2rem;
+  /* 32px */
+  --space-2xl: 2.5rem;
+  /* 40px */
+  --space-3xl: 3rem;
+  /* 48px */
+
+  /* ============================================
+     BORDER RADIUS
+     ============================================ */
+  --radius-sm: 4px;
+  --radius-md: 8px;
+  --radius-lg: 12px;
+  --radius-xl: 16px;
+  --radius-2xl: 24px;
+
+  /* ============================================
+     CORE BRAND (constant across themes)
+     ============================================ */
+  --color-primary: #5B21B6;
+  --color-neon: #A855F7;
+  --color-magenta: #E01A84;
+  /* RGB para gradientes premium */
+  --btn-primary-rgb: 91, 33, 182;
+
+  /* Status (constant) */
+  --color-success: #10B981;
+  --color-warning: #F59E0B;
+  --color-error: #EF4444;
+}
+
+/* ============================================
+   CSS RESET & BASE STYLES
+   ============================================ */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-body);
+  margin: 0;
+  padding: 0;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+img,
+video,
+svg {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+/* Headings - fluid typography with clamp() */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-heading);
+  margin: 0;
+  line-height: 1.2;
+}
+
+h1 {
+  font-size: clamp(var(--text-3xl), 5vw, var(--text-6xl));
+}
+
+h2 {
+  font-size: clamp(var(--text-2xl), 4vw, var(--text-4xl));
+}
+
+h3 {
+  font-size: clamp(var(--text-xl), 3vw, var(--text-2xl));
+}
+
+/* Light Theme (default) */
+[data-theme="light"],
+:root {
+  --bg-login: url('/src/assets/light_wide_landing_page1.png');
+  --bg-body: #F8FAFC;
+  --bg-surface: #FFFFFF;
+  --bg-hover: #F1F5F9;
+  --border-color: #E2E8F0;
+
+  --text-primary: #0F172A;
+  --text-secondary: #64748B;
+  --text-muted: #94A3B8;
+
+  --btn-primary: #5B21B6;
+  --btn-primary-hover: #4C1D95;
+  --btn-secondary: #F1F5F9;
+  --btn-secondary-hover: #E2E8F0;
+
+  --input-bg: #FFFFFF;
+  --input-border: #CBD5E1;
+  --input-focus: #7C3AED;
+
+  --link: #6D28D9;
+  --link-hover: #DB2777;
+
+  /* Glassmorphism */
+  --glass-bg: rgba(255, 255, 255, 0.8);
+  --glass-border: rgba(15, 23, 42, 0.18);
+  --glass-shadow: 0 10px 30px rgba(15, 23, 42, 0.08);
+}
+
+/* Dark Theme */
+[data-theme="dark"] {
+  --bg-login: url('/src/assets/dark_wide_landing_page1.png');
+  --bg-body: #0B0C10;
+  --bg-surface: #16181F;
+  --bg-hover: #1F222C;
+  --border-color: #2A2D3A;
+
+  --text-primary: #F8FAFC;
+  --text-secondary: #94A3B8;
+  --text-muted: #475569;
+
+  --btn-primary: #8B5CF6;
+  --btn-primary-hover: #A855F7;
+  --btn-secondary: #1F222C;
+  --btn-secondary-hover: #2A2D3A;
+
+  --input-bg: #0B0C10;
+  --input-border: #334155;
+  --input-focus: #A855F7;
+
+  --link: #A855F7;
+  --link-hover: #E01A84;
+
+  /* Glassmorphism */
+  --glass-bg: rgba(22, 24, 31, 0.65);
+  --glass-border: rgba(255, 255, 255, 0.08);
+  --glass-shadow: 0 10px 40px rgba(0, 0, 0, 0.4);
+}
+
+/* ============================================
+   THEME APPLICATION
+   ============================================ */
+body {
+  background-color: var(--bg-body);
+  color: var(--text-primary);
+}
+
+/* Links base style */
+a {
+  color: var(--link);
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+a:hover {
+  color: var(--link-hover);
+}
+
+@media (max-width: 768px) {
+
+  [data-theme="light"],
+  :root {
+    --bg-login: url('/src/assets/light_mobile_landing_page1.png');
+  }
+
+  [data-theme="dark"] {
+    --bg-login: url('/src/assets/dark_mobile_landing_page1.png');
+  }
+}
