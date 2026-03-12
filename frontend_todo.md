@@ -41,8 +41,8 @@
 - [x] `Button` — variantes primary/secondary
 - [x] `PasswordCriteria` — indicador de força em tempo real
 - [x] [Skeleton](file:///c:/Users/joelt/cam_proj/frontend/src/pages/SignUp.jsx#8-20) + `SkeletonBlock` — placeholders de loading
-- [x] [Sidebar](file:///c:/Users/joelt/cam_proj/frontend/src/components/Sidebar.jsx#7-42) — navegação, logout, logo
-- [x] [TopHeader](file:///c:/Users/joelt/cam_proj/frontend/src/components/TopHeader.jsx#10-92) — breadcrumbs, toggle de tema, link de perfil
+- [x] `Sidebar` — navegação, logout, logo
+- [x] `TopHeader` — breadcrumbs, toggle de tema, link de perfil dinâmico via `user?.firstName`
 - [x] `FluidBackground` — fundo animado
 
 ### Serviços
@@ -66,8 +66,9 @@
 ## 📄 Ficheiros a Criar (Para o Site Estar Completo)
 
 ### Páginas Novas
-- [ ] **`src/pages/Users.jsx`** + `Users.module.css` — lista de utilizadores da empresa, badge de role, botão de convite (COMPANY_ADMIN+)
-- [ ] **`src/pages/Profile.jsx`** *(stub vazio)* — ver info do utilizador, editar nome/email (`PUT /api/users/me`), alterar password (`PATCH /api/users/me/password`)
+- [x] **`src/pages/Users.jsx`** + `Users.module.css` — stub criado, rota `/users` registada em `App.jsx` dentro de `ProtectedRoute`
+- [ ] **`src/pages/Users.jsx`** — implementar lista real: fetch de utilizadores da empresa, badge de role, botão de convite (COMPANY_ADMIN+)
+- [ ] **`src/pages/Profile.jsx`** — implementar: ver info do utilizador, editar nome/email (`PUT /api/users/me`), alterar password (`PATCH /api/users/me/password`)
 - [ ] **`src/pages/InvoiceDetail.jsx`** + `InvoiceDetail.module.css` — vista completa de uma fatura: editar campos, ver imagem, badge de status, apagar
 
 ### Componentes Novos
@@ -82,16 +83,15 @@
 - [ ] **`src/services/users.js`** — `fetchUsers()`, `updateProfile()`, `changePassword()`, `inviteUser()`
 
 ### Rotas a Registar em `App.jsx`
-- [ ] `<Route path="users" element={<Users />} />`
-- [ ] `<Route path="profile" element={<Profile />} />`
-- [ ] `<Route path="invoices/:id" element={<InvoiceDetail />} />`
-- [ ] Todas dentro de `<ProtectedRoute>`
+- [x] `<Route path="users" element={<Users />} />` — dentro de `<ProtectedRoute>`
+- [ ] `<Route path="profile" element={<Profile />} />` — dentro de `<ProtectedRoute>`
+- [ ] `<Route path="invoices/:id" element={<InvoiceDetail />} />` — dentro de `<ProtectedRoute>`
 
 ---
 
 ## 🚧 Páginas Existentes Incompletas
 
-- [ ] **`InvoiceGeneral.jsx`** — barra de pesquisa existe mas não há fetch de `/api/invoices`; `invoices` é sempre array vazio; falta renderizar lista de `InvoiceCard`
+- [ ] **`InvoiceGeneral.jsx`** — barra de pesquisa existe; hook error de `useCallback+debounce` corrigido; falta: fetch real de `/api/invoices`, renderizar lista de `InvoiceCard`, botão de partilha
 - [ ] **`Dashboard.jsx`** — "Total Pendente" mostra contagem em vez de valor monetário (€); falta mais estatísticas
 - [ ] **`LandingPage.jsx`** — apenas stub vazio; decidir se é página de marketing pública ou redirect para login
 
