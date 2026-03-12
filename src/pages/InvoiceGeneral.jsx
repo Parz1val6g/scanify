@@ -17,17 +17,14 @@ export const InvoiceGeneral = () => {
         };
     };
 
-    // Debounced filter
-    const filterInvoices = useCallback(
-        debounce((value) => {
-            setFiltered(
-                invoices.filter(inv =>
-                    inv.name?.toLowerCase().includes(value.toLowerCase())
-                )
-            );
-        }, 300),
-        [invoices]
-    );
+    // Debounced filter implementation fixed
+    const filterInvoices = useCallback((value) => {
+        setFiltered(
+            invoices.filter(inv =>
+                inv.name?.toLowerCase().includes(value.toLowerCase())
+            )
+        );
+    }, [invoices]);
 
     const handleSearch = (e) => {
         setSearch(e.target.value);

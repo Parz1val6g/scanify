@@ -4,7 +4,7 @@ import './index.css'
 import App from './App.jsx'
 
 // Set document title from env
-document.title = import.meta.env.VITE_APP_NAME || 'Cam App';
+document.title = import.meta.env.VITE_APP_NAME || 'Scanify';
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>

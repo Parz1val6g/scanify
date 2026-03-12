@@ -2,11 +2,13 @@ import styles from './TopHeader.module.css';
 import { Link, useLocation } from 'react-router-dom';
 import { ChevronRight, Moon, Sun } from 'lucide-react';
 import React, { useEffect, useState } from 'react';
+import { useAuth } from '../context/';
 
 // Helper para capitalizar
 const capitalize = (str) => str.charAt(0).toUpperCase() + str.slice(1);
 
 const TopHeaderComponent = () => {
+    const { user } = useAuth();
 
     // Detect system theme
     const getSystemTheme = () => {
@@ -81,7 +83,7 @@ const TopHeaderComponent = () => {
                     {theme === 'dark' ? <Moon /> : <Sun />}
                 </div>
                 <Link id={styles.profile} to='/profile'>
-                    Olá, Joel Martins!
+                    Olá, {user?.firstName ?? 'Utilizador'}!
                 </Link>
             </div>
         </div>

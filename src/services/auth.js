@@ -45,8 +45,16 @@ export const loginService = async (credentials) => {
     return data;
 }
 
-export const logoutService = async () => {
-    
+export const logoutService = async (token) => {
+    // Notifica o backend do logout (para audit log e futura revogação de tokens)
+    try {
+        await fetch('/api/auth/logout', {
+            method: 'POST',
+            headers: { 'Authorization': `Bearer ${token}` }
+        });
+    } catch {
+        // Falha silenciosa — logout local continua mesmo que backend falhe
+    }
 };
 
 export const registerService = async (credentials) => {

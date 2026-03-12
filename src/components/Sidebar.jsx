@@ -1,15 +1,16 @@
 import styles from './Sidebar.module.css';
 import { Users, Mail, LogOut } from 'lucide-react'; // already destructured, tree shaking enabled
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import React, { useRef } from 'react';
 import { useAuth } from '../context/';
 
 const SidebarComponent = () => {
     const sidebarRef = useRef(null);
     const { logout } = useAuth();
+    const navigate = useNavigate();
     const handleLogout = () => {
         logout();
-        navigate('/', { replace: true });
+        navigate('/login', { replace: true });
     };
     return (
         <nav
@@ -17,7 +18,7 @@ const SidebarComponent = () => {
             ref={sidebarRef}
         >
             <div id={styles.logo}>
-                <h2><Link to='/'>{import.meta.env.VITE_APP_NAME || 'Cam App'}</Link></h2>
+                <h2><Link to='/'>{import.meta.env.VITE_APP_NAME || 'Scanify'}</Link></h2>
             </div>
             <div id={styles.options}>
                 <Link to='/invoices' className={styles.option}>

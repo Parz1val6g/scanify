@@ -1,5 +1,5 @@
 import { createContext, useState, useContext, useEffect } from "react";
-import { loginService, registerService, fetchProfile } from '../services'
+import { loginService, logoutService, registerService, fetchProfile } from '../services'
 
 export const AuthContext = createContext();
 
@@ -42,9 +42,11 @@ export const AuthProvider = ({ children }) => {
         await registerService(credentials);
     };
 
-    const logout = () => {
+    const logout = async () => {
+        const token = getToken();
         setUser(null);
         localStorage.removeItem('token');
+        await logoutService(token); // Notifica o backend (silent fail)
     };
 
     return (
