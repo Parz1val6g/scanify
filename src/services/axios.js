@@ -9,19 +9,30 @@ const api = axios.create({
     }
 });
 
-// Interceptor para gerir respostas
+// Interceptor para gerir respostas globalmente
 api.interceptors.response.use(
     (response) => response,
     (error) => {
-        // Se recebermos 401 (Unauthorized), a sessão expirou ou é inválida
-        if (error.response && error.response.status === 401) {
-            // Só fazemos logout automático se não estivermos na página de login
+        const status = error.response?.status;
+
+        // 401 Unauthorized — sessão expirada ou token inválido
+        if (status === 401) {
             if (!window.location.pathname.includes('/login')) {
-                // Removemos o estado local (o AuthContext tratará disto ao recarregar ou via eventos)
-                // Usamos uma técnica simples: recarregar para forçar o AuthContext a falhar o restoreSession
+                // Força redirect para login com query param para mostrar mensagem
                 window.location.href = '/login?expired=true';
             }
         }
+
+        // 403 Forbidden — utilizador autenticado mas sem permissão
+        if (status === 403) {
+            // Despachar evento global para que o UI reaja (toast, redirect, etc.)
+            window.dispatchEvent(new CustomEvent('app:forbidden', {
+                detail: {
+                    message: error.response?.data?.error || 'Acesso negado. Não tem permissão para esta ação.'
+                }
+            }));
+        }
+
         return Promise.reject(error);
     }
 );

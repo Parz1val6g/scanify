@@ -11,3 +11,7 @@ export { default as InvoiceCard } from './Invoices/InvoiceCard';
 export { default as InvoiceDetailModal } from './Invoices/InvoiceDetailModal';
 export { default as InvoiceUploadModal } from './Invoices/InvoiceUploadModal';
 export { default as SmoothImage } from './Common/SmoothImage';
+// User management components
+export { default as UserCard } from './Users/UserCard';
+export { default as UserDetailsModal } from './Users/UserDetailsModal';
+export { default as UserUploadModal } from './Users/UserUploadModal';

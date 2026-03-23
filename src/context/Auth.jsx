@@ -32,8 +32,13 @@ export const AuthProvider = ({ children }) => {
     };
 
     const logout = async () => {
-        setUser(null);
-        await logoutService();
+        try {
+            await logoutService(); // Server clears httpOnly cookie first
+        } catch {
+            // Silently ignore network errors — still clear local state
+        } finally {
+            setUser(null); // Clear local state — ProtectedRoute will redirect
+        }
     };
 
     const isAdmin = user?.role === 'COMPANY_ADMIN' || user?.role === 'SUPER_ADMIN';

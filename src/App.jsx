@@ -17,7 +17,7 @@ const ResetPassword = lazy(() => import('./pages/ResetPassword'));
 const NotFound = lazy(() => import('./pages/NotFound'));
 const Dashboard = lazy(() => import('./pages/Dashboards/DashboardHome'));
 const InvoiceList = lazy(() => import('./pages/Invoices/InvoiceList'));
-const Profile = lazy(() => import('./pages/Profile'));
+const Profile = lazy(() => import('./pages/Profile/UserProfile'));
 const UserList = lazy(() => import('./pages/Users/UserList'));
 
 function RootConditional() {
@@ -39,12 +39,14 @@ function App() {
           <Route path="/reset-password" element={<ResetPassword />} />
 
           {/* Layout Base de Administração */}
-          <Route element={<DashboardLayout />}>
-            <Route index element={<Dashboard />} />
-            <Route path="invoices" element={<InvoiceList />} />
-            <Route path="profile" element={<Profile />} />
-            <Route element={<ProtectedRoute allowedRoles={['COMPANY_ADMIN', 'SUPER_ADMIN']} />}>
-              <Route path="users" element={<UserList />} />
+          <Route element={<ProtectedRoute />}>
+            <Route element={<DashboardLayout />}>
+              <Route index element={<Dashboard />} />
+              <Route path="invoices" element={<InvoiceList />} />
+              <Route path="profile" element={<Profile />} />
+              <Route element={<ProtectedRoute allowedRoles={['COMPANY_ADMIN', 'SUPER_ADMIN']} />}>
+                <Route path="users" element={<UserList />} />
+              </Route>
             </Route>
           </Route>
 

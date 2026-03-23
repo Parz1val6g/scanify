@@ -1,5 +1,5 @@
 
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import styles from './Dashboard.module.css';
 import { Sidebar } from '../components/Sidebar';
 import { TopHeader } from '../components/TopHeader';
@@ -8,17 +8,33 @@ import { AnimatePresence } from 'framer-motion';
 
 export const DashboardLayout = () => {
     const [sidebarOpen, setSidebarOpen] = useState(false);
-    const toggleSidebar = () => setSidebarOpen((open) => !open);
+    const [isMobile, setIsMobile] = useState(window.innerWidth < 1024);
+
+    useEffect(() => {
+        const handleResize = () => setIsMobile(window.innerWidth < 1024);
+        window.addEventListener('resize', handleResize);
+        return () => window.removeEventListener('resize', handleResize);
+    }, []);
+
+    const toggleSidebar = () => setSidebarOpen(!sidebarOpen);
+    const closeSidebar = () => setSidebarOpen(false);
 
     return (
         <div className={styles.dashboardRoot}>
-            {/* Sidebar Desktop & Drawer Mobile */}
+            {/* Sidebar Desktop & Drawer Mobile Backdrop */}
+            {isMobile && (
+                <div 
+                    className={`${styles.sidebarBackdrop} ${sidebarOpen ? styles.backdropOpen : ''}`} 
+                    onClick={closeSidebar}
+                />
+            )}
+
             <AnimatePresence>
-                {(sidebarOpen || window.innerWidth >= 1024) && (
+                {(sidebarOpen || !isMobile) && (
                     <Sidebar
-                        isOpen={sidebarOpen || window.innerWidth >= 1024}
-                        onClose={toggleSidebar}
-                        mobile={window.innerWidth < 1024}
+                        isOpen={sidebarOpen || !isMobile}
+                        onClose={closeSidebar}
+                        mobile={isMobile}
                     />
                 )}
             </AnimatePresence>

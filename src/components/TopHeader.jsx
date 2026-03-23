@@ -12,9 +12,9 @@ export const TopHeader = ({ onMenuClick }) => {
     const getDisplayName = () => {
         if (!user) return '';
         if (window.innerWidth < 600) {
-            return user.firstName ? user.firstName.charAt(0) : user.email.charAt(0);
+            return user.firstName ? user.firstName.charAt(0) : (user.email ? user.email.charAt(0) : '');
         }
-        return user.firstName || user.email;
+        return user.firstName || user.email || '';
     };
 
     return (
@@ -23,6 +23,11 @@ export const TopHeader = ({ onMenuClick }) => {
             <button className={styles.menuBtn} onClick={onMenuClick} aria-label="Abrir menu">
                 <Menu size={28} />
             </button>
+            {user?.company?.name && (
+                <div className={styles.mobileCompanyName}>
+                    {user.company.name}
+                </div>
+            )}
             <div className={styles.spacer} />
             <div className={styles.eliteProfile}>
                 <div className={styles.profileInfo}>
@@ -33,7 +38,7 @@ export const TopHeader = ({ onMenuClick }) => {
                     {getDisplayName().charAt(0).toUpperCase()}
                 </div>
                 <button
-                    id={styles.toggleTheme}
+                    className={styles.themeToggle}
                     onClick={toggleTheme}
                     aria-label="Alternar tema"
                 >

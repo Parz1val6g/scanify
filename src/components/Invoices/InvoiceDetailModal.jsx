@@ -150,7 +150,7 @@ const InvoiceDetailModal = ({ isOpen, onClose, invoice, onUpdateSuccess }) => {
 
                         <div className={styles.footer}>
                             <button className="btn-secondary" onClick={onClose} disabled={saving}>Fechar</button>
-                            <button className="btn-primary" style={{ background: 'var(--color-primary)', color: 'white', border: 'none', padding: '12px 24px', borderRadius: '12px', fontWeight: '700', display: 'flex', alignItems: 'center', gap: '8px' }}>
+                            <button className="btn-primary" onClick={() => handleUpdateStatus(invoice.status)} disabled={saving}>
                                 <Save size={18} />
                                 Guardar Alterações
                             </button>

@@ -7,7 +7,7 @@ import React from 'react';
 const DashboardHome = () => {
     const { user, loading } = useAuth();
 
-    if (loading) return <p>A carregar o seu perfil...</p>;
+    if (loading || !user) return null;
 
     const dashboards = {
         'SUPER_ADMIN': <SuperAdminDashboard />,

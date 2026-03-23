@@ -111,20 +111,23 @@
   border-top: 1px solid var(--border-color);
   display: flex;
   justify-content: flex-end;
-  gap: var(--space-md);
+  gap: 1rem;
 }
 
 .submitBtn {
   background: var(--color-primary);
   color: white;
   border: none;
-  padding: 10px 24px;
-  border-radius: var(--radius-lg);
+  height: 48px;
+  padding: 0 24px;
+  border-radius: 12px;
+  font-size: 14px;
   font-weight: 700;
   cursor: pointer;
   transition: all 0.2s ease;
   display: flex;
   align-items: center;
+  justify-content: center;
   gap: 8px;
 }
 

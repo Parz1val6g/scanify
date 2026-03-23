@@ -49,27 +49,6 @@ const MetricCard = ({ title, value, icon: Icon, unit = '', trend, status }) => {
     );
 };
 
-const AuditBadge = ({ action }) => {
-    const config = {
-        'LOGIN': { label: 'Auth', class: styles.badgeAuth, icon: LogIn },
-        'LOGOUT': { label: 'Auth', class: styles.badgeAuth, icon: LogIn },
-        'CREATE': { label: 'User', class: styles.badgeUser, icon: UserPlus },
-        'UPDATE': { label: 'User', class: styles.badgeUser, icon: Settings },
-        'ERROR': { label: 'System', class: styles.badgeSystem, icon: ShieldAlert },
-        'DEFAULT': { label: 'Audit', class: styles.badgeSystem, icon: Activity }
-    };
-
-    const item = config[action] || config['DEFAULT'];
-    const Icon = item.icon;
-
-    return (
-        <span className={`${styles.statusBadge} ${item.class}`} style={{ display: 'flex', alignItems: 'center', gap: '4px' }}>
-            <Icon size={10} />
-            {item.label}
-        </span>
-    );
-};
-
 const ResourceMeter = ({ label, value, icon: Icon }) => {
     // Lógica Semântica Elite: <70% (Success), 70-89% (Warning), >=90% (Critical)
     const getLevel = (val) => {
@@ -81,21 +60,21 @@ const ResourceMeter = ({ label, value, icon: Icon }) => {
     const level = getLevel(value);
     
     return (
-        <div style={{ background: 'var(--bg-hover)', padding: '10px', borderRadius: '10px', textAlign: 'center', transition: 'all 0.5s ease' }}>
-            <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '6px', marginBottom: '6px' }}>
+        <div style={{ background: 'var(--bg-hover)', padding: '16px', borderRadius: '10px', display: 'flex', alignItems: 'center', justifyContent: 'space-between', transition: 'all 0.5s ease' }}>
+            <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
                 <span className={`${styles.indicatorDot} ${styles[`indicator${level.charAt(0).toUpperCase() + level.slice(1)}`]}`} />
-                <span style={{ fontSize: '11px', fontWeight: '700', color: 'var(--text-muted)', textTransform: 'uppercase', letterSpacing: '0.5px' }}>{label}</span>
+                <span style={{ fontSize: '12px', fontWeight: '700', color: 'var(--text-muted)', textTransform: 'uppercase', letterSpacing: '0.5px' }}>{label}</span>
             </div>
             <motion.div 
                 animate={level === 'critical' ? { scale: [1, 1.1, 1] } : { scale: 1 }}
                 transition={level === 'critical' ? { repeat: Infinity, duration: 1.5 } : {}}
-                style={{ color: level === 'critical' ? 'var(--color-error)' : 'var(--color-primary)', display: 'flex', flexDirection: 'column', alignItems: 'center' }}
+                style={{ display: 'flex', alignItems: 'center', gap: '8px', color: level === 'critical' ? 'var(--color-error)' : 'var(--color-primary)' }}
             >
                 <Icon size={18} className={level === 'critical' ? styles.pulseIcon : ''} />
                 <motion.div 
                     initial={false}
                     animate={{ color: level === 'critical' ? 'var(--color-error)' : level === 'warning' ? 'var(--color-warning)' : 'var(--color-primary)' }}
-                    style={{ fontWeight: '800', fontSize: '1.2rem', marginTop: '4px' }}
+                    style={{ fontWeight: '800', fontSize: '1.2rem' }}
                 >
                     {value || 0}%
                 </motion.div>
@@ -169,10 +148,11 @@ const SuperAdminDashboard = () => {
     };
 
     useEffect(() => {
+        if (!user) return;
         fetchData();
         const interval = setInterval(() => fetchData(true), 30000);
         return () => clearInterval(interval);
-    }, [fetchData]);
+    }, [fetchData, user]);
 
     const getHealthStatus = (val) => val > 80 ? 'success' : val > 50 ? 'warning' : 'critical';
     const getLatencyStatus = (val) => val < 50 ? 'success' : val < 150 ? 'warning' : 'critical';
@@ -181,7 +161,7 @@ const SuperAdminDashboard = () => {
     return (
         <div className={styles.dashboardContainer}>
             <header className={styles.dashboardHeader}>
-                <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-end' }}>
+                <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-end', flexWrap: 'wrap', gap: '10px' }}>
                     <div>
                         <motion.h1 
                             initial={{ opacity: 0, x: -20 }}
@@ -191,7 +171,7 @@ const SuperAdminDashboard = () => {
                         </motion.h1>
                         <p>Acesso total ao ecossistema: Gestão de Admins, Auditoria e Recuperação.</p>
                     </div>
-                    <div className={styles.lastUpdated} style={{ fontSize: '10px', color: 'var(--text-muted)', marginBottom: '4px' }}>
+                    <div className={styles.lastUpdated} style={{ fontSize: '10px', color: 'var(--text-muted)', marginBottom: '4px', marginTop: 'auto' }}>
                         <RefreshCw size={10} style={{ marginRight: '4px', verticalAlign: 'middle' }} />
                         Última atualização: {lastUpdated.toLocaleTimeString()}
                     </div>
@@ -251,15 +231,22 @@ const SuperAdminDashboard = () => {
                                     animate={{ opacity: 1, x: 0 }}
                                     transition={{ delay: idx * 0.05 }}
                                     className={styles.activityItem}
-                                    style={{ borderLeft: `3px solid ${log.action === 'ERROR' ? 'var(--color-error)' : 'var(--color-primary)'}` }}
+                                    style={{ borderLeft: `3px solid ${log.action === 'ERROR' ? 'var(--color-error)' : log.action === 'LOGIN' ? '#22c55e' : log.action === 'LOGOUT' ? '#6b7280' : 'var(--color-primary)'}` }}
                                 >
                                     <div className={styles.activityIcon}>
-                                        {log.action === 'LOGIN' ? <LogIn size={16} /> : <Settings size={16} />}
+                                        {log.action === 'LOGIN' || log.action === 'LOGOUT' ? <LogIn size={16} /> : <Settings size={16} />}
                                     </div>
                                     <div className={styles.activityContent}>
                                         <span className={styles.activityTitle}>
-                                            <strong>{log.user?.firstName} {log.user?.lastName}</strong>
-                                            <span style={{ color: 'var(--text-muted)', fontSize: '12px', marginLeft: '8px' }}>
+                                            <strong style={{ fontWeight: '800' }}>{log.user?.firstName} {log.user?.lastName}</strong>
+                                            <span style={{ 
+                                                fontSize: '12px', 
+                                                marginLeft: '8px',
+                                                color: log.action === 'ERROR' ? 'var(--color-error)' 
+                                                    : log.action === 'LOGIN' ? '#22c55e' 
+                                                    : log.action === 'LOGOUT' ? '#6b7280' 
+                                                    : 'var(--text-muted)'
+                                            }}>
                                                 realizou {log.action}
                                             </span>
                                         </span>
@@ -267,7 +254,6 @@ const SuperAdminDashboard = () => {
                                             {new Date(log.createdAt).toLocaleString('pt-PT', { hour: '2-digit', minute: '2-digit', second: '2-digit' })}
                                         </span>
                                     </div>
-                                    <AuditBadge action={log.action} />
                                 </motion.div>
                             ))}
                         </AnimatePresence>
@@ -296,7 +282,7 @@ const SuperAdminDashboard = () => {
                             <h3>Recursos de Sistema</h3>
                         </div>
                         
-                        <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '10px', marginBottom: '16px' }}>
+                        <div style={{ display: 'grid', gridTemplateColumns: '1fr', gap: '10px', marginBottom: '16px' }}>
                             <ResourceMeter 
                                 label="CPU" 
                                 value={stats?.cpu} 
@@ -312,7 +298,7 @@ const SuperAdminDashboard = () => {
                         <div className={styles.actionGrid} style={{ gap: '8px' }}>
                             <button className={styles.actionBtnSecondary} onClick={handleClearCache}>Limpar Cache</button>
                             <button 
-                                className={isMaintenance ? styles.actionBtn : styles.actionBtnDanger}
+                                className={isMaintenance ? styles.actionBtn : styles.actionBtnDangerHighContrast}
                                 onClick={handleToggleMaintenance}
                             >
                                 {isMaintenance ? 'Desativar Manutenção' : 'Modo Manutenção'}

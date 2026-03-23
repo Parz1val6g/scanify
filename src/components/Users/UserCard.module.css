@@ -1,0 +1,169 @@
+/* UserCard.module.css */
+.card {
+    position: relative;
+    background: var(--bg-card);
+    border: 1px solid var(--border-color);
+    border-radius: 16px;
+    padding: 20px;
+    cursor: pointer;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    border-color: var(--color-primary);
+    box-shadow: 0 8px 32px rgba(var(--color-primary-rgb, 99, 102, 241), 0.15);
+}
+
+.card:focus-visible {
+    outline: 2px solid var(--color-primary);
+    outline-offset: 2px;
+}
+
+/* Glow accent */
+.cardGlow {
+    position: absolute;
+    top: -30px;
+    right: -30px;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    opacity: 0.12;
+    filter: blur(20px);
+    pointer-events: none;
+}
+
+.roleSuperAdminGlow { background: var(--color-error, #ef4444); }
+.roleAdminGlow      { background: var(--color-warning, #f59e0b); }
+.roleUserGlow       { background: var(--color-primary, #6366f1); }
+
+/* Header */
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.avatar {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background: linear-gradient(135deg, var(--color-primary), var(--color-secondary, #8b5cf6));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    font-weight: 700;
+    color: #fff;
+    flex-shrink: 0;
+    letter-spacing: 0.5px;
+}
+
+/* Role badges */
+.roleBadge {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    font-size: 10px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.6px;
+    padding: 3px 8px;
+    border-radius: 20px;
+}
+
+.roleSuperAdmin {
+    background: rgba(239, 68, 68, 0.15);
+    color: var(--color-error, #ef4444);
+    border: 1px solid rgba(239, 68, 68, 0.3);
+}
+
+.roleAdmin {
+    background: rgba(245, 158, 11, 0.15);
+    color: var(--color-warning, #f59e0b);
+    border: 1px solid rgba(245, 158, 11, 0.3);
+}
+
+.roleUser {
+    background: rgba(99, 102, 241, 0.12);
+    color: var(--color-primary, #6366f1);
+    border: 1px solid rgba(99, 102, 241, 0.25);
+}
+
+/* Body */
+.body {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.name {
+    font-size: 15px;
+    font-weight: 700;
+    color: var(--text-primary);
+    margin: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.email {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 12px;
+    color: var(--text-muted);
+}
+
+.email span {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+/* Footer */
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: auto;
+}
+
+/* Status badges */
+.statusBadge {
+    font-size: 10px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    padding: 3px 10px;
+    border-radius: 20px;
+}
+
+.statusActive    { background: rgba(34, 197, 94, 0.15); color: var(--color-success, #22c55e); border: 1px solid rgba(34, 197, 94, 0.3); }
+.statusInactive  { background: rgba(100, 116, 139, 0.15); color: var(--text-muted); border: 1px solid rgba(100, 116, 139, 0.25); }
+.statusPending   { background: rgba(245, 158, 11, 0.15); color: var(--color-warning, #f59e0b); border: 1px solid rgba(245, 158, 11, 0.3); }
+.statusSuspended { background: rgba(251, 146, 60, 0.15); color: #fb923c; border: 1px solid rgba(251, 146, 60, 0.3); }
+.statusBlocked   { background: rgba(239, 68, 68, 0.15); color: var(--color-error, #ef4444); border: 1px solid rgba(239, 68, 68, 0.3); }
+.statusBanned    { background: rgba(168, 85, 247, 0.15); color: #a855f7; border: 1px solid rgba(168, 85, 247, 0.3); }
+.statusDeleted   { background: rgba(100, 116, 139, 0.1); color: var(--text-muted); border: 1px solid rgba(100, 116, 139, 0.2); text-decoration: line-through; }
+
+/* Delete button */
+.deleteBtn {
+    background: transparent;
+    border: 1px solid rgba(239, 68, 68, 0.3);
+    color: var(--color-error, #ef4444);
+    padding: 5px 8px;
+    border-radius: 8px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    transition: background 0.2s, border-color 0.2s;
+}
+
+.deleteBtn:hover {
+    background: rgba(239, 68, 68, 0.15);
+    border-color: var(--color-error, #ef4444);
+}
