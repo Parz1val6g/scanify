@@ -7,24 +7,14 @@ export const AuthProvider = ({ children }) => {
     const [user, setUser] = useState(null);
     const [loading, setLoading] = useState(true);
 
-    // Função para obter o token
-    const getToken = () => localStorage.getItem('token');
-
-    // Restaurar sessão ao carregar a página (busca user via token)
+    // Restaurar sessão ao carregar a página (o browser envia o cookie automaticamente)
     useEffect(() => {
         const restoreSession = async () => {
-            const token = getToken();
-            if (!token) {
-                setLoading(false);
-                return;
-            }
-
             try {
-                const userData = await fetchProfile(token);
+                const userData = await fetchProfile();
                 setUser(userData);
             } catch {
-                // Token inválido/expirado - limpar
-                localStorage.removeItem('token');
+                setUser(null);
             }
             setLoading(false);
         };
@@ -33,9 +23,8 @@ export const AuthProvider = ({ children }) => {
     }, []);
 
     const login = async (credentials) => {
-        const data = await loginService(credentials);
-        localStorage.setItem('token', data.token);
-        setUser(data.user);
+        const userData = await loginService(credentials);
+        setUser(userData);
     };
 
     const register = async (credentials) => {
@@ -43,17 +32,33 @@ export const AuthProvider = ({ children }) => {
     };
 
     const logout = async () => {
-        const token = getToken();
         setUser(null);
-        localStorage.removeItem('token');
-        await logoutService(token); // Notifica o backend (silent fail)
+        await logoutService();
     };
 
+    const isAdmin = user?.role === 'COMPANY_ADMIN' || user?.role === 'SUPER_ADMIN';
+    const isSuperAdmin = user?.role === 'SUPER_ADMIN';
+
     return (
-        <AuthContext.Provider value={{ user, login, register, logout, getToken, isAuthenticated: !!user, loading }}>
+        <AuthContext.Provider value={{ 
+            user, 
+            login, 
+            register, 
+            logout, 
+            isAuthenticated: !!user, 
+            isAdmin,
+            isSuperAdmin,
+            loading 
+        }}>
             {children}
         </AuthContext.Provider>
     );
 };
 
-export const useAuth = () => useContext(AuthContext);
+export const useAuth = () => {
+    const context = useContext(AuthContext);
+    if (!context) {
+        throw new Error("useAuth must be used within an AuthProvider");
+    }
+    return context;
+};

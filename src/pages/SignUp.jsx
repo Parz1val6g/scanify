@@ -75,7 +75,7 @@ export const SignUp = () => {
         <div className={styles.main}>
             <div id={styles.form}>
                 <form onSubmit={handleSubmit}>
-                    <h1>Registar</h1>
+                    <h1>Criar Conta</h1>
 
                     {error && <p className={styles.error} role="alert">{error}</p>}
 
@@ -99,7 +99,7 @@ export const SignUp = () => {
                     <div className={styles.passwordSection}>
                         <Input
                             type="password"
-                            label="Password"
+                            label="Palavra-Passe"
                             value={password1}
                             onChange={(e) => setPassword1(e.target.value)}
                         />
@@ -111,11 +111,11 @@ export const SignUp = () => {
 
                     <Input
                         type="password"
-                        label="Confirmar Password"
+                        label="Confirmar Palavra-Passe"
                         value={password2}
-                        placeholder="Repete a password"
+                        placeholder="Repita a sua palavra-passe"
                         onChange={(e) => setPassword2(e.target.value)}
-                        error={password2.length > 0 && !passwordsMatch ? 'Passwords não coincidem' : undefined}
+                        error={password2.length > 0 && !passwordsMatch ? 'As palavras-passe não coincidem' : undefined}
                     />
 
                     <Button
@@ -123,11 +123,11 @@ export const SignUp = () => {
                         variant="primary"
                         disabled={!isFormValid || isSubmitting}
                     >
-                        {isSubmitting ? 'A registar...' : 'Registar'}
+                        {isSubmitting ? 'A processar...' : 'Criar Conta'}
                     </Button>
 
                     <p className={styles.loginLink}>
-                        Já tens conta? <Link to="/login" replace>Entrar</Link>
+                        Já tem conta? <Link to="/login" replace>Entrar</Link>
                     </p>
                 </form>
             </div>

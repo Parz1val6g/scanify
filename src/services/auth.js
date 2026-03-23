@@ -1,3 +1,5 @@
+import api from './axios';
+
 // Email validation (matching backend Zod rules)
 export const validateEmail = (email = "") => {
     const error = (!email) ? 'Email é obrigatório'
@@ -26,34 +28,26 @@ export const validatePassword = (password = "") => {
 };
 
 export const loginService = async (credentials) => {
-
     const validation = validateEmail(credentials.email);
     if (validation.error)
         throw new Error(validation.error);
 
-    const res = await fetch('/api/auth/login', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ email: credentials.email, password: credentials.password })
-    });
-
-    const data = await res.json();
-
-    if (!res.ok)
-        throw new Error(data.error || 'Erro ao fazer login');
-
-    return data;
+    try {
+        const res = await api.post('/auth/login', {
+            email: credentials.email,
+            password: credentials.password
+        });
+        return res.data;
+    } catch (err) {
+        throw new Error(err.response?.data?.error || 'Erro ao fazer login');
+    }
 }
 
-export const logoutService = async (token) => {
-    // Notifica o backend do logout (para audit log e futura revogação de tokens)
+export const logoutService = async () => {
     try {
-        await fetch('/api/auth/logout', {
-            method: 'POST',
-            headers: { 'Authorization': `Bearer ${token}` }
-        });
+        await api.post('/auth/logout');
     } catch {
-        // Falha silenciosa — logout local continua mesmo que backend falhe
+        // Falha silenciosa no logout
     }
 };
 
@@ -61,97 +55,67 @@ export const registerService = async (credentials) => {
     const { fullName, email, password, confirmPassword } = credentials;
 
     const nameParts = fullName?.trim().split(/\s+/).filter(Boolean);
-
     if (!nameParts || nameParts.length < 2)
         throw new Error('Introduz primeiro e último nome');
 
-    // Primeiro nome = primeira palavra, Apelido = resto junto
     const firstName = nameParts[0];
     const lastName = nameParts.slice(1).join(' ');
 
-    if (firstName.length < 2)
-        throw new Error('Nome deve ter pelo menos 2 caracteres');
-    if (lastName.length < 2)
-        throw new Error('Apelido deve ter pelo menos 2 caracteres');
+    if (firstName.length < 2) throw new Error('Nome deve ter pelo menos 2 caracteres');
+    if (lastName.length < 2) throw new Error('Apelido deve ter pelo menos 2 caracteres');
 
     const emailValidation = validateEmail(email);
-    if (emailValidation.error)
-        throw new Error(emailValidation.error);
+    if (emailValidation.error) throw new Error(emailValidation.error);
 
     const passwordValidation = validatePassword(password);
-    if (!passwordValidation.isValid)
-        throw new Error(passwordValidation.errors[0]);
+    if (!passwordValidation.isValid) throw new Error(passwordValidation.errors[0]);
 
-    if (password !== confirmPassword)
-        throw new Error('Passwords não coincidem');
+    if (password !== confirmPassword) throw new Error('Passwords não coincidem');
 
-    const res = await fetch('/api/auth/register', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ firstName, lastName, email, password })
-    });
-
-    const data = await res.json();
-
-    if (!res.ok)
-        throw new Error(data.error || 'Erro ao registar');
-
-    return data;
+    try {
+        const res = await api.post('/auth/register', {
+            firstName,
+            lastName,
+            email,
+            password
+        });
+        return res.data;
+    } catch (err) {
+        throw new Error(err.response?.data?.error || 'Erro ao registar');
+    }
 };
 
-export const fetchProfile = async (token) => {
-    const res = await fetch('/api/auth/profile', {
-        headers: { 'Authorization': `Bearer ${token}` }
-    });
-
-    if (!res.ok)
-        throw new Error('Token inválido');
-
-    return res.json();
+export const fetchProfile = async () => {
+    try {
+        const res = await api.get('/auth/profile');
+        return res.data;
+    } catch {
+        throw new Error('Sessão inválida');
+    }
 };
 
 export const forgotPassword = async (email) => {
-
     const validation = validateEmail(email);
-    if (validation.error)
-        throw new Error(validation.error);
+    if (validation.error) throw new Error(validation.error);
 
-    const response = await fetch('/api/auth/forgot-password', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ email })
-    });
-
-    // Backend sempre retorna 200 (por segurança - não revela se email existe)
-    // Só falha em caso de erro de rede ou servidor
-    if (!response.ok) {
+    try {
+        const res = await api.post('/auth/forgot-password', { email });
+        return res.data;
+    } catch {
         throw new Error('Erro de ligação ao servidor. Tenta novamente.');
     }
-
-    return response;
-}
+};
 
 export const resetPassword = async (token, password) => {
-    // Validação com regras fortes
-    if (!token) {
-        throw new Error('Token inválido');
-    }
+    if (!token) throw new Error('Token inválido');
 
     const validation = validatePassword(password);
-    if (!validation.isValid) {
-        throw new Error(validation.errors[0]);
+    if (!validation.isValid) throw new Error(validation.errors[0]);
+
+    try {
+        const res = await api.post('/auth/reset-password', { token, password });
+        return res.data;
+    } catch (err) {
+        throw new Error(err.response?.data?.error || 'Erro ao alterar password');
     }
-
-    const response = await fetch('/api/auth/reset-password', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ token, password })
-    });
-
-    if (!response.ok) {
-        const data = await response.json();
-        throw new Error(data.error || 'Erro ao alterar password');
-    }
-
-    return response.json();
-}
+};

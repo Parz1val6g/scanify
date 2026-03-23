@@ -1,43 +1,65 @@
+import React from 'react';
 import styles from './Sidebar.module.css';
-import { Users, Mail, LogOut } from 'lucide-react'; // already destructured, tree shaking enabled
-import { Link, useNavigate } from 'react-router-dom';
-import React, { useRef } from 'react';
-import { useAuth } from '../context/';
+import { Users, FileText, LayoutDashboard, ShieldCheck, X, LogOut } from 'lucide-react';
+import { Link, useLocation } from 'react-router-dom';
+import { useAuth } from '../context/Auth';
+import { motion } from 'framer-motion';
 
-const SidebarComponent = () => {
-    const sidebarRef = useRef(null);
-    const { logout } = useAuth();
-    const navigate = useNavigate();
-    const handleLogout = () => {
-        logout();
-        navigate('/login', { replace: true });
+export const Sidebar = ({ isOpen, onClose, mobile }) => {
+    const { isAdmin, logout } = useAuth();
+    const location = useLocation();
+
+    const menuItems = [
+        { path: '/', icon: LayoutDashboard, label: 'Painel Principal' },
+        { path: '/invoices', icon: FileText, label: 'Faturas' },
+        ...(isAdmin ? [{ path: '/users', icon: Users, label: 'Utilizadores' }] : [])
+    ];
+
+    const handleLogout = async () => {
+        await logout();
+        if (onClose) onClose();
     };
+
     return (
-        <nav
-            id={styles.sidebar}
-            ref={sidebarRef}
+        <motion.nav
+            className={styles.sidebar}
+            initial={{ x: mobile ? '-100%' : 0 }}
+            animate={{ x: isOpen ? 0 : '-100%' }}
+            exit={{ x: '-100%' }}
+            transition={{ type: 'spring', stiffness: 300, damping: 30 }}
         >
-            <div id={styles.logo}>
-                <h2><Link to='/'>{import.meta.env.VITE_APP_NAME || 'Scanify'}</Link></h2>
-            </div>
-            <div id={styles.options}>
-                <Link to='/invoices' className={styles.option}>
-                    <Mail />
-                    <span>Faturas</span>
-                </Link>
-                <Link to='/users' className={styles.option}>
-                    <Users />
-                    <span>Utilizadores</span>
+            {mobile && (
+                <button className={styles.closeBtn} onClick={onClose} aria-label="Fechar menu">
+                    <X size={28} />
+                </button>
+            )}
+            <div className={styles.logo}>
+                <Link to="/">
+                    <ShieldCheck size={28} />
+                    {import.meta.env.VITE_APP_NAME || 'Scanify'}
                 </Link>
             </div>
-            <div id={styles.footer}>
-                <div className={styles.logoutBtn} onClick={handleLogout}>
+            <div className={styles.options}>
+                {menuItems.map((item) => (
+                    <Link
+                        key={item.path}
+                        to={item.path}
+                        className={`${styles.option} ${
+                            location.pathname === item.path ? styles.activeOption : ''
+                        }`}
+                        onClick={mobile ? onClose : undefined}
+                    >
+                        <item.icon size={20} />
+                        {item.label}
+                    </Link>
+                ))}
+            </div>
+            <div className={styles.footer}>
+                <button className={styles.logoutBtn} onClick={handleLogout}>
                     <LogOut size={20} />
                     <span>Terminar Sessão</span>
-                </div>
+                </button>
             </div>
-        </nav>
+        </motion.nav>
     );
 };
-
-export const Sidebar = React.memo(SidebarComponent);

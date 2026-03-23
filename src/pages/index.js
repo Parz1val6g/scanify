@@ -1,4 +1,5 @@
 export { Dashboard } from './Dashboard';
+export { DashboardHome } from './Dashboards/DashboardHome';
 export { InvoiceGeneral } from './InvoiceGeneral';
 export { Profile } from './Profile';
 export { Login } from './Login';

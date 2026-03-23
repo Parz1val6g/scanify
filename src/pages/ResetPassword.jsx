@@ -19,7 +19,7 @@ export const ResetPassword = () => {
     // Verificar se tem token
     useEffect(() => {
         if (!token) {
-            setError('Link inválido. Pede um novo email de recuperação.');
+            setError('Link inválido. Por favor, solicite um novo e-mail de recuperação.');
         }
     }, [token]);
 
@@ -37,144 +37,141 @@ export const ResetPassword = () => {
         e.preventDefault();
         setError('');
 
-        // Validações
-    }
+        const validation = validatePassword(password);
+        if (!validation.isValid) {
+            setError(validation.errors[0]);
+            return;
+        }
 
-    export default ResetPassword;
-    const validation = validatePassword(password);
-    if (!validation.isValid) {
-        setError(validation.errors[0]);
-        return;
-    }
+        if (password !== confirmPassword) {
+            setError('As palavras-passe não coincidem.');
+            return;
+        }
 
-    if (password !== confirmPassword) {
-        setError('As passwords não coincidem.');
-        return;
-    }
+        setLoading(true);
 
-    setLoading(true);
+        try {
+            await resetPassword(token, password);
+            setSuccess(true);
+            // Redirect após 3 segundos
+            setTimeout(() => navigate('/login'), 3000);
+        } catch (err) {
+            setError(err.message);
+        } finally {
+            setLoading(false);
+        }
+    };
 
-    try {
-        await resetPassword(token, password);
-        setSuccess(true);
-        // Redirect após 3 segundos
-        setTimeout(() => navigate('/login'), 3000);
-    } catch (err) {
-        setError(err.message);
-    } finally {
-        setLoading(false);
-    }
-};
-if (!token) {
-    return (
-        <div className={styles.main}>
-            <div className={styles.formContainer}>
-                <div className={styles.form}>
-                    <h1>Link Inválido</h1>
-                    <p className={styles.description}>
-                        Este link de recuperação é inválido ou expirou.
-                    </p>
-                    <div className={styles.buttons}>
-                        <Link to="/forgot-password">
-                            <Button variant="primary">Pedir Novo Link</Button>
-                        </Link>
-                        <Link to="/login">
-                            <Button variant="secondary">Voltar ao Login</Button>
-                        </Link>
+    if (!token) {
+        return (
+            <div className={styles.main}>
+                <div className={styles.formContainer}>
+                    <div className={styles.form}>
+                        <h1>Link Inválido</h1>
+                        <p className={styles.description}>
+                            Este link de recuperação é inválido ou expirou.
+                        </p>
+                        <div className={styles.buttons}>
+                            <Link to="/forgot-password">
+                                <Button variant="primary">Pedir Novo Link</Button>
+                            </Link>
+                            <Link to="/login">
+                                <Button variant="secondary">Voltar ao Início de Sessão</Button>
+                            </Link>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-    );
-}
+        );
+    }
 
-return (
-    <div className={styles.main}>
-        <div className={styles.formContainer}>
-            <form onSubmit={handleSubmit} className={styles.form}>
-                <h1>Nova Password</h1>
+    return (
+        <div className={styles.main}>
+            <div className={styles.formContainer}>
+                <form onSubmit={handleSubmit} className={styles.form}>
+                    <h1>Nova Palavra-Passe</h1>
 
-                {success ? (
-                    <div className={styles.successMessage}>
-                        <p>Password alterada com sucesso!</p>
-                        <p>Vais ser redirecionado para o login em 3 segundos...</p>
-                        <Link to="/login">
-                            <Button type="button" variant="primary">Ir para Login</Button>
-                        </Link>
-                    </div>
-                ) : (
-                    <>
-                        <p className={styles.description}>
-                            Cria uma nova password segura para a tua conta.
-                        </p>
-
-                        {error && <p className={styles.error}>{error}</p>}
-
-                        <div className={styles.inputGroup}>
-                            <label htmlFor="password">Nova Password</label>
-                            <Input
-                                id="password"
-                                type="password"
-                                value={password}
-                                onChange={(e) => setPassword(e.target.value)}
-                                placeholder="••••••••"
-                            />
-                            {/* Password requirements checklist */}
-                            {password && (
-                                <ul className={styles.requirements}>
-                                    <li className={password.length >= 8 ? styles.valid : styles.invalid}>
-                                        Mínimo 8 caracteres
-                                    </li>
-                                    <li className={/[A-Z]/.test(password) ? styles.valid : styles.invalid}>
-                                        Uma letra maiúscula
-                                    </li>
-                                    <li className={/[a-z]/.test(password) ? styles.valid : styles.invalid}>
-                                        Uma letra minúscula
-                                    </li>
-                                    <li className={/\d/.test(password) ? styles.valid : styles.invalid}>
-                                        Um número
-                                    </li>
-                                    <li className={/[@$!%*?&#+\-_]/.test(password) ? styles.valid : styles.invalid}>
-                                        Um caractere especial (@$!%*?&#+_-)
-                                    </li>
-                                </ul>
-                            )}
-                        </div>
-
-                        <div className={styles.inputGroup}>
-                            <label htmlFor="confirmPassword">Confirmar Password</label>
-                            <Input
-                                id="confirmPassword"
-                                type="password"
-                                value={confirmPassword}
-                                onChange={(e) => setConfirmPassword(e.target.value)}
-                                placeholder="••••••••"
-                            />
-                        </div>
-
-                        {/* Password match indicator */}
-                        {confirmPassword && (
-                            <p className={password === confirmPassword ? styles.match : styles.noMatch}>
-                                {password === confirmPassword ? '✓ Passwords coincidem' : '✗ Passwords não coincidem'}
-                            </p>
-                        )}
-
-                        <div className={styles.buttons}>
-                            <Button
-                                type="submit"
-                                variant="primary"
-                                disabled={loading || !password || !confirmPassword || passwordErrors.length > 0}
-                            >
-                                {loading ? 'A guardar...' : 'Guardar Password'}
-                            </Button>
+                    {success ? (
+                        <div className={styles.successMessage}>
+                            <p>Palavra-passe alterada com sucesso!</p>
+                            <p>Será redirecionado para o início de sessão em 3 segundos...</p>
                             <Link to="/login">
-                                <Button type="button" variant="secondary">Cancelar</Button>
+                                <Button type="button" variant="primary">Ir para o Início de Sessão</Button>
                             </Link>
                         </div>
-                    </>
-                )}
-            </form>
+                    ) : (
+                        <>
+                            <p className={styles.description}>
+                                Crie uma nova palavra-passe segura para a sua conta.
+                            </p>
+
+                            {error && <p className={styles.error}>{error}</p>}
+
+                            <div className={styles.inputGroup}>
+                                <label htmlFor="password">Nova Palavra-Passe</label>
+                                <Input
+                                    id="password"
+                                    type="password"
+                                    value={password}
+                                    onChange={(e) => setPassword(e.target.value)}
+                                    placeholder="••••••••"
+                                />
+                                {password && (
+                                    <ul className={styles.requirements}>
+                                        <li className={password.length >= 8 ? styles.valid : styles.invalid}>
+                                            Mínimo 8 caracteres
+                                        </li>
+                                        <li className={/[A-Z]/.test(password) ? styles.valid : styles.invalid}>
+                                            Uma letra maiúscula
+                                        </li>
+                                        <li className={/[a-z]/.test(password) ? styles.valid : styles.invalid}>
+                                            Uma letra minúscula
+                                        </li>
+                                        <li className={/\d/.test(password) ? styles.valid : styles.invalid}>
+                                            Um número
+                                        </li>
+                                        <li className={/[@$!%*?&#+\-_]/.test(password) ? styles.valid : styles.invalid}>
+                                            Um caractere especial (@$!%*?&#+_-)
+                                        </li>
+                                    </ul>
+                                )}
+                            </div>
+
+                            <div className={styles.inputGroup}>
+                                <label htmlFor="confirmPassword">Confirmar Palavra-Passe</label>
+                                <Input
+                                    id="confirmPassword"
+                                    type="password"
+                                    value={confirmPassword}
+                                    onChange={(e) => setConfirmPassword(e.target.value)}
+                                    placeholder="••••••••"
+                                />
+                            </div>
+
+                            {confirmPassword && (
+                                <p className={password === confirmPassword ? styles.match : styles.noMatch}>
+                                    {password === confirmPassword ? '✓ As palavras-passe coincidem' : '✗ As palavras-passe não coincidem'}
+                                </p>
+                            )}
+
+                            <div className={styles.buttons}>
+                                <Button
+                                    type="submit"
+                                    variant="primary"
+                                    disabled={loading || !password || !confirmPassword || passwordErrors.length > 0}
+                                >
+                                    {loading ? 'A guardar...' : 'Guardar Alterações'}
+                                </Button>
+                                <Link to="/login">
+                                    <Button type="button" variant="secondary">Cancelar</Button>
+                                </Link>
+                            </div>
+                        </>
+                    )}
+                </form>
+            </div>
         </div>
-    </div>
-);
+    );
 };
+
+export default ResetPassword;

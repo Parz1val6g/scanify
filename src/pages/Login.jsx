@@ -45,7 +45,7 @@ export const Login = () => {
                         onChange={(e) => setPassword(e.target.value)}
                     />
                     <Link to="/forgot-password" id={styles.forgotPwd}>
-                        Esqueci a password!
+                        Esqueceu-se da sua palavra-passe?
                     </Link>
                     <div className={styles.loginButtons}>
                         <Button
@@ -59,7 +59,7 @@ export const Login = () => {
                             variant="secondary"
                             onClick={() => navigate('/sign-up')}
                         >
-                            Registar-se
+                            Criar Conta
                         </Button>
                     </div>
                 </form>

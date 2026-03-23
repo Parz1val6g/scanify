@@ -45,20 +45,20 @@ export const ForgotPassword = () => {
         <div className={styles.main}>
             <div className={styles.formContainer}>
                 <form onSubmit={handleSubmit} className={styles.form}>
-                    <h1>Recuperar Password</h1>
+                    <h1>Recuperar Palavra-Passe</h1>
 
                     {success ? (
                         <div className={styles.successMessage}>
-                            <p>Email enviado com sucesso!</p>
-                            <p>Verifica a tua caixa de entrada (e spam) para o link de recuperação.</p>
+                            <p>E-mail enviado com sucesso!</p>
+                            <p>Verifique a sua caixa de entrada (e spam) para encontrar o link de recuperação.</p>
                             <Link to="/login">
-                                <Button type="button" variant="primary">Voltar ao Login</Button>
+                                <Button type="button" variant="primary">Voltar ao Início de Sessão</Button>
                             </Link>
                         </div>
                     ) : (
                         <>
                             <p className={styles.description}>
-                                Insere o teu email e enviaremos um link para repor a password.
+                                Introduza o seu e-mail e enviaremos um link para redefinir a sua palavra-passe.
                                 O link expira em 15 minutos.
                             </p>
 

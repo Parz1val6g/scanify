@@ -1,93 +1,45 @@
+import React from 'react';
 import styles from './TopHeader.module.css';
-import { Link, useLocation } from 'react-router-dom';
-import { ChevronRight, Moon, Sun } from 'lucide-react';
-import React, { useEffect, useState } from 'react';
-import { useAuth } from '../context/';
+import { Sun, Moon, Menu } from 'lucide-react';
+import { useAuth } from '../context/Auth';
+import { useTheme } from '../context/Theme';
 
-// Helper para capitalizar
-const capitalize = (str) => str.charAt(0).toUpperCase() + str.slice(1);
-
-const TopHeaderComponent = () => {
+export const TopHeader = ({ onMenuClick }) => {
     const { user } = useAuth();
+    const { theme, toggleTheme } = useTheme();
 
-    // Detect system theme
-    const getSystemTheme = () => {
-        if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
-            return 'dark';
+    // Responsividade: mostra só o primeiro nome ou inicial em mobile
+    const getDisplayName = () => {
+        if (!user) return '';
+        if (window.innerWidth < 600) {
+            return user.firstName ? user.firstName.charAt(0) : user.email.charAt(0);
         }
-        return 'light';
+        return user.firstName || user.email;
     };
-    const [theme, setTheme] = useState(() => {
-        const saved = localStorage.getItem('theme');
-        return saved || getSystemTheme();
-    });
-
-    useEffect(() => {
-        document.documentElement.setAttribute('data-theme', theme);
-        localStorage.setItem('theme', theme);
-    }, [theme]);
-
-    useEffect(() => {
-        const handler = (e) => {
-            if (!localStorage.getItem('theme')) {
-                setTheme(e.matches ? 'dark' : 'light');
-            }
-        };
-        window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', handler);
-        return () => {
-            window.matchMedia('(prefers-color-scheme: dark)').removeEventListener('change', handler);
-        };
-    }, []);
-    const toggleTheme = () => {
-        setTheme((prev) => (prev === 'dark' ? 'light' : 'dark'));
-    };
-
-    const location = useLocation();
-    const pathname = location.pathname;
-    // Divide e filtra segmentos
-    const segments = pathname.split('/').filter(Boolean);
-
-    // Breadcrumbs dinâmicos
-    let breadcrumbs = null;
-    if (segments.length === 0) {
-        // Raiz: não renderiza
-        breadcrumbs = null;
-    } else if (segments.length === 1) {
-        // Exemplo: /invoices
-        breadcrumbs = (
-            <span>{capitalize(segments[0])}</span>
-        );
-    } else {
-        // Exemplo: /invoices/create
-        breadcrumbs = segments.map((seg, idx) => {
-            const to = '/' + segments.slice(0, idx + 1).join('/');
-            const isLast = idx === segments.length - 1;
-            return isLast ? (
-                <span key={to}>{capitalize(seg)}</span>
-            ) : (
-                <>
-                    <Link key={to} to={to}>{capitalize(seg)}</Link>
-                    <ChevronRight key={to + '-chevron'} />
-                </>
-            );
-        });
-    }
 
     return (
-        <div id={styles.topHeader}>
-            <div id={styles.breadcrumbs}>
-                {breadcrumbs}
-            </div>
-            <div id={styles.actions}>
-                <div id={styles.toggleTheme} onClick={toggleTheme}>
-                    {theme === 'dark' ? <Moon /> : <Sun />}
+        <header className={styles.topHeader}>
+            {/* Botão de menu mobile */}
+            <button className={styles.menuBtn} onClick={onMenuClick} aria-label="Abrir menu">
+                <Menu size={28} />
+            </button>
+            <div className={styles.spacer} />
+            <div className={styles.eliteProfile}>
+                <div className={styles.profileInfo}>
+                    <span className={styles.greeting}>Olá,</span>
+                    <span className={styles.userName}>{getDisplayName()}</span>
                 </div>
-                <Link id={styles.profile} to='/profile'>
-                    Olá, {user?.firstName ?? 'Utilizador'}!
-                </Link>
+                <div className={styles.avatarMini}>
+                    {getDisplayName().charAt(0).toUpperCase()}
+                </div>
+                <button
+                    id={styles.toggleTheme}
+                    onClick={toggleTheme}
+                    aria-label="Alternar tema"
+                >
+                    {theme === 'dark' ? <Sun size={20} /> : <Moon size={20} />}
+                </button>
             </div>
-        </div>
+        </header>
     );
 };
-
-export const TopHeader = React.memo(TopHeaderComponent);

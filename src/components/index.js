@@ -6,3 +6,8 @@ export { Sidebar } from './Sidebar';
 export { TopHeader } from './TopHeader';
 export { PasswordCriteria, validatePasswordCriteria } from './PasswordCriteria';
 export { SkeletonBlock, DashboardSkeleton, InvoicesSkeleton } from './Skeleton';
+export { default as ConfirmationModal } from './ConfirmationModal';
+export { default as InvoiceCard } from './Invoices/InvoiceCard';
+export { default as InvoiceDetailModal } from './Invoices/InvoiceDetailModal';
+export { default as InvoiceUploadModal } from './Invoices/InvoiceUploadModal';
+export { default as SmoothImage } from './Common/SmoothImage';
