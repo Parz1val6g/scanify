@@ -1,0 +1,13 @@
+services:
+  db:
+    image: postgres:16
+    container_name: cd-postgres
+    restart: always
+    environment:
+      POSTGRES_USER: admin
+      POSTGRES_PASSWORD: FXPoio&fmh*j2QMZ39HR
+      POSTGRES_DB: scanify
+    ports:
+      - "5432:5432"
+    volumes:
+      - ./pgdata:/var/lib/postgresql/data

@@ -1,0 +1,17 @@
+{
+	"folders": [
+		{
+			"path": "backend"
+		},
+		{
+			"path": "frontend"
+		},
+		{
+			"path": "py_api"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {}
+}

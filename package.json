@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "dotenv": "^17.3.1",
+    "react-fluid-animation": "^1.0.1"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "Empresa": {
+    "Empresa": "FERROMAR - COM. E IND."
+  },
+  "Cliente": {
+    "Cliente": "SYSTEEL, LDA"
+  },
+  "Entrega": {
+    "Entrega": "Endereco de entrega SYSTEEL, LDA ZONA INDUSTRIAL DE QUEIRÃ 3670-175 VOUZELA PORTUGAL"
+  },
+  "Fatura": {
+    "Fatura": {
+      "PN cliente": "P00005845",
+      "Cotação": "5Q00",
+      "Data de cot": "17-03",
+      "SC do cliente": "",
+      "Referência B": "60524-2026 10:08"
+    }
+  },
+  "Lista": {
+    "Lista": [
+      "40 PERFIL HEA 240MM C/15,1 S355JR Comprimento",
+      "50 PERFIL HEA 240MM C/14 S355JR Comprimento",
+      "70 PERFIL HEA 400MM C/14 S355J0 Comprimento",
+      "90 PERFIL HEB 240MM C/9,0 S355JR Comprimento",
+      "100 PERFIL HEB 400MM C/16 S355J0 Comprimento",
+      "110 PERFIL IPE 160MM C/14 S355JR Comprimento",
+      "120 PERFIL IPE 160MM C/12 S355JR Comprimento",
+      "130 PERFIL IPE 160MM C/7 S355JR Comprimento"
+    ]
+  },
+  "Total": {
+    "Total": "50144,25"
+  }
+}

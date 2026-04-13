@@ -1,0 +1,252 @@
+{
+  "cabecalho": {
+    "empresa": {
+      "empresa": {
+        "nome": "FERROMAR - COM. E IND. F.P.T., S.A.",
+        "endereco": "AV. D. MANUEL I - Z.I.NORTE EN 327 KM. 27,6",
+        "cidade": "OVAR",
+        "codigo_postal": "3880-109",
+        "NIPC": "PT500911576",
+        "CRC": "OVAR",
+        "capital_social": "5.911.650,00 EUR"
+      }
+    },
+    "cliente": {
+      "cliente": {
+        "nome": "SYSTEEL, LDA",
+        "endereco": {
+          "zona_industrial": "ZONA INDUSTRIAL DE QUEIRÃ LOTE 22AB",
+          "localidade": "VASCONHA - QUEIRÃ",
+          "cep": "3670-175",
+          "cidade": "VOUZELA",
+          "pais": "PORTUGAL"
+        },
+        "visao": {
+          "id": 1,
+          "nome": "Systeel",
+          "cnpj": "00.000.000/0000-00",
+          "endereco": "Rua 1, Número 1, Bairro 1, Cidade 1, Estado 1, CEP 1",
+          "telefone": "11 1111-1111",
+          "email": "systeel@systeel.com.br"
+        }
+      }
+    },
+    "entrega": {
+      "entrega": {
+        "digital": "Endereço de entrega",
+        "nome": "SYSTEEL, LDA",
+        "endereco": "ZONA INDUSTRIAL DE QUEIRÃ LOTE 22AB",
+        "cidade": "VASCONHA - QUEIRÃ",
+        "cep": "3670-175",
+        "pais": "PORTUGAL"
+      },
+      "vision": {
+        "id": 1,
+        "nome": "Systeel",
+        "endereco": "Zona Industrial de Queirã",
+        "cep": "3670-175",
+        "cidade": "Vouzela",
+        "estado": "Portugal"
+      }
+    },
+    "fatura": {
+      "fatura": {
+        "digital": "Mangualde",
+        "data_fatura": "18-03-26",
+        "pn_cliente": "P00005845",
+        "cotacao": "5Q0060524",
+        "data_cotacao": "17-03-2026 10:08",
+        "sc_do_cliente": "",
+        "referencia_b": "Delegação Mangualde",
+        "vencimento_cotacao": "18-03-2026",
+        "itens": [
+          {
+            "id": 1,
+            "nome": "Item 1",
+            "preco": 10.0,
+            "quantidade": 1
+          },
+          {
+            "id": 2,
+            "nome": "Item 2",
+            "preco": 20.0,
+            "quantidade": 2
+          }
+        ],
+        "total": 50.0
+      }
+    },
+    "items": {
+      "items": [
+        {
+          "Descrição": "PERFIL HEA 240MM C/15,1 S355JR",
+          "Quantidade": 1821000,
+          "Unidade": "kg",
+          "Atados": 894,
+          "Peso Bruto": 0.894,
+          "Desconto": null,
+          "Preço Líquido": 0.894,
+          "Valor Líquido": 627.97,
+          "Semana": 1
+        },
+        {
+          "Descrição": "PERFIL HEA 240 MM C/14 S355JR",
+          "Quantidade": 8502000,
+          "Unidade": "kg",
+          "Atados": 902,
+          "Peso Bruto": 0.902,
+          "Desconto": null,
+          "Preço Líquido": 0.902,
+          "Valor Líquido": 668.8,
+          "Semana": 7
+        },
+        {
+          "Descrição": "PERFIL HEA 400 MM C/14 S355J0",
+          "Quantidade": 7050000,
+          "Unidade": "kg",
+          "Atados": 956,
+          "Peso Bruto": 0.956,
+          "Desconto": null,
+          "Preço Líquido": 0.956,
+          "Valor Líquido": 739.8,
+          "Semana": 6
+        },
+        {
+          "Descrição": "PERFIL HEB 240 MM C/ 9,0 S355JR",
+          "Quantidade": 8988000,
+          "Unidade": "kg",
+          "Atados": 878,
+          "Peso Bruto": 0.878,
+          "Desconto": null,
+          "Preço Líquido": 0.878,
+          "Valor Líquido": 891.46,
+          "Semana": 7
+        },
+        {
+          "Descrição": "PERFIL HEB 400 MM C/16 S355J0",
+          "Quantidade": 274510000,
+          "Unidade": "kg",
+          "Atados": 925,
+          "Peso Bruto": 0.925,
+          "Desconto": null,
+          "Preço Líquido": 0.925,
+          "Valor Líquido": 392.18,
+          "Semana": 25
+        },
+        {
+          "Descrição": "PERFIL IPE 160 MM C/14 S355JR",
+          "Quantidade": 446000,
+          "Unidade": "kg",
+          "Atados": 884,
+          "Peso Bruto": 0.884,
+          "Desconto": null,
+          "Preço Líquido": 0.884,
+          "Valor Líquido": 394.26,
+          "Semana": 394.26
+        },
+        {
+          "Descrição": "PERFIL IPE 160 MM C/ 12 S355JR",
+          "Quantidade": 382000,
+          "Unidade": "kg",
+          "Atados": 848,
+          "Peso Bruto": 0.848,
+          "Desconto": null,
+          "Preço Líquido": 0.848,
+          "Valor Líquido": 323.94,
+          "Semana": 323.94
+        },
+        {
+          "Descrição": "PERFIL IPE 160 MM C/7 S355JR",
+          "Quantidade": 112000,
+          "Unidade": "kg",
+          "Atados": 945,
+          "Peso Bruto": 0.945,
+          "Desconto": null,
+          "Preço Líquido": 0.945,
+          "Valor Líquido": 105.84,
+          "Semana": 105.84
+        }
+      ]
+    },
+    "transportar": {
+      "transportar": {
+        "digital_value": "50144,25",
+        "vision_value": "50144,25"
+      }
+    }
+  },
+  "itens": [],
+  "totais": {
+    "n_pag": {
+      "n_pag": 4,
+      "digital": {
+        "page_number": 4
+      },
+      "vision": {
+        "title": "Página 4",
+        "content": "Esta é a quarta página do nosso site.",
+        "layout": "default"
+      }
+    },
+    "mercadorias": {
+      "mercadorias": [
+        {
+          "id": 1,
+          "name": "Mercadoria 1",
+          "price": 10.99,
+          "quantity": 5,
+          "category": "Electronics",
+          "description": "This is a description of Mercadoria 1",
+          "image_url": "https://example.com/image1.jpg",
+          "created_at": "2023-02-20T14:30:00.000Z",
+          "updated_at": "2023-02-20T14:30:00.000Z",
+          "tags": [
+            "tag1",
+            "tag2",
+            "tag3"
+          ],
+          "related_products": [
+            "product1",
+            "product2",
+            "product3"
+          ],
+          "reviews": [
+            {
+              "id": 1,
+              "rating": 5,
+              "title": "Great product",
+              "content": "This is a review of Mercadoria 1",
+              "created_at": "2023-02-20T14:30:00.000Z"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "name": "Mercadoria 2",
+          "price": 193593.42,
+          "quantity": 1,
+          "category": "Digital",
+          "description": "This is a description of Mercadoria 2",
+          "image_url": "",
+          "created_at": "",
+          "updated_at": "",
+          "tags": [],
+          "related_products": [],
+          "reviews": []
+        }
+      ]
+    },
+    "peso": {
+      "peso": 213947.0
+    },
+    "imposto": {
+      "imposto": {
+        "digital": 44526.49,
+        "vision": 44.52649
+      }
+    },
+    "total": {
+      "total": 238119.91
+    }
+  }
+}

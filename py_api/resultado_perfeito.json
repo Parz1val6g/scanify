@@ -1,0 +1,325 @@
+[
+  {
+    "Empresa": {
+      "Empresa": {
+        "Nome": "FERROMAR - COM. E IND. F.P.T., S.A.",
+        "Endereço": "AV. D. MANUEL I - Z.I.NORTE EN 327 KM. 27,6",
+        "Cidade": "OVAR",
+        "CEP": "3880-109",
+        "NIPC": "PT500911576",
+        "CRC": "OVAR",
+        "Capital Social": "5.911.650,00 EUR"
+      }
+    },
+    "Cliente": {
+      "Cliente": {
+        "Nome": "SYSTEEL, LDA",
+        "Endereço": {
+          "Linha1": "ZONA INDUSTRIAL DE QUEIRÃ LOTE 22AB",
+          "Linha2": "VASCONHA - QUEIRÃ",
+          "Código Postal": "3670-175",
+          "Localidade": "VOUZELA",
+          "País": "PORTUGAL"
+        }
+      }
+    },
+    "Entrega": {
+      "Entrega": "SYSTEEL, LDA\nZONA INDUSTRIAL DE QUEIRÃ LOTE 22AB\nVASCONHA - QUEIRÃ\n3670-175 VOUZELA\nPORTUGAL"
+    },
+    "Fatura": {
+      "Fatura": {
+        "PN cliente": "P00005845",
+        "Cotação": "5Q0060524",
+        "Data de cot.": "17-03-2026 10:08",
+        "Referência B": "Delegação Mangualde"
+      }
+    },
+    "Lista": {
+      "Lista": [
+        {
+          "Descrição": "PERFIL HEA 240MM C/15,1 S355JR",
+          "Quantidade": 1821000,
+          "Un.": "kg",
+          "Atados Pr.Bruto": 0.894,
+          "Desconto": 0.894,
+          "Preço Líq.": 0.894,
+          "Valor Líq": 627970
+        },
+        {
+          "Descrição": "PERFIL HEA 240 MM C/14 S355JR",
+          "Quantidade": 8502000,
+          "Un.": "kg",
+          "Atados Pr.Bruto": 0.902,
+          "Desconto": 0.902,
+          "Preço Líq.": 0.902,
+          "Valor Líq": 668800
+        },
+        {
+          "Descrição": "PERFIL HEA 400 MM C/14 S355J0",
+          "Quantidade": 7050000,
+          "Un.": "kg",
+          "Atados Pr.Bruto": 0.956,
+          "Desconto": 0.956,
+          "Preço Líq.": 0.956,
+          "Valor Líq": 739800
+        },
+        {
+          "Descrição": "PERFIL HEB 240 MM C/ 9,0 S355JR",
+          "Quantidade": 8988000,
+          "Un.": "kg",
+          "Atados Pr.Bruto": 0.878,
+          "Desconto": 0.878,
+          "Preço Líq.": 0.878,
+          "Valor Líq": 891460
+        },
+        {
+          "Descrição": "PERFIL HEB 400 MM C/16 S355J0",
+          "Quantidade": 27451000,
+          "Un.": "kg",
+          "Atados Pr.Bruto": 0.925,
+          "Desconto": 0.925,
+          "Preço Líq.": 0.925,
+          "Valor Líq": 392180
+        },
+        {
+          "Descrição": "PERFIL IPE 160 MM C/14 S355JR",
+          "Quantidade": 446000,
+          "Un.": "kg",
+          "Atados Pr.Bruto": 0.884,
+          "Desconto": 0.884,
+          "Preço Líq.": 0.884,
+          "Valor Líq": 394260
+        },
+        {
+          "Descrição": "PERFIL IPE 160 MM C/ 12 S355JR",
+          "Quantidade": 382000,
+          "Un.": "kg",
+          "Atados Pr.Bruto": 0.848,
+          "Desconto": 0.848,
+          "Preço Líq.": 0.848,
+          "Valor Líq": 323940
+        },
+        {
+          "Descrição": "PERFIL IPE 160 MM C/7 S355JR",
+          "Quantidade": 112000,
+          "Un.": "kg",
+          "Atados Pr.Bruto": 0.945,
+          "Desconto": 0.945,
+          "Preço Líq.": 0.945,
+          "Valor Líq": 105840
+        }
+      ]
+    },
+    "Total": {
+      "Total": "50144,25"
+    }
+  },
+  {
+    "Empresa": {
+      "Empresa": "PERFIL IPE 220 MM C/16 S355J2"
+    },
+    "Cliente": {
+      "Cliente": "Desconto Pr. Líq. Valor Líq"
+    },
+    "Entrega": {
+      "Entrega": "190 PERFIL IPE 220 MM C/13 S355J2\nComprimento\n200 PERFIL IPE 240 MM C/16,0 S355JR"
+    },
+    "Fatura": {
+      "Fatura": [
+        {
+          "Quantidade": 2,
+          "ValorPorUnidade": 0.882,
+          "Total": 1.764
+        },
+        {
+          "Quantidade": 4,
+          "ValorPorUnidade": 0.874,
+          "Total": 3.496
+        }
+      ]
+    },
+    "Lista": {
+      "Lista": [
+        {
+          "Comprimento": "5,600 ton",
+          "QuantidadeMinima": "14 UNIDADES"
+        },
+        {
+          "Item": "220 PERFIL IPE 270 MM C/10 S355J2",
+          "Peso": "1094,0000 kg",
+          "ValorUnitario": "0,878",
+          "PrecoTotal": "960,53"
+        },
+        {
+          "Item": "230 PERFIL IPE 270 MM C/9 S355J2",
+          "Peso": "329,0000 kg",
+          "ValorUnitario": "0,908",
+          "PrecoTotal": "298,73"
+        },
+        {
+          "Item": "240 PERFIL IPE 300 MM C/11 S355JR",
+          "Peso": "4684,0000 kg",
+          "ValorUnitario": "0,858",
+          "PrecoTotal": "4018,87"
+        },
+        {
+          "Item": "250 PERFIL IPE 330 MM C/14 S355JR",
+          "Peso": "4846,0000 kg",
+          "ValorUnitario": "0,898",
+          "PrecoTotal": "4351,71"
+        },
+        {
+          "Item": "260 PERFIL IPE 330 MM C/13 S355JR",
+          "Peso": "2573,0000 kg",
+          "ValorUnitario": "0,898",
+          "PrecoTotal": "2310,55"
+        },
+        {
+          "Item": "270 PERFIL IPE 360 MM C/16 S355JR",
+          "Peso": "5516,0000 kg",
+          "ValorUnitario": "0,884",
+          "PrecoTotal": "4876,14"
+        },
+        {
+          "Item": "280 PERFIL IPE 360 MM C/14 S355J0",
+          "Peso": "14992,0000 kg",
+          "ValorUnitario": "0,878",
+          "PrecoTotal": "13162,98"
+        },
+        {
+          "QuantidadeMinima": "10 UNIDADES"
+        }
+      ]
+    },
+    "Total": {
+      "Total": "105992,00"
+    }
+  },
+  {
+    "Empresa": {
+      "Empresa": "N/A"
+    },
+    "Cliente": {
+      "Cliente": "Transportar"
+    },
+    "Entrega": {
+      "Entrega": {
+        "quantidade": "4",
+        "unidade": "UNIDADES",
+        "descricao": "PERFIL IPE 450 MM C/17 S355JR"
+      }
+    },
+    "Fatura": {
+      "Fatura": {
+        "itens": [
+          {
+            "peso": 8,
+            "preco_por_kg": 0.898
+          },
+          {
+            "peso": 9,
+            "preco_por_kg": 0.899
+          }
+        ],
+        "total_itens": 2,
+        "total_peso": 17
+      }
+    },
+    "Lista": {
+      "Lista": [
+        {
+          "Comprimento": "2,353 ton",
+          "Perfil": "IPE 550 MM",
+          "Carga": "6 S355J2",
+          "Peso": "647,0000 kg",
+          "PrecoUnitario": "0,93",
+          "ValorTotal": "601,71"
+        },
+        {
+          "Comprimento": "0,647 ton",
+          "Perfil": "HEA 400 MM",
+          "Carga": "13 S355JR",
+          "Peso": "26200,0000 kg",
+          "PrecoUnitario": "0,956",
+          "ValorTotal": "25 047,20"
+        },
+        {
+          "Comprimento": "26,200 ton",
+          "Perfil": "IPE 330 MM",
+          "Carga": "12 S355JR",
+          "Peso": "4753,0000 kg",
+          "PrecoUnitario": "0,878",
+          "ValorTotal": "4 173,13"
+        },
+        {
+          "Comprimento": "4,753 ton",
+          "Perfil": "IPE 330 MM",
+          "Carga": "9 S355JR",
+          "Peso": "1787,0000 kg",
+          "PrecoUnitario": "0,878",
+          "ValorTotal": "1 568,99"
+        },
+        {
+          "Comprimento": "1,787 ton",
+          "Perfil": "IPE 400 MM",
+          "Carga": "13 S355JR",
+          "Peso": "6948,0000 kg",
+          "PrecoUnitario": "0,908",
+          "ValorTotal": "6 308,78"
+        },
+        {
+          "Comprimento": "6,948 ton",
+          "Perfil": "IPE 400 MM",
+          "Carga": "11 S355JR",
+          "Peso": "736,0000 kg",
+          "PrecoUnitario": "0,913",
+          "ValorTotal": "671,97"
+        }
+      ]
+    },
+    "Total": {
+      "Total": 193593.42
+    }
+  },
+  {
+    "Empresa": {
+      "Empresa": " Empresa X"
+    },
+    "Cliente": {
+      "Cliente": "Pr. Líq."
+    },
+    "Entrega": {
+      "Entrega": {
+        "id": 1,
+        "nome": "Rafael",
+        "idade": 19,
+        "sexo": "masculino"
+      }
+    },
+    "Fatura": {
+      "Fatura": "Fatura 001 - Fatura de Serviços",
+      "Data": "2023-02-14",
+      "Valor": 100.0,
+      "Serviços": [
+        {
+          "Serviço": "Serviço 001",
+          "Percentual": 100.0,
+          "Valor": 100.0
+        }
+      ],
+      "Observações": "Observações 001"
+    },
+    "Lista": {
+      "Lista": {
+        "Mercadorias": 193593,
+        "Peso": 213947,
+        "Imposto": 44526,
+        "Total": 238119,
+        "EUR": 11991
+      }
+    },
+    "Total": {
+      "Total": 7
+    }
+  }
+]
