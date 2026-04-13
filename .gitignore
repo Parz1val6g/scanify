@@ -1,7 +1,4 @@
-.aider*
-node_modules
-pgdata
-venv
 **/node_modules/
+**/dist/
+**/.env
 **/pgdata/
-**/venv
