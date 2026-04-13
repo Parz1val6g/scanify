@@ -1,0 +1,202 @@
+/* ============================================
+   LOGIN PAGE STYLES
+   ============================================ */
+.main {
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(to right, var(--bg-body) 40%, var(--btn-primary) 100%);
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-between;
+    overflow: hidden;
+}
+
+#form {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: var(--space-md);
+}
+
+#banner {
+    height: 100%;
+    transform: scaleX(-1);
+    background-image: var(--bg-login);
+    background-size: 65%;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 50%;
+}
+
+form {
+    background: rgba(15, 15, 35, 0.7);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    padding: var(--space-2xl) var(--space-xl);
+    border-radius: var(--radius-2xl);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 450px;
+    min-height: 450px;
+    justify-content: center;
+    gap: var(--space-lg);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3),
+        inset 0 1px 0 rgba(255, 255, 255, 0.05);
+}
+
+form h1 {
+    letter-spacing: -1px;
+    font-weight: 700;
+    margin: 0;
+    color: var(--text-primary);
+    /* clamp() inherited from index.css, but we can override if needed */
+}
+
+#forgotPwd {
+    text-align: right;
+    width: 100%;
+    font-size: var(--text-sm);
+}
+
+.loginButtons {
+    display: flex;
+    gap: var(--space-md);
+    width: 100%;
+    justify-content: center;
+}
+
+.error {
+    color: #f87171;
+    /* WCAG AA compliant - 4.64:1 contrast on dark backgrounds */
+    font-size: var(--text-sm);
+    margin: 0;
+    background: rgba(248, 113, 113, 0.1);
+    padding: var(--space-sm) var(--space-md);
+    border-radius: var(--radius-md);
+    border: 1px solid rgba(248, 113, 113, 0.3);
+    width: 100%;
+    text-align: center;
+}
+
+.passwordSection {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-sm);
+}
+
+.loginLink {
+    font-size: var(--text-sm);
+    color: var(--text-muted);
+    margin: 0;
+}
+
+.loginLink a {
+    color: var(--color-primary);
+    font-weight: 600;
+    text-decoration: none;
+    transition: color 0.2s;
+}
+
+.loginLink a:hover {
+    color: var(--color-neon);
+    text-decoration: underline;
+}
+
+/* ============================================
+   RESPONSIVE: TABLET (≤1024px)
+   ============================================ */
+@media (max-width: 1024px) {
+    #form {
+        width: 60%;
+    }
+
+    #banner {
+        width: 40%;
+        background-size: 80%;
+    }
+
+    form {
+        max-width: 400px;
+        padding: var(--space-xl) var(--space-lg);
+        gap: var(--space-lg);
+    }
+}
+
+/* ============================================
+   RESPONSIVE: MOBILE (≤768px)
+   ============================================ */
+@media (max-width: 768px) {
+    .main {
+        justify-content: center;
+        position: relative;
+        background: transparent;
+    }
+
+    /* Blurred background image */
+    .main::before {
+        content: '';
+        position: absolute;
+        inset: 0;
+        background-image: var(--bg-login);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        filter: blur(20px) brightness(0.7);
+        z-index: 0;
+        transform: scale(1.15);
+    }
+
+    #form {
+        width: 100%;
+        padding: var(--space-md);
+        position: relative;
+        z-index: 2;
+    }
+
+    #banner {
+        display: none;
+    }
+
+    form {
+        max-width: 400px;
+        min-height: auto;
+        padding: var(--space-xl) var(--space-lg);
+        gap: var(--space-lg);
+    }
+
+    .loginButtons {
+        flex-direction: column;
+    }
+}
+
+/* ============================================
+   RESPONSIVE: SMALL MOBILE (≤480px)
+   ============================================ */
+@media (max-width: 480px) {
+    #form {
+        padding: var(--space-sm);
+    }
+
+    form {
+        padding: var(--space-lg) var(--space-md);
+        border-radius: var(--radius-xl);
+        gap: var(--space-md);
+    }
+
+    #forgotPwd {
+        font-size: var(--text-xs);
+    }
+}
+
+.fullName {
+    display: flex;
+    flex-direction: row;
+}

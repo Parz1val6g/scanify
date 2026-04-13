@@ -1,0 +1,102 @@
+.skeleton {
+    background-color: rgba(var(--btn-primary-rgb, 91, 33, 182), 0.1);
+    background-image: linear-gradient(90deg,
+            transparent 0%,
+            rgba(255, 255, 255, 0.08) 20%,
+            transparent 40%,
+            transparent 100%);
+    background-size: 200% 100%;
+    background-repeat: no-repeat;
+    animation: shimmer 1.5s linear infinite;
+    border-radius: var(--radius-md);
+}
+
+[data-theme='light'] .skeleton {
+    background-color: rgba(15, 23, 42, 0.05);
+    background-image: linear-gradient(90deg,
+            transparent 0%,
+            rgba(255, 255, 255, 0.6) 20%,
+            transparent 40%,
+            transparent 100%);
+}
+
+@keyframes shimmer {
+    0% {
+        background-position: -200% 0;
+    }
+
+    100% {
+        background-position: 200% 0;
+    }
+}
+
+.title {
+    width: 30%;
+    height: 32px;
+    margin-bottom: var(--space-lg);
+}
+
+.textLine {
+    width: 100%;
+    height: 16px;
+    margin-bottom: var(--space-sm);
+}
+
+.tableRow {
+    width: 100%;
+    height: 48px;
+    margin-bottom: var(--space-sm);
+    border-radius: var(--radius-sm);
+}
+
+.colId {
+    width: 60px;
+    height: 48px;
+    margin-bottom: var(--space-sm);
+    border-radius: var(--radius-sm);
+}
+
+.colName {
+    flex: 1;
+    height: 48px;
+    margin-bottom: var(--space-sm);
+    border-radius: var(--radius-sm);
+}
+
+.colDate {
+    width: 60px;
+    height: 48px;
+    margin-bottom: var(--space-sm);
+    border-radius: var(--radius-sm);
+}
+
+.colValue {
+    width: 60px;
+    height: 48px;
+    margin-bottom: var(--space-sm);
+    border-radius: var(--radius-sm);
+}
+
+.colActions {
+    width: 60px;
+    height: 48px;
+    margin-bottom: var(--space-sm);
+    border-radius: var(--radius-sm);
+}
+
+@media (max-width: 768px) {
+
+    .colDate,
+    .colValue,
+    .colActions {
+        display: none !important;
+    }
+
+    .colId {
+        width: 60px !important;
+    }
+
+    .colName {
+        flex: 1 !important;
+    }
+}

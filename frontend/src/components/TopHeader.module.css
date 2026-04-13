@@ -1,0 +1,158 @@
+/* TopHeader.module.css — Clean rewrite with readable theme toggle */
+.topHeader {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    height: var(--topheader-height);
+    background: var(--glass-bg);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border-bottom: 1px solid var(--glass-border);
+    display: flex;
+    align-items: center;
+    z-index: 101;
+    padding: 0 var(--space-lg);
+}
+
+.menuBtn {
+    display: none;
+    background: none;
+    border: none;
+    color: var(--primary);
+    margin-right: var(--space-md);
+    cursor: pointer;
+}
+
+.spacer { flex: 1; }
+
+@media (max-width: 1023px) {
+    .menuBtn { display: flex; align-items: center; justify-content: center; }
+    .themeToggle { display: none !important; }
+    .eliteProfile { padding: 4px; gap: 8px; border: none; background: transparent; box-shadow: none; }
+    .profileInfo { display: none; }
+}
+
+.mobileCompanyName {
+    display: none;
+    font-size: 14px;
+    font-weight: 700;
+    color: var(--text-primary);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 160px;
+    margin-left: 12px;
+}
+
+@media (max-width: 1023px) {
+    .mobileCompanyName {
+        display: block;
+    }
+}
+
+.eliteProfile {
+    display: flex;
+    align-items: center;
+    gap: var(--space-md);
+    padding: 6px 14px;
+    background: var(--bg-hover);
+    border-radius: 40px;
+    border: 1px solid var(--glass-border);
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    text-decoration: none;
+    color: var(--text-primary);
+}
+
+.eliteProfile:hover {
+    background: var(--bg-surface);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 20px rgba(var(--btn-primary-rgb), 0.2);
+    border-color: var(--color-primary);
+}
+
+.profileInfo {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    line-height: 1.1;
+}
+
+.greeting {
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: var(--text-muted);
+    font-weight: 700;
+}
+
+.userName {
+    font-weight: 700;
+    font-size: 0.9rem;
+    color: var(--color-primary);
+}
+
+.avatarMini {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background: linear-gradient(135deg, var(--color-primary), var(--color-neon, #8b5cf6));
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 800;
+    font-size: 0.85rem;
+    box-shadow: 0 0 15px rgba(var(--btn-primary-rgb), 0.4);
+    border: 2px solid var(--glass-bg);
+}
+
+/* ── Theme Toggle ─────────────────────────────────────────────────────────── */
+/* Explicit class replaces the broken #id selector that 
+   couldn't inherit CSS variables in some build environments */
+.themeToggle {
+    color: var(--text-primary);
+    background: var(--bg-card, rgba(255,255,255,0.08));
+    border: 1px solid var(--border-color, rgba(255,255,255,0.15));
+    cursor: pointer;
+    padding: 7px;
+    border-radius: 50%;
+    width: 36px;
+    height: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background 0.2s, border-color 0.2s, color 0.2s, transform 0.15s;
+    flex-shrink: 0;
+}
+
+.themeToggle:hover {
+    background: var(--color-primary);
+    border-color: var(--color-primary);
+    color: #fff;
+    transform: scale(1.1) rotate(15deg);
+}
+
+@media (max-width: 767px) {
+    .topHeader {
+        height: 64px;
+        padding: 0 16px;
+        justify-content: space-between;
+    }
+    .spacer { display: none; }
+    .profileInfo { display: none; }
+    .eliteProfile {
+        gap: 16px;
+        padding: 4px;
+        border: none;
+        background: transparent;
+        box-shadow: none;
+    }
+    .eliteProfile:hover {
+        background: transparent;
+        box-shadow: none;
+        transform: none;
+    }
+    .menuBtn {
+        margin-right: 0;
+    }
+}

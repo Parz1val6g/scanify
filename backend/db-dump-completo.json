@@ -1,0 +1,4096 @@
+{
+  "systemSettings": [
+    {
+      "id": 1,
+      "maintenanceMode": false,
+      "updatedAt": "2026-03-23T16:07:37.954Z"
+    }
+  ],
+  "companies": [
+    {
+      "id": "4106c06e-b0a6-498e-a691-23fe2fc0b227",
+      "name": "Baptista LDA",
+      "location": "Lourosa",
+      "deletedAt": null,
+      "createdAt": "2026-03-23T16:07:37.965Z",
+      "updatedAt": "2026-03-23T16:07:37.965Z",
+      "userId": "88e8b315-b2c3-43dd-96ea-2340962a755b"
+    },
+    {
+      "id": "32e7cefc-29ef-48fc-84ff-af7c0559742e",
+      "name": "Brito e Oliveira",
+      "location": "Reguengos de Monsaraz",
+      "deletedAt": null,
+      "createdAt": "2026-03-23T16:07:37.992Z",
+      "updatedAt": "2026-03-23T16:07:37.992Z",
+      "userId": "abbe2c44-bb83-4fb0-98e5-d0f421234611"
+    },
+    {
+      "id": "0a90c8f8-d856-4388-bf52-e706990c0188",
+      "name": "Nunes SCR",
+      "location": "Mangualde",
+      "deletedAt": null,
+      "createdAt": "2026-03-23T16:07:37.998Z",
+      "updatedAt": "2026-03-23T16:07:37.998Z",
+      "userId": "4fcf055d-160c-4a3a-a20b-7b154571bd26"
+    },
+    {
+      "id": "5739809a-e3a4-4691-a0d3-3fe5dcbaad1e",
+      "name": "Araújo SCR",
+      "location": "Barcelos",
+      "deletedAt": null,
+      "createdAt": "2026-03-23T16:07:38.001Z",
+      "updatedAt": "2026-03-23T16:07:38.001Z",
+      "userId": "0d354bb9-cfa5-479a-9613-acd4bd5b1570"
+    },
+    {
+      "id": "4862fec2-62f4-4584-affa-3a2f69004d23",
+      "name": "Santos e Maia",
+      "location": "Castelo Branco",
+      "deletedAt": null,
+      "createdAt": "2026-03-23T16:07:38.012Z",
+      "updatedAt": "2026-03-23T16:07:38.012Z",
+      "userId": "78bbdfad-96c6-44de-a1ba-d1b1b3e50870"
+    },
+    {
+      "id": "e299f4a3-3e62-4275-b5e5-193b2b987be6",
+      "name": "Moreira e Henriques",
+      "location": "Fiães",
+      "deletedAt": null,
+      "createdAt": "2026-03-23T16:07:38.016Z",
+      "updatedAt": "2026-03-23T16:07:38.016Z",
+      "userId": "39ca61c6-453b-4f78-8458-52f2f46f7f83"
+    },
+    {
+      "id": "5ccf2380-892a-4838-86e2-490ad5caf73d",
+      "name": "Leal e Santos",
+      "location": "Fundão",
+      "deletedAt": null,
+      "createdAt": "2026-03-23T16:07:38.021Z",
+      "updatedAt": "2026-03-23T16:07:38.021Z",
+      "userId": "7e72a11b-f1b3-4896-8de1-4de664e02f94"
+    },
+    {
+      "id": "0874eab4-1410-4c12-bd85-779ac38564d2",
+      "name": "Morais EI",
+      "location": "Lourosa",
+      "deletedAt": null,
+      "createdAt": "2026-03-23T16:07:38.026Z",
+      "updatedAt": "2026-03-23T16:07:38.026Z",
+      "userId": "d04bdde6-fe29-470b-a71f-661602000f51"
+    },
+    {
+      "id": "80540f11-d997-426c-accb-fd54587ed78a",
+      "name": "Pereira e Nobre",
+      "location": "Mêda",
+      "deletedAt": null,
+      "createdAt": "2026-03-23T16:07:38.029Z",
+      "updatedAt": "2026-03-23T16:07:38.029Z",
+      "userId": "aec128a1-5a35-4ca8-8dfe-762dc6d33731"
+    },
+    {
+      "id": "aa295bca-b273-4e73-aae7-1ffb39ef24ae",
+      "name": "Veiga e Jesus",
+      "location": "Almada",
+      "deletedAt": null,
+      "createdAt": "2026-03-23T16:07:38.034Z",
+      "updatedAt": "2026-03-23T16:07:38.034Z",
+      "userId": "04e4260b-2ba8-4b2e-b855-e13311404732"
+    },
+    {
+      "id": "0fe89f1a-602d-423c-b4c4-5185d702e6e6",
+      "name": "Nunes e Ribeiro",
+      "location": "Fátima",
+      "deletedAt": null,
+      "createdAt": "2026-03-23T16:07:38.038Z",
+      "updatedAt": "2026-03-23T16:07:38.038Z",
+      "userId": "ddca7594-0be7-43f1-a2d4-8a2b7e095c9b"
+    },
+    {
+      "id": "d86efc8f-7914-4819-ade9-ac4b58f54887",
+      "name": "Neves SCR",
+      "location": "Moura",
+      "deletedAt": null,
+      "createdAt": "2026-03-23T16:07:38.045Z",
+      "updatedAt": "2026-03-23T16:07:38.045Z",
+      "userId": "6b3072c1-721b-4db1-9920-8f05f045eaf7"
+    },
+    {
+      "id": "29a91a06-9f81-48d3-a89b-3fbec921b283",
+      "name": "Rodrigues SA",
+      "location": "Bragança",
+      "deletedAt": null,
+      "createdAt": "2026-03-23T16:07:38.048Z",
+      "updatedAt": "2026-03-23T16:07:38.048Z",
+      "userId": "14688103-884e-4a66-bf54-62aa387393be"
+    },
+    {
+      "id": "6f048ecc-937e-4ecd-bb70-42e03339178d",
+      "name": "Pinho SCR",
+      "location": "Estremoz",
+      "deletedAt": null,
+      "createdAt": "2026-03-23T16:07:38.051Z",
+      "updatedAt": "2026-03-23T16:07:38.051Z",
+      "userId": "96dc51b2-15dd-430f-88d0-c4b807953f4d"
+    },
+    {
+      "id": "2679bf99-f69f-4058-8419-d7d965c30468",
+      "name": "Silva e Reis",
+      "location": "Beja",
+      "deletedAt": null,
+      "createdAt": "2026-03-23T16:07:38.054Z",
+      "updatedAt": "2026-03-23T16:07:38.054Z",
+      "userId": "011a1bc1-299e-4b60-93c0-9ac6dbdb32d3"
+    },
+    {
+      "id": "f862ce98-0d1d-41ee-8ebb-549346241e42",
+      "name": "Sá EI",
+      "location": "Vale de Cambra",
+      "deletedAt": null,
+      "createdAt": "2026-03-23T16:07:38.061Z",
+      "updatedAt": "2026-03-23T16:07:38.061Z",
+      "userId": "ce58d7cf-5a3a-418b-8bc2-a8a483ad64df"
+    },
+    {
+      "id": "355e4ee9-ac77-4092-b2e6-3bf85a664e16",
+      "name": "Antunes e Castro",
+      "location": "Póvoa de Varzim",
+      "deletedAt": null,
+      "createdAt": "2026-03-23T16:07:38.065Z",
+      "updatedAt": "2026-03-23T16:07:38.065Z",
+      "userId": "cce4da2f-3636-4f17-a0f6-05b9ac1f1e97"
+    },
+    {
+      "id": "31177e36-ad60-4f9b-888a-c196c22cc8d5",
+      "name": "Correia EI",
+      "location": "Vila Real de Santo António",
+      "deletedAt": null,
+      "createdAt": "2026-03-23T16:07:38.068Z",
+      "updatedAt": "2026-03-23T16:07:38.068Z",
+      "userId": "661b4ae2-9a54-4f95-9008-0d72dbc0b56a"
+    },
+    {
+      "id": "801a3be7-71b6-4f84-8083-d4d8f78437c7",
+      "name": "Abreu SCR",
+      "location": "Rebordosa",
+      "deletedAt": null,
+      "createdAt": "2026-03-23T16:07:38.070Z",
+      "updatedAt": "2026-03-23T16:07:38.070Z",
+      "userId": "0043e235-b097-4beb-a592-1241f3009085"
+    },
+    {
+      "id": "09388985-047c-465e-a622-2ddf67ef7d8a",
+      "name": "Machado SCR",
+      "location": "Faro",
+      "deletedAt": null,
+      "createdAt": "2026-03-23T16:07:38.073Z",
+      "updatedAt": "2026-03-23T16:07:38.073Z",
+      "userId": "14b63c6b-72c5-4d09-b4e9-9d89e9d61c6c"
+    },
+    {
+      "id": "a050ca02-3917-4ae8-b5ab-0bdb244d7c69",
+      "name": "Costa e Nascimento",
+      "location": "Sabugal",
+      "deletedAt": null,
+      "createdAt": "2026-03-23T16:07:38.076Z",
+      "updatedAt": "2026-03-23T16:07:38.076Z",
+      "userId": "a74ab0ce-8c22-490a-9652-e28dff6e90c2"
+    },
+    {
+      "id": "aea08112-cc9e-4163-a71b-b048fd7f9b59",
+      "name": "Reis e Pinheiro",
+      "location": "Águeda",
+      "deletedAt": null,
+      "createdAt": "2026-03-23T16:07:38.079Z",
+      "updatedAt": "2026-03-23T16:07:38.079Z",
+      "userId": "e43572df-ab21-440d-98ad-9bf0d735026c"
+    },
+    {
+      "id": "8a36f97b-6beb-4fad-9abf-74961de63576",
+      "name": "Santos LDA",
+      "location": "Lamego",
+      "deletedAt": null,
+      "createdAt": "2026-03-23T16:07:38.081Z",
+      "updatedAt": "2026-03-23T16:07:38.081Z",
+      "userId": "ef7fc149-dfd3-4185-913b-a43694a3dee5"
+    },
+    {
+      "id": "e6145587-22fd-46e8-9c8d-15ce980a7514",
+      "name": "Pinto e Simões",
+      "location": "Ponte de Sor",
+      "deletedAt": null,
+      "createdAt": "2026-03-23T16:07:38.083Z",
+      "updatedAt": "2026-03-23T16:07:38.083Z",
+      "userId": "3c852b1e-49c5-449e-aac8-c78e139afb90"
+    },
+    {
+      "id": "0aa99b51-d97b-4556-8041-2334833a16c9",
+      "name": "Cardoso e Silva",
+      "location": "Seixal",
+      "deletedAt": null,
+      "createdAt": "2026-03-23T16:07:38.088Z",
+      "updatedAt": "2026-03-23T16:07:38.088Z",
+      "userId": "6c74f7d7-144a-424b-8bd4-26a1af106a7a"
+    }
+  ],
+  "users": [
+    {
+      "id": "d04bdde6-fe29-470b-a71f-661602000f51",
+      "email": "admin_7@verdadeiro-cafe.com",
+      "password": "$2b$10$PgTl3wFnCpcZnjVLF8CqUOtb/tNLoH3dYedJuCjKuERv99OPfNshG",
+      "firstName": "Samuel",
+      "lastName": "Teixeira",
+      "role": "COMPANY_ADMIN",
+      "status": "ACTIVE",
+      "companyId": "0874eab4-1410-4c12-bd85-779ac38564d2",
+      "deletedAt": null,
+      "createdAt": "2026-03-23T16:07:38.025Z",
+      "updatedAt": "2026-03-23T16:07:38.027Z"
+    },
+    {
+      "id": "aec128a1-5a35-4ca8-8dfe-762dc6d33731",
+      "email": "admin_8@novo-braco.org",
+      "password": "$2b$10$PgTl3wFnCpcZnjVLF8CqUOtb/tNLoH3dYedJuCjKuERv99OPfNshG",
+      "firstName": "Eva",
+      "lastName": "Saraiva",
+      "role": "COMPANY_ADMIN",
+      "status": "ACTIVE",
+      "companyId": "80540f11-d997-426c-accb-fd54587ed78a",
+      "deletedAt": null,
+      "createdAt": "2026-03-23T16:07:38.029Z",
+      "updatedAt": "2026-03-23T16:07:38.031Z"
+    },
+    {
+      "id": "04e4260b-2ba8-4b2e-b855-e13311404732",
+      "email": "admin_9@gasoso-chave.eu",
+      "password": "$2b$10$PgTl3wFnCpcZnjVLF8CqUOtb/tNLoH3dYedJuCjKuERv99OPfNshG",
+      "firstName": "Clara",
+      "lastName": "Rocha",
+      "role": "COMPANY_ADMIN",
+      "status": "ACTIVE",
+      "companyId": "aa295bca-b273-4e73-aae7-1ffb39ef24ae",
+      "deletedAt": null,
+      "createdAt": "2026-03-23T16:07:38.033Z",
+      "updatedAt": "2026-03-23T16:07:38.036Z"
+    },
+    {
+      "id": "ddca7594-0be7-43f1-a2d4-8a2b7e095c9b",
+      "email": "admin_10@dificil-gaveta.com",
+      "password": "$2b$10$PgTl3wFnCpcZnjVLF8CqUOtb/tNLoH3dYedJuCjKuERv99OPfNshG",
+      "firstName": "Rodrigo",
+      "lastName": "Teixeira",
+      "role": "COMPANY_ADMIN",
+      "status": "SUSPENDED",
+      "companyId": "0fe89f1a-602d-423c-b4c4-5185d702e6e6",
+      "deletedAt": null,
+      "createdAt": "2026-03-23T16:07:38.037Z",
+      "updatedAt": "2026-03-23T16:07:38.042Z"
+    },
+    {
+      "id": "6b3072c1-721b-4db1-9920-8f05f045eaf7",
+      "email": "admin_11@colorido-vento.gov.pt",
+      "password": "$2b$10$PgTl3wFnCpcZnjVLF8CqUOtb/tNLoH3dYedJuCjKuERv99OPfNshG",
+      "firstName": "André",
+      "lastName": "Sousa",
+      "role": "COMPANY_ADMIN",
+      "status": "ACTIVE",
+      "companyId": "d86efc8f-7914-4819-ade9-ac4b58f54887",
+      "deletedAt": null,
+      "createdAt": "2026-03-23T16:07:38.044Z",
+      "updatedAt": "2026-03-23T16:07:38.046Z"
+    },
+    {
+      "id": "2fc9090f-1bff-4064-8e6d-1eff536a66aa",
+      "email": "admin@scanify.com",
+      "password": "$2b$10$PgTl3wFnCpcZnjVLF8CqUOtb/tNLoH3dYedJuCjKuERv99OPfNshG",
+      "firstName": "Joel",
+      "lastName": "Martins",
+      "role": "SUPER_ADMIN",
+      "status": "ACTIVE",
+      "companyId": null,
+      "deletedAt": null,
+      "createdAt": "2026-03-23T16:07:37.958Z",
+      "updatedAt": "2026-03-23T16:07:37.958Z"
+    },
+    {
+      "id": "88e8b315-b2c3-43dd-96ea-2340962a755b",
+      "email": "admin_0@gasoso-homem.pt",
+      "password": "$2b$10$PgTl3wFnCpcZnjVLF8CqUOtb/tNLoH3dYedJuCjKuERv99OPfNshG",
+      "firstName": "Gustavo",
+      "lastName": "Monteiro",
+      "role": "COMPANY_ADMIN",
+      "status": "SUSPENDED",
+      "companyId": "4106c06e-b0a6-498e-a691-23fe2fc0b227",
+      "deletedAt": null,
+      "createdAt": "2026-03-23T16:07:37.963Z",
+      "updatedAt": "2026-03-23T16:07:37.967Z"
+    },
+    {
+      "id": "abbe2c44-bb83-4fb0-98e5-d0f421234611",
+      "email": "admin_1@pesado-email.org.pt",
+      "password": "$2b$10$PgTl3wFnCpcZnjVLF8CqUOtb/tNLoH3dYedJuCjKuERv99OPfNshG",
+      "firstName": "Dinis",
+      "lastName": "Macedo",
+      "role": "COMPANY_ADMIN",
+      "status": "ACTIVE",
+      "companyId": "32e7cefc-29ef-48fc-84ff-af7c0559742e",
+      "deletedAt": null,
+      "createdAt": "2026-03-23T16:07:37.981Z",
+      "updatedAt": "2026-03-23T16:07:37.996Z"
+    },
+    {
+      "id": "4fcf055d-160c-4a3a-a20b-7b154571bd26",
+      "email": "admin_2@destrutivo-senha.biz",
+      "password": "$2b$10$PgTl3wFnCpcZnjVLF8CqUOtb/tNLoH3dYedJuCjKuERv99OPfNshG",
+      "firstName": "Eva",
+      "lastName": "Fraga",
+      "role": "COMPANY_ADMIN",
+      "status": "SUSPENDED",
+      "companyId": "0a90c8f8-d856-4388-bf52-e706990c0188",
+      "deletedAt": null,
+      "createdAt": "2026-03-23T16:07:37.997Z",
+      "updatedAt": "2026-03-23T16:07:37.999Z"
+    },
+    {
+      "id": "0d354bb9-cfa5-479a-9613-acd4bd5b1570",
+      "email": "admin_3@desonesto-olho.gov.pt",
+      "password": "$2b$10$PgTl3wFnCpcZnjVLF8CqUOtb/tNLoH3dYedJuCjKuERv99OPfNshG",
+      "firstName": "Soraia",
+      "lastName": "Braga",
+      "role": "COMPANY_ADMIN",
+      "status": "ACTIVE",
+      "companyId": "5739809a-e3a4-4691-a0d3-3fe5dcbaad1e",
+      "deletedAt": null,
+      "createdAt": "2026-03-23T16:07:38.000Z",
+      "updatedAt": "2026-03-23T16:07:38.005Z"
+    },
+    {
+      "id": "78bbdfad-96c6-44de-a1ba-d1b1b3e50870",
+      "email": "admin_4@relaxado-urso.com.pt",
+      "password": "$2b$10$PgTl3wFnCpcZnjVLF8CqUOtb/tNLoH3dYedJuCjKuERv99OPfNshG",
+      "firstName": "Bruna",
+      "lastName": "Vaz",
+      "role": "COMPANY_ADMIN",
+      "status": "SUSPENDED",
+      "companyId": "4862fec2-62f4-4584-affa-3a2f69004d23",
+      "deletedAt": null,
+      "createdAt": "2026-03-23T16:07:38.010Z",
+      "updatedAt": "2026-03-23T16:07:38.013Z"
+    },
+    {
+      "id": "39ca61c6-453b-4f78-8458-52f2f46f7f83",
+      "email": "admin_5@aberto-constituicao.org.pt",
+      "password": "$2b$10$PgTl3wFnCpcZnjVLF8CqUOtb/tNLoH3dYedJuCjKuERv99OPfNshG",
+      "firstName": "Samuel",
+      "lastName": "Teixeira",
+      "role": "COMPANY_ADMIN",
+      "status": "ACTIVE",
+      "companyId": "e299f4a3-3e62-4275-b5e5-193b2b987be6",
+      "deletedAt": null,
+      "createdAt": "2026-03-23T16:07:38.015Z",
+      "updatedAt": "2026-03-23T16:07:38.016Z"
+    },
+    {
+      "id": "7e72a11b-f1b3-4896-8de1-4de664e02f94",
+      "email": "admin_6@leve-arvore.com.pt",
+      "password": "$2b$10$PgTl3wFnCpcZnjVLF8CqUOtb/tNLoH3dYedJuCjKuERv99OPfNshG",
+      "firstName": "Mariana",
+      "lastName": "Leite",
+      "role": "COMPANY_ADMIN",
+      "status": "ACTIVE",
+      "companyId": "5ccf2380-892a-4838-86e2-490ad5caf73d",
+      "deletedAt": null,
+      "createdAt": "2026-03-23T16:07:38.018Z",
+      "updatedAt": "2026-03-23T16:07:38.021Z"
+    },
+    {
+      "id": "14688103-884e-4a66-bf54-62aa387393be",
+      "email": "admin_12@chato-lei.info",
+      "password": "$2b$10$PgTl3wFnCpcZnjVLF8CqUOtb/tNLoH3dYedJuCjKuERv99OPfNshG",
+      "firstName": "Gaspar",
+      "lastName": "Oliveira",
+      "role": "COMPANY_ADMIN",
+      "status": "ACTIVE",
+      "companyId": "29a91a06-9f81-48d3-a89b-3fbec921b283",
+      "deletedAt": null,
+      "createdAt": "2026-03-23T16:07:38.047Z",
+      "updatedAt": "2026-03-23T16:07:38.049Z"
+    },
+    {
+      "id": "96dc51b2-15dd-430f-88d0-c4b807953f4d",
+      "email": "admin_13@alto-biblioteca.gov.pt",
+      "password": "$2b$10$PgTl3wFnCpcZnjVLF8CqUOtb/tNLoH3dYedJuCjKuERv99OPfNshG",
+      "firstName": "Marcos",
+      "lastName": "Domingues",
+      "role": "COMPANY_ADMIN",
+      "status": "ACTIVE",
+      "companyId": "6f048ecc-937e-4ecd-bb70-42e03339178d",
+      "deletedAt": null,
+      "createdAt": "2026-03-23T16:07:38.050Z",
+      "updatedAt": "2026-03-23T16:07:38.052Z"
+    },
+    {
+      "id": "011a1bc1-299e-4b60-93c0-9ac6dbdb32d3",
+      "email": "admin_14@cansado-neblina.com.pt",
+      "password": "$2b$10$PgTl3wFnCpcZnjVLF8CqUOtb/tNLoH3dYedJuCjKuERv99OPfNshG",
+      "firstName": "Mia",
+      "lastName": "Lopes",
+      "role": "COMPANY_ADMIN",
+      "status": "SUSPENDED",
+      "companyId": "2679bf99-f69f-4058-8419-d7d965c30468",
+      "deletedAt": null,
+      "createdAt": "2026-03-23T16:07:38.053Z",
+      "updatedAt": "2026-03-23T16:07:38.057Z"
+    },
+    {
+      "id": "ce58d7cf-5a3a-418b-8bc2-a8a483ad64df",
+      "email": "admin_15@honesto-brinquedo.name",
+      "password": "$2b$10$PgTl3wFnCpcZnjVLF8CqUOtb/tNLoH3dYedJuCjKuERv99OPfNshG",
+      "firstName": "Vicente",
+      "lastName": "Paiva",
+      "role": "COMPANY_ADMIN",
+      "status": "ACTIVE",
+      "companyId": "f862ce98-0d1d-41ee-8ebb-549346241e42",
+      "deletedAt": null,
+      "createdAt": "2026-03-23T16:07:38.059Z",
+      "updatedAt": "2026-03-23T16:07:38.063Z"
+    },
+    {
+      "id": "cce4da2f-3636-4f17-a0f6-05b9ac1f1e97",
+      "email": "admin_16@egoista-cavalo.pt",
+      "password": "$2b$10$PgTl3wFnCpcZnjVLF8CqUOtb/tNLoH3dYedJuCjKuERv99OPfNshG",
+      "firstName": "Valentim",
+      "lastName": "Costa",
+      "role": "COMPANY_ADMIN",
+      "status": "ACTIVE",
+      "companyId": "355e4ee9-ac77-4092-b2e6-3bf85a664e16",
+      "deletedAt": null,
+      "createdAt": "2026-03-23T16:07:38.064Z",
+      "updatedAt": "2026-03-23T16:07:38.066Z"
+    },
+    {
+      "id": "661b4ae2-9a54-4f95-9008-0d72dbc0b56a",
+      "email": "admin_17@seco-papel.com",
+      "password": "$2b$10$PgTl3wFnCpcZnjVLF8CqUOtb/tNLoH3dYedJuCjKuERv99OPfNshG",
+      "firstName": "Irina",
+      "lastName": "Albuquerque",
+      "role": "COMPANY_ADMIN",
+      "status": "ACTIVE",
+      "companyId": "31177e36-ad60-4f9b-888a-c196c22cc8d5",
+      "deletedAt": null,
+      "createdAt": "2026-03-23T16:07:38.067Z",
+      "updatedAt": "2026-03-23T16:07:38.069Z"
+    },
+    {
+      "id": "0043e235-b097-4beb-a592-1241f3009085",
+      "email": "admin_18@disposto-leao.org",
+      "password": "$2b$10$PgTl3wFnCpcZnjVLF8CqUOtb/tNLoH3dYedJuCjKuERv99OPfNshG",
+      "firstName": "Helena",
+      "lastName": "Fraga",
+      "role": "COMPANY_ADMIN",
+      "status": "SUSPENDED",
+      "companyId": "801a3be7-71b6-4f84-8083-d4d8f78437c7",
+      "deletedAt": null,
+      "createdAt": "2026-03-23T16:07:38.070Z",
+      "updatedAt": "2026-03-23T16:07:38.071Z"
+    },
+    {
+      "id": "14b63c6b-72c5-4d09-b4e9-9d89e9d61c6c",
+      "email": "admin_19@feio-engenheiro.com.pt",
+      "password": "$2b$10$PgTl3wFnCpcZnjVLF8CqUOtb/tNLoH3dYedJuCjKuERv99OPfNshG",
+      "firstName": "Carolina",
+      "lastName": "Pereira",
+      "role": "COMPANY_ADMIN",
+      "status": "ACTIVE",
+      "companyId": "09388985-047c-465e-a622-2ddf67ef7d8a",
+      "deletedAt": null,
+      "createdAt": "2026-03-23T16:07:38.072Z",
+      "updatedAt": "2026-03-23T16:07:38.074Z"
+    },
+    {
+      "id": "a74ab0ce-8c22-490a-9652-e28dff6e90c2",
+      "email": "admin_20@novo-cachoeira.name",
+      "password": "$2b$10$PgTl3wFnCpcZnjVLF8CqUOtb/tNLoH3dYedJuCjKuERv99OPfNshG",
+      "firstName": "Carmo",
+      "lastName": "Lacerda",
+      "role": "COMPANY_ADMIN",
+      "status": "ACTIVE",
+      "companyId": "a050ca02-3917-4ae8-b5ab-0bdb244d7c69",
+      "deletedAt": null,
+      "createdAt": "2026-03-23T16:07:38.075Z",
+      "updatedAt": "2026-03-23T16:07:38.077Z"
+    },
+    {
+      "id": "e43572df-ab21-440d-98ad-9bf0d735026c",
+      "email": "admin_21@pobre-mulher.biz",
+      "password": "$2b$10$PgTl3wFnCpcZnjVLF8CqUOtb/tNLoH3dYedJuCjKuERv99OPfNshG",
+      "firstName": "Cristiano",
+      "lastName": "Meireles",
+      "role": "COMPANY_ADMIN",
+      "status": "SUSPENDED",
+      "companyId": "aea08112-cc9e-4163-a71b-b048fd7f9b59",
+      "deletedAt": null,
+      "createdAt": "2026-03-23T16:07:38.078Z",
+      "updatedAt": "2026-03-23T16:07:38.079Z"
+    },
+    {
+      "id": "ef7fc149-dfd3-4185-913b-a43694a3dee5",
+      "email": "admin_22@novo-sangue.gov.pt",
+      "password": "$2b$10$PgTl3wFnCpcZnjVLF8CqUOtb/tNLoH3dYedJuCjKuERv99OPfNshG",
+      "firstName": "Marta",
+      "lastName": "Fernandes",
+      "role": "COMPANY_ADMIN",
+      "status": "ACTIVE",
+      "companyId": "8a36f97b-6beb-4fad-9abf-74961de63576",
+      "deletedAt": null,
+      "createdAt": "2026-03-23T16:07:38.080Z",
+      "updatedAt": "2026-03-23T16:07:38.081Z"
+    },
+    {
+      "id": "3c852b1e-49c5-449e-aac8-c78e139afb90",
+      "email": "admin_23@rigido-data.com.pt",
+      "password": "$2b$10$PgTl3wFnCpcZnjVLF8CqUOtb/tNLoH3dYedJuCjKuERv99OPfNshG",
+      "firstName": "Xavier",
+      "lastName": "Maia",
+      "role": "COMPANY_ADMIN",
+      "status": "ACTIVE",
+      "companyId": "e6145587-22fd-46e8-9c8d-15ce980a7514",
+      "deletedAt": null,
+      "createdAt": "2026-03-23T16:07:38.082Z",
+      "updatedAt": "2026-03-23T16:07:38.085Z"
+    },
+    {
+      "id": "6c74f7d7-144a-424b-8bd4-26a1af106a7a",
+      "email": "admin_24@aspero-tecido.net",
+      "password": "$2b$10$PgTl3wFnCpcZnjVLF8CqUOtb/tNLoH3dYedJuCjKuERv99OPfNshG",
+      "firstName": "Rúben",
+      "lastName": "Pereira",
+      "role": "COMPANY_ADMIN",
+      "status": "ACTIVE",
+      "companyId": "0aa99b51-d97b-4556-8041-2334833a16c9",
+      "deletedAt": null,
+      "createdAt": "2026-03-23T16:07:38.086Z",
+      "updatedAt": "2026-03-23T16:07:38.088Z"
+    },
+    {
+      "id": "a0660744-560e-4475-9f5f-77ee5c186861",
+      "email": "colaborador0_julia.morais53@aeiou.pt",
+      "password": "$2b$10$PgTl3wFnCpcZnjVLF8CqUOtb/tNLoH3dYedJuCjKuERv99OPfNshG",
+      "firstName": "Júlia",
+      "lastName": "Morais",
+      "role": "USER",
+      "status": "ACTIVE",
+      "companyId": "2679bf99-f69f-4058-8419-d7d965c30468",
+      "deletedAt": null,
+      "createdAt": "2026-03-23T16:07:38.092Z",
+      "updatedAt": "2026-03-23T16:07:38.092Z"
+    },
+    {
+      "id": "43943856-efda-4433-a43a-146ac3a71930",
+      "email": "colaborador1_iris.mota@yahoo.com",
+      "password": "$2b$10$PgTl3wFnCpcZnjVLF8CqUOtb/tNLoH3dYedJuCjKuERv99OPfNshG",
+      "firstName": "Íris",
+      "lastName": "Mota",
+      "role": "USER",
+      "status": "ACTIVE",
+      "companyId": "8a36f97b-6beb-4fad-9abf-74961de63576",
+      "deletedAt": null,
+      "createdAt": "2026-03-23T16:07:38.093Z",
+      "updatedAt": "2026-03-23T16:07:38.093Z"
+    },
+    {
+      "id": "c5a76fa8-ea20-4cc6-8d76-7bf5ef175137",
+      "email": "colaborador2_santiago.ramos@sapo.pt",
+      "password": "$2b$10$PgTl3wFnCpcZnjVLF8CqUOtb/tNLoH3dYedJuCjKuERv99OPfNshG",
+      "firstName": "Santiago",
+      "lastName": "Ramos",
+      "role": "USER",
+      "status": "ACTIVE",
+      "companyId": "e299f4a3-3e62-4275-b5e5-193b2b987be6",
+      "deletedAt": null,
+      "createdAt": "2026-03-23T16:07:38.095Z",
+      "updatedAt": "2026-03-23T16:07:38.095Z"
+    },
+    {
+      "id": "76d525b2-ff36-4692-9f43-052f9d2c687a",
+      "email": "colaborador3_martim_azevedo@portugalmail.pt",
+      "password": "$2b$10$PgTl3wFnCpcZnjVLF8CqUOtb/tNLoH3dYedJuCjKuERv99OPfNshG",
+      "firstName": "Martim",
+      "lastName": "Azevedo",
+      "role": "USER",
+      "status": "ACTIVE",
+      "companyId": "4862fec2-62f4-4584-affa-3a2f69004d23",
+      "deletedAt": null,
+      "createdAt": "2026-03-23T16:07:38.096Z",
+      "updatedAt": "2026-03-23T16:07:38.096Z"
+    },
+    {
+      "id": "1dba079f-a87a-4afe-926c-a28901866bac",
+      "email": "colaborador4_micael_assuncao90@mail.pt",
+      "password": "$2b$10$PgTl3wFnCpcZnjVLF8CqUOtb/tNLoH3dYedJuCjKuERv99OPfNshG",
+      "firstName": "Micael",
+      "lastName": "Assunção",
+      "role": "USER",
+      "status": "ACTIVE",
+      "companyId": "6f048ecc-937e-4ecd-bb70-42e03339178d",
+      "deletedAt": null,
+      "createdAt": "2026-03-23T16:07:38.097Z",
+      "updatedAt": "2026-03-23T16:07:38.097Z"
+    },
+    {
+      "id": "f2f0f6ff-2d97-40fe-9948-643c59ad1d43",
+      "email": "colaborador5_miriam.magalhaes89@hotmail.com",
+      "password": "$2b$10$PgTl3wFnCpcZnjVLF8CqUOtb/tNLoH3dYedJuCjKuERv99OPfNshG",
+      "firstName": "Miriam",
+      "lastName": "Magalhães",
+      "role": "USER",
+      "status": "ACTIVE",
+      "companyId": "32e7cefc-29ef-48fc-84ff-af7c0559742e",
+      "deletedAt": null,
+      "createdAt": "2026-03-23T16:07:38.099Z",
+      "updatedAt": "2026-03-23T16:07:38.099Z"
+    },
+    {
+      "id": "aa1d8721-7120-4548-90bf-ea7ee846680e",
+      "email": "colaborador6_ivo.paiva21@live.com",
+      "password": "$2b$10$PgTl3wFnCpcZnjVLF8CqUOtb/tNLoH3dYedJuCjKuERv99OPfNshG",
+      "firstName": "Ivo",
+      "lastName": "Paiva",
+      "role": "USER",
+      "status": "ACTIVE",
+      "companyId": "e6145587-22fd-46e8-9c8d-15ce980a7514",
+      "deletedAt": null,
+      "createdAt": "2026-03-23T16:07:38.104Z",
+      "updatedAt": "2026-03-23T16:07:38.104Z"
+    },
+    {
+      "id": "0a29f225-9a13-499f-b21f-7f81b94aa6ba",
+      "email": "colaborador7_tiago_fonseca14@mail.pt",
+      "password": "$2b$10$PgTl3wFnCpcZnjVLF8CqUOtb/tNLoH3dYedJuCjKuERv99OPfNshG",
+      "firstName": "Tiago",
+      "lastName": "Fonseca",
+      "role": "USER",
+      "status": "ACTIVE",
+      "companyId": "355e4ee9-ac77-4092-b2e6-3bf85a664e16",
+      "deletedAt": null,
+      "createdAt": "2026-03-23T16:07:38.105Z",
+      "updatedAt": "2026-03-23T16:07:38.105Z"
+    },
+    {
+      "id": "b817b8d2-2602-48d3-8be5-04b9f800ea3a",
+      "email": "colaborador8_rafaela.monteiro33@aeiou.pt",
+      "password": "$2b$10$PgTl3wFnCpcZnjVLF8CqUOtb/tNLoH3dYedJuCjKuERv99OPfNshG",
+      "firstName": "Rafaela",
+      "lastName": "Monteiro",
+      "role": "USER",
+      "status": "ACTIVE",
+      "companyId": "e299f4a3-3e62-4275-b5e5-193b2b987be6",
+      "deletedAt": null,
+      "createdAt": "2026-03-23T16:07:38.109Z",
+      "updatedAt": "2026-03-23T16:07:38.109Z"
+    },
+    {
+      "id": "c2499b0d-8785-4d8a-84aa-2a98051bbe42",
+      "email": "colaborador9_clara_amorim@mail.pt",
+      "password": "$2b$10$PgTl3wFnCpcZnjVLF8CqUOtb/tNLoH3dYedJuCjKuERv99OPfNshG",
+      "firstName": "Clara",
+      "lastName": "Amorim",
+      "role": "USER",
+      "status": "ACTIVE",
+      "companyId": "e6145587-22fd-46e8-9c8d-15ce980a7514",
+      "deletedAt": null,
+      "createdAt": "2026-03-23T16:07:38.111Z",
+      "updatedAt": "2026-03-23T16:07:38.111Z"
+    },
+    {
+      "id": "1d4f9ca8-c740-421b-a116-33695b0be7f5",
+      "email": "colaborador10_flor_simoes@sapo.pt",
+      "password": "$2b$10$PgTl3wFnCpcZnjVLF8CqUOtb/tNLoH3dYedJuCjKuERv99OPfNshG",
+      "firstName": "Flor",
+      "lastName": "Simões",
+      "role": "USER",
+      "status": "ACTIVE",
+      "companyId": "5ccf2380-892a-4838-86e2-490ad5caf73d",
+      "deletedAt": null,
+      "createdAt": "2026-03-23T16:07:38.125Z",
+      "updatedAt": "2026-03-23T16:07:38.125Z"
+    },
+    {
+      "id": "f02155be-c86c-4b9f-91ec-01b7e2e7ed1d",
+      "email": "colaborador11_benjamim.goncalves@hotmail.com",
+      "password": "$2b$10$PgTl3wFnCpcZnjVLF8CqUOtb/tNLoH3dYedJuCjKuERv99OPfNshG",
+      "firstName": "Benjamim",
+      "lastName": "Gonçalves",
+      "role": "USER",
+      "status": "ACTIVE",
+      "companyId": "5ccf2380-892a-4838-86e2-490ad5caf73d",
+      "deletedAt": null,
+      "createdAt": "2026-03-23T16:07:38.147Z",
+      "updatedAt": "2026-03-23T16:07:38.147Z"
+    },
+    {
+      "id": "e9ed290b-b76f-4a3d-938c-bcb1afca2c51",
+      "email": "colaborador12_frederico.tavares59@gmail.com",
+      "password": "$2b$10$PgTl3wFnCpcZnjVLF8CqUOtb/tNLoH3dYedJuCjKuERv99OPfNshG",
+      "firstName": "Frederico",
+      "lastName": "Tavares",
+      "role": "USER",
+      "status": "ACTIVE",
+      "companyId": "0a90c8f8-d856-4388-bf52-e706990c0188",
+      "deletedAt": null,
+      "createdAt": "2026-03-23T16:07:38.198Z",
+      "updatedAt": "2026-03-23T16:07:38.198Z"
+    },
+    {
+      "id": "7c7f29ec-46b2-4b52-b37f-256d8aaa9ce2",
+      "email": "colaborador13_eva.peixoto60@gmail.com",
+      "password": "$2b$10$PgTl3wFnCpcZnjVLF8CqUOtb/tNLoH3dYedJuCjKuERv99OPfNshG",
+      "firstName": "Eva",
+      "lastName": "Peixoto",
+      "role": "USER",
+      "status": "ACTIVE",
+      "companyId": "e6145587-22fd-46e8-9c8d-15ce980a7514",
+      "deletedAt": null,
+      "createdAt": "2026-03-23T16:07:38.200Z",
+      "updatedAt": "2026-03-23T16:07:38.200Z"
+    },
+    {
+      "id": "c3008e98-f8f3-454d-9208-4a00950af9ba",
+      "email": "colaborador14_luena_monteiro44@mail.pt",
+      "password": "$2b$10$PgTl3wFnCpcZnjVLF8CqUOtb/tNLoH3dYedJuCjKuERv99OPfNshG",
+      "firstName": "Luena",
+      "lastName": "Monteiro",
+      "role": "USER",
+      "status": "ACTIVE",
+      "companyId": "0a90c8f8-d856-4388-bf52-e706990c0188",
+      "deletedAt": null,
+      "createdAt": "2026-03-23T16:07:38.204Z",
+      "updatedAt": "2026-03-23T16:07:38.204Z"
+    },
+    {
+      "id": "560d7c1e-214a-45fe-a56f-f86a03d75b7c",
+      "email": "colaborador15_andre.almeida@mail.pt",
+      "password": "$2b$10$PgTl3wFnCpcZnjVLF8CqUOtb/tNLoH3dYedJuCjKuERv99OPfNshG",
+      "firstName": "André",
+      "lastName": "Almeida",
+      "role": "USER",
+      "status": "ACTIVE",
+      "companyId": "0874eab4-1410-4c12-bd85-779ac38564d2",
+      "deletedAt": null,
+      "createdAt": "2026-03-23T16:07:38.205Z",
+      "updatedAt": "2026-03-23T16:07:38.205Z"
+    },
+    {
+      "id": "6e96a078-1e67-40f3-b0f7-f224218aa856",
+      "email": "colaborador16_luena_loureiro64@mail.pt",
+      "password": "$2b$10$PgTl3wFnCpcZnjVLF8CqUOtb/tNLoH3dYedJuCjKuERv99OPfNshG",
+      "firstName": "Luena",
+      "lastName": "Loureiro",
+      "role": "USER",
+      "status": "ACTIVE",
+      "companyId": "09388985-047c-465e-a622-2ddf67ef7d8a",
+      "deletedAt": null,
+      "createdAt": "2026-03-23T16:07:38.208Z",
+      "updatedAt": "2026-03-23T16:07:38.208Z"
+    },
+    {
+      "id": "b3d7c3c7-ecc8-4d2c-a718-c2e8594c8248",
+      "email": "colaborador17_luana_guerreiro54@mail.pt",
+      "password": "$2b$10$PgTl3wFnCpcZnjVLF8CqUOtb/tNLoH3dYedJuCjKuERv99OPfNshG",
+      "firstName": "Luana",
+      "lastName": "Guerreiro",
+      "role": "USER",
+      "status": "ACTIVE",
+      "companyId": "8a36f97b-6beb-4fad-9abf-74961de63576",
+      "deletedAt": null,
+      "createdAt": "2026-03-23T16:07:38.210Z",
+      "updatedAt": "2026-03-23T16:07:38.210Z"
+    },
+    {
+      "id": "52efb517-4771-482a-903a-6f3fd479919c",
+      "email": "colaborador18_manuel.veiga@mail.pt",
+      "password": "$2b$10$PgTl3wFnCpcZnjVLF8CqUOtb/tNLoH3dYedJuCjKuERv99OPfNshG",
+      "firstName": "Manuel",
+      "lastName": "Veiga",
+      "role": "USER",
+      "status": "ACTIVE",
+      "companyId": "e299f4a3-3e62-4275-b5e5-193b2b987be6",
+      "deletedAt": null,
+      "createdAt": "2026-03-23T16:07:38.212Z",
+      "updatedAt": "2026-03-23T16:07:38.212Z"
+    },
+    {
+      "id": "3b38643c-203b-44d7-be55-62d9fcf87924",
+      "email": "colaborador19_debora_ramos@mail.pt",
+      "password": "$2b$10$PgTl3wFnCpcZnjVLF8CqUOtb/tNLoH3dYedJuCjKuERv99OPfNshG",
+      "firstName": "Débora",
+      "lastName": "Ramos",
+      "role": "USER",
+      "status": "ACTIVE",
+      "companyId": "f862ce98-0d1d-41ee-8ebb-549346241e42",
+      "deletedAt": null,
+      "createdAt": "2026-03-23T16:07:38.213Z",
+      "updatedAt": "2026-03-23T16:07:38.213Z"
+    },
+    {
+      "id": "f282ca7d-b94d-4b29-a775-60e68e8087d7",
+      "email": "colaborador20_micael.paiva@yahoo.com",
+      "password": "$2b$10$PgTl3wFnCpcZnjVLF8CqUOtb/tNLoH3dYedJuCjKuERv99OPfNshG",
+      "firstName": "Micael",
+      "lastName": "Paiva",
+      "role": "USER",
+      "status": "ACTIVE",
+      "companyId": "80540f11-d997-426c-accb-fd54587ed78a",
+      "deletedAt": null,
+      "createdAt": "2026-03-23T16:07:38.214Z",
+      "updatedAt": "2026-03-23T16:07:38.214Z"
+    },
+    {
+      "id": "b0111561-ae61-43bf-aec5-ccf621774be4",
+      "email": "colaborador21_matias_paiva54@live.com",
+      "password": "$2b$10$PgTl3wFnCpcZnjVLF8CqUOtb/tNLoH3dYedJuCjKuERv99OPfNshG",
+      "firstName": "Matias",
+      "lastName": "Paiva",
+      "role": "USER",
+      "status": "ACTIVE",
+      "companyId": "f862ce98-0d1d-41ee-8ebb-549346241e42",
+      "deletedAt": null,
+      "createdAt": "2026-03-23T16:07:38.215Z",
+      "updatedAt": "2026-03-23T16:07:38.215Z"
+    },
+    {
+      "id": "d15a47bf-c4a9-4c77-9363-d7a3b4e36d4a",
+      "email": "colaborador22_leticia_jesus@gmail.com",
+      "password": "$2b$10$PgTl3wFnCpcZnjVLF8CqUOtb/tNLoH3dYedJuCjKuERv99OPfNshG",
+      "firstName": "Letícia",
+      "lastName": "Jesus",
+      "role": "USER",
+      "status": "ACTIVE",
+      "companyId": "09388985-047c-465e-a622-2ddf67ef7d8a",
+      "deletedAt": null,
+      "createdAt": "2026-03-23T16:07:38.216Z",
+      "updatedAt": "2026-03-23T16:07:38.216Z"
+    },
+    {
+      "id": "cd713448-acc4-4b5b-999b-9c9e25a1277c",
+      "email": "colaborador23_pedro_henriques@sapo.pt",
+      "password": "$2b$10$PgTl3wFnCpcZnjVLF8CqUOtb/tNLoH3dYedJuCjKuERv99OPfNshG",
+      "firstName": "Pedro",
+      "lastName": "Henriques",
+      "role": "USER",
+      "status": "ACTIVE",
+      "companyId": "aa295bca-b273-4e73-aae7-1ffb39ef24ae",
+      "deletedAt": null,
+      "createdAt": "2026-03-23T16:07:38.217Z",
+      "updatedAt": "2026-03-23T16:07:38.217Z"
+    },
+    {
+      "id": "107a382f-9ea9-40c7-8b2b-7000f30d478e",
+      "email": "colaborador24_lia_lopes@portugalmail.pt",
+      "password": "$2b$10$PgTl3wFnCpcZnjVLF8CqUOtb/tNLoH3dYedJuCjKuERv99OPfNshG",
+      "firstName": "Lia",
+      "lastName": "Lopes",
+      "role": "USER",
+      "status": "ACTIVE",
+      "companyId": "a050ca02-3917-4ae8-b5ab-0bdb244d7c69",
+      "deletedAt": null,
+      "createdAt": "2026-03-23T16:07:38.219Z",
+      "updatedAt": "2026-03-23T16:07:38.219Z"
+    },
+    {
+      "id": "1567eb52-a107-4fa5-9ee2-e17cd84356d9",
+      "email": "colaborador25_marco_fidelis90@mail.pt",
+      "password": "$2b$10$PgTl3wFnCpcZnjVLF8CqUOtb/tNLoH3dYedJuCjKuERv99OPfNshG",
+      "firstName": "Marco",
+      "lastName": "Fidélis",
+      "role": "USER",
+      "status": "ACTIVE",
+      "companyId": "aa295bca-b273-4e73-aae7-1ffb39ef24ae",
+      "deletedAt": null,
+      "createdAt": "2026-03-23T16:07:38.220Z",
+      "updatedAt": "2026-03-23T16:07:38.220Z"
+    },
+    {
+      "id": "f36d702e-9673-4a31-9379-1041d9941c49",
+      "email": "colaborador26_valter.figueiredo72@yahoo.com",
+      "password": "$2b$10$PgTl3wFnCpcZnjVLF8CqUOtb/tNLoH3dYedJuCjKuERv99OPfNshG",
+      "firstName": "Valter",
+      "lastName": "Figueiredo",
+      "role": "USER",
+      "status": "ACTIVE",
+      "companyId": "5739809a-e3a4-4691-a0d3-3fe5dcbaad1e",
+      "deletedAt": null,
+      "createdAt": "2026-03-23T16:07:38.221Z",
+      "updatedAt": "2026-03-23T16:07:38.221Z"
+    },
+    {
+      "id": "9715d47d-f179-4fdc-9603-d44528d7e0bc",
+      "email": "colaborador27_vitoria_correia47@aeiou.pt",
+      "password": "$2b$10$PgTl3wFnCpcZnjVLF8CqUOtb/tNLoH3dYedJuCjKuERv99OPfNshG",
+      "firstName": "Vitória",
+      "lastName": "Correia",
+      "role": "USER",
+      "status": "ACTIVE",
+      "companyId": "f862ce98-0d1d-41ee-8ebb-549346241e42",
+      "deletedAt": null,
+      "createdAt": "2026-03-23T16:07:38.222Z",
+      "updatedAt": "2026-03-23T16:07:38.222Z"
+    },
+    {
+      "id": "490d6816-20b0-4289-b7a6-aa5648dea497",
+      "email": "colaborador28_francisca_maia@aeiou.pt",
+      "password": "$2b$10$PgTl3wFnCpcZnjVLF8CqUOtb/tNLoH3dYedJuCjKuERv99OPfNshG",
+      "firstName": "Francisca",
+      "lastName": "Maia",
+      "role": "USER",
+      "status": "ACTIVE",
+      "companyId": "0aa99b51-d97b-4556-8041-2334833a16c9",
+      "deletedAt": null,
+      "createdAt": "2026-03-23T16:07:38.223Z",
+      "updatedAt": "2026-03-23T16:07:38.223Z"
+    },
+    {
+      "id": "9931b42a-75b7-420c-be46-ea4437039a5d",
+      "email": "colaborador29_natalia.oliva87@yahoo.com",
+      "password": "$2b$10$PgTl3wFnCpcZnjVLF8CqUOtb/tNLoH3dYedJuCjKuERv99OPfNshG",
+      "firstName": "Natália",
+      "lastName": "Oliva",
+      "role": "USER",
+      "status": "ACTIVE",
+      "companyId": "29a91a06-9f81-48d3-a89b-3fbec921b283",
+      "deletedAt": null,
+      "createdAt": "2026-03-23T16:07:38.225Z",
+      "updatedAt": "2026-03-23T16:07:38.225Z"
+    },
+    {
+      "id": "51c5c93c-d945-4925-aace-0afea8dd9ff2",
+      "email": "colaborador30_emilia_freitas16@mail.pt",
+      "password": "$2b$10$PgTl3wFnCpcZnjVLF8CqUOtb/tNLoH3dYedJuCjKuERv99OPfNshG",
+      "firstName": "Emília",
+      "lastName": "Freitas",
+      "role": "USER",
+      "status": "ACTIVE",
+      "companyId": "0a90c8f8-d856-4388-bf52-e706990c0188",
+      "deletedAt": null,
+      "createdAt": "2026-03-23T16:07:38.227Z",
+      "updatedAt": "2026-03-23T16:07:38.227Z"
+    },
+    {
+      "id": "bd6b378e-40d4-4690-9e6b-ae985ecb27bc",
+      "email": "colaborador31_goncalo.batista@live.com",
+      "password": "$2b$10$PgTl3wFnCpcZnjVLF8CqUOtb/tNLoH3dYedJuCjKuERv99OPfNshG",
+      "firstName": "Gonçalo",
+      "lastName": "Batista",
+      "role": "USER",
+      "status": "ACTIVE",
+      "companyId": "8a36f97b-6beb-4fad-9abf-74961de63576",
+      "deletedAt": null,
+      "createdAt": "2026-03-23T16:07:38.228Z",
+      "updatedAt": "2026-03-23T16:07:38.228Z"
+    },
+    {
+      "id": "de7ce6b0-5b3a-4d17-969e-cf752a59e1e9",
+      "email": "colaborador32_igor_pires@aeiou.pt",
+      "password": "$2b$10$PgTl3wFnCpcZnjVLF8CqUOtb/tNLoH3dYedJuCjKuERv99OPfNshG",
+      "firstName": "Igor",
+      "lastName": "Pires",
+      "role": "USER",
+      "status": "ACTIVE",
+      "companyId": "e6145587-22fd-46e8-9c8d-15ce980a7514",
+      "deletedAt": null,
+      "createdAt": "2026-03-23T16:07:38.229Z",
+      "updatedAt": "2026-03-23T16:07:38.229Z"
+    },
+    {
+      "id": "0d9db618-34ed-4afa-8906-7edcb8d34f81",
+      "email": "colaborador33_ana_fonseca@live.com",
+      "password": "$2b$10$PgTl3wFnCpcZnjVLF8CqUOtb/tNLoH3dYedJuCjKuERv99OPfNshG",
+      "firstName": "Ana",
+      "lastName": "Fonseca",
+      "role": "USER",
+      "status": "ACTIVE",
+      "companyId": "8a36f97b-6beb-4fad-9abf-74961de63576",
+      "deletedAt": null,
+      "createdAt": "2026-03-23T16:07:38.229Z",
+      "updatedAt": "2026-03-23T16:07:38.229Z"
+    },
+    {
+      "id": "4cb2b4f8-d55b-4fa7-aabb-d9fde023bf86",
+      "email": "colaborador34_mario.cardoso6@outlook.com",
+      "password": "$2b$10$PgTl3wFnCpcZnjVLF8CqUOtb/tNLoH3dYedJuCjKuERv99OPfNshG",
+      "firstName": "Mário",
+      "lastName": "Cardoso",
+      "role": "USER",
+      "status": "ACTIVE",
+      "companyId": "32e7cefc-29ef-48fc-84ff-af7c0559742e",
+      "deletedAt": null,
+      "createdAt": "2026-03-23T16:07:38.230Z",
+      "updatedAt": "2026-03-23T16:07:38.230Z"
+    },
+    {
+      "id": "5b3db190-31f9-4d0b-aca1-9f70ad1bebe9",
+      "email": "colaborador35_frederico_lourenco63@hotmail.com",
+      "password": "$2b$10$PgTl3wFnCpcZnjVLF8CqUOtb/tNLoH3dYedJuCjKuERv99OPfNshG",
+      "firstName": "Frederico",
+      "lastName": "Lourenço",
+      "role": "USER",
+      "status": "ACTIVE",
+      "companyId": "aea08112-cc9e-4163-a71b-b048fd7f9b59",
+      "deletedAt": null,
+      "createdAt": "2026-03-23T16:07:38.231Z",
+      "updatedAt": "2026-03-23T16:07:38.231Z"
+    },
+    {
+      "id": "454397a7-3ce6-4146-ad8a-fd87a5965c58",
+      "email": "colaborador36_mia.xavier@portugalmail.pt",
+      "password": "$2b$10$PgTl3wFnCpcZnjVLF8CqUOtb/tNLoH3dYedJuCjKuERv99OPfNshG",
+      "firstName": "Mia",
+      "lastName": "Xavier",
+      "role": "USER",
+      "status": "ACTIVE",
+      "companyId": "4106c06e-b0a6-498e-a691-23fe2fc0b227",
+      "deletedAt": null,
+      "createdAt": "2026-03-23T16:07:38.232Z",
+      "updatedAt": "2026-03-23T16:07:38.232Z"
+    },
+    {
+      "id": "d2bb37d2-361c-416c-aa83-5de70e05e97f",
+      "email": "colaborador37_amelia.brito@mail.pt",
+      "password": "$2b$10$PgTl3wFnCpcZnjVLF8CqUOtb/tNLoH3dYedJuCjKuERv99OPfNshG",
+      "firstName": "Amélia",
+      "lastName": "Brito",
+      "role": "USER",
+      "status": "ACTIVE",
+      "companyId": "09388985-047c-465e-a622-2ddf67ef7d8a",
+      "deletedAt": null,
+      "createdAt": "2026-03-23T16:07:38.233Z",
+      "updatedAt": "2026-03-23T16:07:38.233Z"
+    },
+    {
+      "id": "da728b88-3ebf-4841-9fb4-48d765f21069",
+      "email": "colaborador38_andre_serra53@outlook.com",
+      "password": "$2b$10$PgTl3wFnCpcZnjVLF8CqUOtb/tNLoH3dYedJuCjKuERv99OPfNshG",
+      "firstName": "André",
+      "lastName": "Serra",
+      "role": "USER",
+      "status": "ACTIVE",
+      "companyId": "31177e36-ad60-4f9b-888a-c196c22cc8d5",
+      "deletedAt": null,
+      "createdAt": "2026-03-23T16:07:38.234Z",
+      "updatedAt": "2026-03-23T16:07:38.234Z"
+    },
+    {
+      "id": "65a58a79-bebb-4c24-976b-9ebbe47728d7",
+      "email": "colaborador39_sara_ribeiro@portugalmail.pt",
+      "password": "$2b$10$PgTl3wFnCpcZnjVLF8CqUOtb/tNLoH3dYedJuCjKuERv99OPfNshG",
+      "firstName": "Sara",
+      "lastName": "Ribeiro",
+      "role": "USER",
+      "status": "ACTIVE",
+      "companyId": "0fe89f1a-602d-423c-b4c4-5185d702e6e6",
+      "deletedAt": null,
+      "createdAt": "2026-03-23T16:07:38.235Z",
+      "updatedAt": "2026-03-23T16:07:38.235Z"
+    },
+    {
+      "id": "8188391a-23da-49a9-95a7-f82e08758632",
+      "email": "colaborador40_frederica_barbosa@gmail.com",
+      "password": "$2b$10$PgTl3wFnCpcZnjVLF8CqUOtb/tNLoH3dYedJuCjKuERv99OPfNshG",
+      "firstName": "Frederica",
+      "lastName": "Barbosa",
+      "role": "USER",
+      "status": "ACTIVE",
+      "companyId": "31177e36-ad60-4f9b-888a-c196c22cc8d5",
+      "deletedAt": null,
+      "createdAt": "2026-03-23T16:07:38.236Z",
+      "updatedAt": "2026-03-23T16:07:38.236Z"
+    },
+    {
+      "id": "45ce62ee-0413-4653-9dec-a102d615d678",
+      "email": "colaborador41_caetana.costa15@sapo.pt",
+      "password": "$2b$10$PgTl3wFnCpcZnjVLF8CqUOtb/tNLoH3dYedJuCjKuERv99OPfNshG",
+      "firstName": "Caetana",
+      "lastName": "Costa",
+      "role": "USER",
+      "status": "ACTIVE",
+      "companyId": "f862ce98-0d1d-41ee-8ebb-549346241e42",
+      "deletedAt": null,
+      "createdAt": "2026-03-23T16:07:38.237Z",
+      "updatedAt": "2026-03-23T16:07:38.237Z"
+    },
+    {
+      "id": "67f8c6eb-c892-4394-84d8-aaaf2e9fe0ad",
+      "email": "colaborador42_fabiana.lourenco59@hotmail.com",
+      "password": "$2b$10$PgTl3wFnCpcZnjVLF8CqUOtb/tNLoH3dYedJuCjKuERv99OPfNshG",
+      "firstName": "Fabiana",
+      "lastName": "Lourenço",
+      "role": "USER",
+      "status": "ACTIVE",
+      "companyId": "5ccf2380-892a-4838-86e2-490ad5caf73d",
+      "deletedAt": null,
+      "createdAt": "2026-03-23T16:07:38.238Z",
+      "updatedAt": "2026-03-23T16:07:38.238Z"
+    },
+    {
+      "id": "8d0ee3fe-0fde-40c5-b30d-fff0c5adb0f0",
+      "email": "colaborador43_madalena_monteiro@hotmail.com",
+      "password": "$2b$10$PgTl3wFnCpcZnjVLF8CqUOtb/tNLoH3dYedJuCjKuERv99OPfNshG",
+      "firstName": "Madalena",
+      "lastName": "Monteiro",
+      "role": "USER",
+      "status": "ACTIVE",
+      "companyId": "0874eab4-1410-4c12-bd85-779ac38564d2",
+      "deletedAt": null,
+      "createdAt": "2026-03-23T16:07:38.239Z",
+      "updatedAt": "2026-03-23T16:07:38.239Z"
+    },
+    {
+      "id": "e99e5ce6-450f-49ab-9e83-c89c99b14690",
+      "email": "colaborador44_manuel.antunes18@gmail.com",
+      "password": "$2b$10$PgTl3wFnCpcZnjVLF8CqUOtb/tNLoH3dYedJuCjKuERv99OPfNshG",
+      "firstName": "Manuel",
+      "lastName": "Antunes",
+      "role": "USER",
+      "status": "ACTIVE",
+      "companyId": "801a3be7-71b6-4f84-8083-d4d8f78437c7",
+      "deletedAt": null,
+      "createdAt": "2026-03-23T16:07:38.240Z",
+      "updatedAt": "2026-03-23T16:07:38.240Z"
+    },
+    {
+      "id": "34bfd45d-9575-4225-9a2b-ae3ad441d799",
+      "email": "colaborador45_fabiana_ferreira25@outlook.com",
+      "password": "$2b$10$PgTl3wFnCpcZnjVLF8CqUOtb/tNLoH3dYedJuCjKuERv99OPfNshG",
+      "firstName": "Fabiana",
+      "lastName": "Ferreira",
+      "role": "USER",
+      "status": "ACTIVE",
+      "companyId": "31177e36-ad60-4f9b-888a-c196c22cc8d5",
+      "deletedAt": null,
+      "createdAt": "2026-03-23T16:07:38.242Z",
+      "updatedAt": "2026-03-23T16:07:38.242Z"
+    },
+    {
+      "id": "bbb150d0-e977-4c22-97e8-c26bb4a75b8d",
+      "email": "colaborador46_madalena.pacheco34@mail.pt",
+      "password": "$2b$10$PgTl3wFnCpcZnjVLF8CqUOtb/tNLoH3dYedJuCjKuERv99OPfNshG",
+      "firstName": "Madalena",
+      "lastName": "Pacheco",
+      "role": "USER",
+      "status": "ACTIVE",
+      "companyId": "4862fec2-62f4-4584-affa-3a2f69004d23",
+      "deletedAt": null,
+      "createdAt": "2026-03-23T16:07:38.243Z",
+      "updatedAt": "2026-03-23T16:07:38.243Z"
+    },
+    {
+      "id": "e0983a09-5ea5-40b3-9e3f-8c789fb9213d",
+      "email": "colaborador47_aurora_vieira58@portugalmail.pt",
+      "password": "$2b$10$PgTl3wFnCpcZnjVLF8CqUOtb/tNLoH3dYedJuCjKuERv99OPfNshG",
+      "firstName": "Aurora",
+      "lastName": "Vieira",
+      "role": "USER",
+      "status": "ACTIVE",
+      "companyId": "f862ce98-0d1d-41ee-8ebb-549346241e42",
+      "deletedAt": null,
+      "createdAt": "2026-03-23T16:07:38.244Z",
+      "updatedAt": "2026-03-23T16:07:38.244Z"
+    },
+    {
+      "id": "9eaa34bc-99d7-47ed-b34a-cd7ba3a6ea9b",
+      "email": "colaborador48_ofelia_melo62@hotmail.com",
+      "password": "$2b$10$PgTl3wFnCpcZnjVLF8CqUOtb/tNLoH3dYedJuCjKuERv99OPfNshG",
+      "firstName": "Ofélia",
+      "lastName": "Melo",
+      "role": "USER",
+      "status": "ACTIVE",
+      "companyId": "4862fec2-62f4-4584-affa-3a2f69004d23",
+      "deletedAt": null,
+      "createdAt": "2026-03-23T16:07:38.245Z",
+      "updatedAt": "2026-03-23T16:07:38.245Z"
+    },
+    {
+      "id": "86db1f9a-b816-43c4-9525-8433333165ec",
+      "email": "colaborador49_rafael_medeiros10@live.com",
+      "password": "$2b$10$PgTl3wFnCpcZnjVLF8CqUOtb/tNLoH3dYedJuCjKuERv99OPfNshG",
+      "firstName": "Rafael",
+      "lastName": "Medeiros",
+      "role": "USER",
+      "status": "ACTIVE",
+      "companyId": "31177e36-ad60-4f9b-888a-c196c22cc8d5",
+      "deletedAt": null,
+      "createdAt": "2026-03-23T16:07:38.246Z",
+      "updatedAt": "2026-03-23T16:07:38.246Z"
+    }
+  ],
+  "invoices": [
+    {
+      "id": "e163bea0-5cc5-4d05-98e7-ffb3efed5d50",
+      "value": "3702.77",
+      "description": "Chapéu Linda de Aço",
+      "date": "2026-02-11T22:08:57.676Z",
+      "nif": "151182415",
+      "status": "PAID",
+      "imagePath": null,
+      "userId": "aa1d8721-7120-4548-90bf-ea7ee846680e",
+      "companyId": "e6145587-22fd-46e8-9c8d-15ce980a7514",
+      "clonedFromId": null,
+      "deletedAt": null,
+      "createdAt": "2026-03-23T16:07:38.249Z",
+      "updatedAt": "2026-03-23T16:07:38.249Z"
+    },
+    {
+      "id": "20ffc8de-3615-44ed-84ec-8d7d96dd2fe2",
+      "value": "2651.24",
+      "description": "Queijo Sem Marca de Fresco",
+      "date": "2026-02-18T02:16:47.612Z",
+      "nif": "658194653",
+      "status": "PENDING",
+      "imagePath": null,
+      "userId": "7c7f29ec-46b2-4b52-b37f-256d8aaa9ce2",
+      "companyId": "e6145587-22fd-46e8-9c8d-15ce980a7514",
+      "clonedFromId": null,
+      "deletedAt": null,
+      "createdAt": "2026-03-23T16:07:38.254Z",
+      "updatedAt": "2026-03-23T16:07:38.254Z"
+    },
+    {
+      "id": "06d6b79b-142c-4a95-a385-fe9e9581cbb9",
+      "value": "2247.2",
+      "description": "Pizza Rústico de Plástico",
+      "date": "2026-01-30T06:39:35.135Z",
+      "nif": "581028679",
+      "status": "PAID",
+      "imagePath": null,
+      "userId": "1dba079f-a87a-4afe-926c-a28901866bac",
+      "companyId": "6f048ecc-937e-4ecd-bb70-42e03339178d",
+      "clonedFromId": null,
+      "deletedAt": null,
+      "createdAt": "2026-03-23T16:07:38.255Z",
+      "updatedAt": "2026-03-23T16:07:38.255Z"
+    },
+    {
+      "id": "dd866c52-3540-4636-af21-b86766d8b9ba",
+      "value": "3741.97",
+      "description": "Calças Linda de Betão",
+      "date": "2026-02-07T09:42:41.728Z",
+      "nif": "557631458",
+      "status": "REJECTED",
+      "imagePath": null,
+      "userId": "65a58a79-bebb-4c24-976b-9ebbe47728d7",
+      "companyId": "0fe89f1a-602d-423c-b4c4-5185d702e6e6",
+      "clonedFromId": null,
+      "deletedAt": null,
+      "createdAt": "2026-03-23T16:07:38.257Z",
+      "updatedAt": "2026-03-23T16:07:38.257Z"
+    },
+    {
+      "id": "40d6ace3-74f6-487b-9c0f-6bf4fd9a30d5",
+      "value": "375.69",
+      "description": "Calças Linda de Congelado",
+      "date": "2026-01-15T09:13:29.909Z",
+      "nif": "317075973",
+      "status": "REJECTED",
+      "imagePath": null,
+      "userId": "7c7f29ec-46b2-4b52-b37f-256d8aaa9ce2",
+      "companyId": "e6145587-22fd-46e8-9c8d-15ce980a7514",
+      "clonedFromId": null,
+      "deletedAt": null,
+      "createdAt": "2026-03-23T16:07:38.259Z",
+      "updatedAt": "2026-03-23T16:07:38.259Z"
+    },
+    {
+      "id": "424f9160-6d97-4f74-9f72-6bed9f0f38ec",
+      "value": "478.67",
+      "description": "Batatas Fritas Impressionante de Metal",
+      "date": "2026-03-09T22:41:44.705Z",
+      "nif": "494703225",
+      "status": "PAID",
+      "imagePath": null,
+      "userId": "e0983a09-5ea5-40b3-9e3f-8c789fb9213d",
+      "companyId": "f862ce98-0d1d-41ee-8ebb-549346241e42",
+      "clonedFromId": null,
+      "deletedAt": null,
+      "createdAt": "2026-03-23T16:07:38.260Z",
+      "updatedAt": "2026-03-23T16:07:38.260Z"
+    },
+    {
+      "id": "da6f5e78-f0a4-447c-b81a-fe8dc393f930",
+      "value": "1759.11",
+      "description": "Bicicleta Sem Marca de Granito",
+      "date": "2026-02-23T18:17:33.258Z",
+      "nif": "357277992",
+      "status": "PAID",
+      "imagePath": null,
+      "userId": "0a29f225-9a13-499f-b21f-7f81b94aa6ba",
+      "companyId": "355e4ee9-ac77-4092-b2e6-3bf85a664e16",
+      "clonedFromId": null,
+      "deletedAt": null,
+      "createdAt": "2026-03-23T16:07:38.261Z",
+      "updatedAt": "2026-03-23T16:07:38.261Z"
+    },
+    {
+      "id": "c4c0ed60-60c3-4ad1-9592-c90c7b9cbb41",
+      "value": "2138.68",
+      "description": "Sabonete Licenciado de Metal",
+      "date": "2026-02-17T14:14:20.958Z",
+      "nif": "744905349",
+      "status": "PAID",
+      "imagePath": null,
+      "userId": "d2bb37d2-361c-416c-aa83-5de70e05e97f",
+      "companyId": "09388985-047c-465e-a622-2ddf67ef7d8a",
+      "clonedFromId": null,
+      "deletedAt": null,
+      "createdAt": "2026-03-23T16:07:38.262Z",
+      "updatedAt": "2026-03-23T16:07:38.262Z"
+    },
+    {
+      "id": "9a3b2ca0-955a-4722-9738-20f05318371f",
+      "value": "4156.02",
+      "description": "Toalhas Inteligente de Madeira",
+      "date": "2026-02-14T10:58:32.276Z",
+      "nif": "910345898",
+      "status": "PENDING",
+      "imagePath": null,
+      "userId": "1dba079f-a87a-4afe-926c-a28901866bac",
+      "companyId": "6f048ecc-937e-4ecd-bb70-42e03339178d",
+      "clonedFromId": null,
+      "deletedAt": null,
+      "createdAt": "2026-03-23T16:07:38.263Z",
+      "updatedAt": "2026-03-23T16:07:38.263Z"
+    },
+    {
+      "id": "164b9397-68c3-44da-a92b-89023298322e",
+      "value": "3449.37",
+      "description": "Queijo Fantástico de Madeira",
+      "date": "2025-12-31T00:23:27.201Z",
+      "nif": "313939813",
+      "status": "PENDING",
+      "imagePath": null,
+      "userId": "9715d47d-f179-4fdc-9603-d44528d7e0bc",
+      "companyId": "f862ce98-0d1d-41ee-8ebb-549346241e42",
+      "clonedFromId": null,
+      "deletedAt": null,
+      "createdAt": "2026-03-23T16:07:38.264Z",
+      "updatedAt": "2026-03-23T16:07:38.264Z"
+    },
+    {
+      "id": "a0821924-ebae-468c-996b-cd1a9d119d3b",
+      "value": "2412.59",
+      "description": "Luvas Refinado de Betão",
+      "date": "2026-01-20T08:07:54.061Z",
+      "nif": "273544174",
+      "status": "PENDING",
+      "imagePath": null,
+      "userId": "45ce62ee-0413-4653-9dec-a102d615d678",
+      "companyId": "f862ce98-0d1d-41ee-8ebb-549346241e42",
+      "clonedFromId": null,
+      "deletedAt": null,
+      "createdAt": "2026-03-23T16:07:38.265Z",
+      "updatedAt": "2026-03-23T16:07:38.265Z"
+    },
+    {
+      "id": "b794c61c-818c-4b7c-a0cc-8cdac45ad107",
+      "value": "695.35",
+      "description": "Bola Ergonómico de Suave",
+      "date": "2026-02-14T05:55:47.320Z",
+      "nif": "458579623",
+      "status": "REJECTED",
+      "imagePath": null,
+      "userId": "6e96a078-1e67-40f3-b0f7-f224218aa856",
+      "companyId": "09388985-047c-465e-a622-2ddf67ef7d8a",
+      "clonedFromId": null,
+      "deletedAt": null,
+      "createdAt": "2026-03-23T16:07:38.266Z",
+      "updatedAt": "2026-03-23T16:07:38.266Z"
+    },
+    {
+      "id": "2c29efd5-ccfe-433e-82a8-f938bac99fe3",
+      "value": "822.99",
+      "description": "Cadeira Incrível de Congelado",
+      "date": "2026-02-20T10:00:24.362Z",
+      "nif": "307072829",
+      "status": "PENDING",
+      "imagePath": null,
+      "userId": "b3d7c3c7-ecc8-4d2c-a718-c2e8594c8248",
+      "companyId": "8a36f97b-6beb-4fad-9abf-74961de63576",
+      "clonedFromId": null,
+      "deletedAt": null,
+      "createdAt": "2026-03-23T16:07:38.267Z",
+      "updatedAt": "2026-03-23T16:07:38.267Z"
+    },
+    {
+      "id": "0543e046-2723-41ad-b35f-c967deab633b",
+      "value": "1145.83",
+      "description": "Bicicleta Refinado de Algodão",
+      "date": "2026-01-06T23:52:04.367Z",
+      "nif": "150631854",
+      "status": "PAID",
+      "imagePath": null,
+      "userId": "da728b88-3ebf-4841-9fb4-48d765f21069",
+      "companyId": "31177e36-ad60-4f9b-888a-c196c22cc8d5",
+      "clonedFromId": null,
+      "deletedAt": null,
+      "createdAt": "2026-03-23T16:07:38.268Z",
+      "updatedAt": "2026-03-23T16:07:38.268Z"
+    },
+    {
+      "id": "91927011-477a-4830-9569-f5cf47e2e2cc",
+      "value": "4371.13",
+      "description": "Salada Pequeno de Suave",
+      "date": "2026-03-21T19:39:55.186Z",
+      "nif": "406155246",
+      "status": "REJECTED",
+      "imagePath": null,
+      "userId": "4cb2b4f8-d55b-4fa7-aabb-d9fde023bf86",
+      "companyId": "32e7cefc-29ef-48fc-84ff-af7c0559742e",
+      "clonedFromId": null,
+      "deletedAt": null,
+      "createdAt": "2026-03-23T16:07:38.269Z",
+      "updatedAt": "2026-03-23T16:07:38.269Z"
+    },
+    {
+      "id": "bb18a45f-787e-422e-8493-09d654985fe9",
+      "value": "112.79",
+      "description": "Rato Lustroso de Suave",
+      "date": "2026-02-21T09:21:05.863Z",
+      "nif": "881586632",
+      "status": "PENDING",
+      "imagePath": null,
+      "userId": "8d0ee3fe-0fde-40c5-b30d-fff0c5adb0f0",
+      "companyId": "0874eab4-1410-4c12-bd85-779ac38564d2",
+      "clonedFromId": null,
+      "deletedAt": null,
+      "createdAt": "2026-03-23T16:07:38.271Z",
+      "updatedAt": "2026-03-23T16:07:38.271Z"
+    },
+    {
+      "id": "8b594b3c-5f2c-4202-9999-79a90c3506aa",
+      "value": "4671.02",
+      "description": "Bola Saboroso de Plástico",
+      "date": "2026-01-25T15:13:40.152Z",
+      "nif": "644617080",
+      "status": "PAID",
+      "imagePath": null,
+      "userId": "a0660744-560e-4475-9f5f-77ee5c186861",
+      "companyId": "2679bf99-f69f-4058-8419-d7d965c30468",
+      "clonedFromId": null,
+      "deletedAt": null,
+      "createdAt": "2026-03-23T16:07:38.272Z",
+      "updatedAt": "2026-03-23T16:07:38.272Z"
+    },
+    {
+      "id": "ba15fd07-8af9-4769-9b77-d16c163abfd7",
+      "value": "2234.62",
+      "description": "Bola Sem Marca de Betão",
+      "date": "2026-02-19T21:16:25.416Z",
+      "nif": "139018416",
+      "status": "PENDING",
+      "imagePath": null,
+      "userId": "560d7c1e-214a-45fe-a56f-f86a03d75b7c",
+      "companyId": "0874eab4-1410-4c12-bd85-779ac38564d2",
+      "clonedFromId": null,
+      "deletedAt": null,
+      "createdAt": "2026-03-23T16:07:38.275Z",
+      "updatedAt": "2026-03-23T16:07:38.275Z"
+    },
+    {
+      "id": "c7a64a82-ae0b-4e81-9f4e-625ada9e3d1f",
+      "value": "1641.52",
+      "description": "Bola Refinado de Metal",
+      "date": "2026-01-13T19:31:45.877Z",
+      "nif": "802398582",
+      "status": "REJECTED",
+      "imagePath": null,
+      "userId": "da728b88-3ebf-4841-9fb4-48d765f21069",
+      "companyId": "31177e36-ad60-4f9b-888a-c196c22cc8d5",
+      "clonedFromId": null,
+      "deletedAt": null,
+      "createdAt": "2026-03-23T16:07:38.278Z",
+      "updatedAt": "2026-03-23T16:07:38.278Z"
+    },
+    {
+      "id": "1c75059f-263e-4729-bd3e-a25f23e4db56",
+      "value": "2633.05",
+      "description": "Batatas Fritas Saboroso de Suave",
+      "date": "2026-01-08T19:28:24.462Z",
+      "nif": "897343071",
+      "status": "REJECTED",
+      "imagePath": null,
+      "userId": "b0111561-ae61-43bf-aec5-ccf621774be4",
+      "companyId": "f862ce98-0d1d-41ee-8ebb-549346241e42",
+      "clonedFromId": null,
+      "deletedAt": null,
+      "createdAt": "2026-03-23T16:07:38.279Z",
+      "updatedAt": "2026-03-23T16:07:38.279Z"
+    },
+    {
+      "id": "1e26c1e6-7e2b-4962-bd95-620e69ddee9a",
+      "value": "4789.05",
+      "description": "Frango Licenciado de Algodão",
+      "date": "2026-01-23T01:15:03.474Z",
+      "nif": "727547895",
+      "status": "REJECTED",
+      "imagePath": null,
+      "userId": "6e96a078-1e67-40f3-b0f7-f224218aa856",
+      "companyId": "09388985-047c-465e-a622-2ddf67ef7d8a",
+      "clonedFromId": null,
+      "deletedAt": null,
+      "createdAt": "2026-03-23T16:07:38.280Z",
+      "updatedAt": "2026-03-23T16:07:38.280Z"
+    },
+    {
+      "id": "5f1fedf7-19c4-4f0c-b852-e293d4d70848",
+      "value": "4693.21",
+      "description": "Mesa Incrível de Aço",
+      "date": "2026-02-17T23:10:07.035Z",
+      "nif": "291716900",
+      "status": "PENDING",
+      "imagePath": null,
+      "userId": "34bfd45d-9575-4225-9a2b-ae3ad441d799",
+      "companyId": "31177e36-ad60-4f9b-888a-c196c22cc8d5",
+      "clonedFromId": null,
+      "deletedAt": null,
+      "createdAt": "2026-03-23T16:07:38.282Z",
+      "updatedAt": "2026-03-23T16:07:38.282Z"
+    },
+    {
+      "id": "6b2fe572-f1ea-4441-90b9-277567c5bc06",
+      "value": "4186.67",
+      "description": "Calças Fantástico de Congelado",
+      "date": "2026-01-28T13:45:52.269Z",
+      "nif": "774927213",
+      "status": "PENDING",
+      "imagePath": null,
+      "userId": "1d4f9ca8-c740-421b-a116-33695b0be7f5",
+      "companyId": "5ccf2380-892a-4838-86e2-490ad5caf73d",
+      "clonedFromId": null,
+      "deletedAt": null,
+      "createdAt": "2026-03-23T16:07:38.283Z",
+      "updatedAt": "2026-03-23T16:07:38.283Z"
+    },
+    {
+      "id": "c8d5a280-eb07-4413-ad57-108ac29dba0e",
+      "value": "786.78",
+      "description": "Pizza Feito à Mão de Suave",
+      "date": "2026-03-15T23:30:58.316Z",
+      "nif": "761445343",
+      "status": "PAID",
+      "imagePath": null,
+      "userId": "65a58a79-bebb-4c24-976b-9ebbe47728d7",
+      "companyId": "0fe89f1a-602d-423c-b4c4-5185d702e6e6",
+      "clonedFromId": null,
+      "deletedAt": null,
+      "createdAt": "2026-03-23T16:07:38.284Z",
+      "updatedAt": "2026-03-23T16:07:38.284Z"
+    },
+    {
+      "id": "038498c9-ef80-4887-9736-0278dc30d996",
+      "value": "3372.83",
+      "description": "Cadeira Incrível de Betão",
+      "date": "2025-12-31T15:12:09.759Z",
+      "nif": "483157630",
+      "status": "PAID",
+      "imagePath": null,
+      "userId": "76d525b2-ff36-4692-9f43-052f9d2c687a",
+      "companyId": "4862fec2-62f4-4584-affa-3a2f69004d23",
+      "clonedFromId": null,
+      "deletedAt": null,
+      "createdAt": "2026-03-23T16:07:38.286Z",
+      "updatedAt": "2026-03-23T16:07:38.286Z"
+    },
+    {
+      "id": "a7d999c6-497e-438e-97cb-e7566d411b02",
+      "value": "4833.08",
+      "description": "Salsichas Feito à Mão de Borracha",
+      "date": "2026-02-09T03:23:02.546Z",
+      "nif": "716122429",
+      "status": "REJECTED",
+      "imagePath": null,
+      "userId": "67f8c6eb-c892-4394-84d8-aaaf2e9fe0ad",
+      "companyId": "5ccf2380-892a-4838-86e2-490ad5caf73d",
+      "clonedFromId": null,
+      "deletedAt": null,
+      "createdAt": "2026-03-23T16:07:38.287Z",
+      "updatedAt": "2026-03-23T16:07:38.287Z"
+    },
+    {
+      "id": "653b7b70-aeac-47d8-8a39-ca372983dbf3",
+      "value": "1924.09",
+      "description": "Frango Rústico de Madeira",
+      "date": "2026-02-01T06:53:46.713Z",
+      "nif": "502368199",
+      "status": "PENDING",
+      "imagePath": null,
+      "userId": "7c7f29ec-46b2-4b52-b37f-256d8aaa9ce2",
+      "companyId": "e6145587-22fd-46e8-9c8d-15ce980a7514",
+      "clonedFromId": null,
+      "deletedAt": null,
+      "createdAt": "2026-03-23T16:07:38.289Z",
+      "updatedAt": "2026-03-23T16:07:38.289Z"
+    },
+    {
+      "id": "c252c58b-5b4c-4cc3-b451-c390b6c8645a",
+      "value": "910.11",
+      "description": "Rato Pequeno de Suave",
+      "date": "2026-03-23T09:31:22.547Z",
+      "nif": "332324874",
+      "status": "PAID",
+      "imagePath": null,
+      "userId": "d15a47bf-c4a9-4c77-9363-d7a3b4e36d4a",
+      "companyId": "09388985-047c-465e-a622-2ddf67ef7d8a",
+      "clonedFromId": null,
+      "deletedAt": null,
+      "createdAt": "2026-03-23T16:07:38.291Z",
+      "updatedAt": "2026-03-23T16:07:38.291Z"
+    },
+    {
+      "id": "29d312c9-302e-4118-98d2-ff3b90e0b48a",
+      "value": "3599.41",
+      "description": "Bacon Inteligente de Congelado",
+      "date": "2026-02-10T12:24:38.766Z",
+      "nif": "804417740",
+      "status": "REJECTED",
+      "imagePath": null,
+      "userId": "6e96a078-1e67-40f3-b0f7-f224218aa856",
+      "companyId": "09388985-047c-465e-a622-2ddf67ef7d8a",
+      "clonedFromId": null,
+      "deletedAt": null,
+      "createdAt": "2026-03-23T16:07:38.292Z",
+      "updatedAt": "2026-03-23T16:07:38.292Z"
+    },
+    {
+      "id": "fedb29f2-1102-463a-aed2-29cc7382faf7",
+      "value": "760.92",
+      "description": "Luvas Ergonómico de Aço",
+      "date": "2026-02-22T09:03:51.753Z",
+      "nif": "004799299",
+      "status": "PAID",
+      "imagePath": null,
+      "userId": "52efb517-4771-482a-903a-6f3fd479919c",
+      "companyId": "e299f4a3-3e62-4275-b5e5-193b2b987be6",
+      "clonedFromId": null,
+      "deletedAt": null,
+      "createdAt": "2026-03-23T16:07:38.294Z",
+      "updatedAt": "2026-03-23T16:07:38.294Z"
+    },
+    {
+      "id": "39972daa-57fc-461c-a078-9c68d22b393e",
+      "value": "1589.18",
+      "description": "Bicicleta Pequeno de Suave",
+      "date": "2025-12-28T05:03:19.352Z",
+      "nif": "801801095",
+      "status": "REJECTED",
+      "imagePath": null,
+      "userId": "86db1f9a-b816-43c4-9525-8433333165ec",
+      "companyId": "31177e36-ad60-4f9b-888a-c196c22cc8d5",
+      "clonedFromId": null,
+      "deletedAt": null,
+      "createdAt": "2026-03-23T16:07:38.295Z",
+      "updatedAt": "2026-03-23T16:07:38.295Z"
+    },
+    {
+      "id": "fa2ca02d-bcc2-4173-b99f-0ee0b0bd4cae",
+      "value": "2810.37",
+      "description": "Frango Refinado de Madeira",
+      "date": "2026-03-11T02:38:17.983Z",
+      "nif": "846789636",
+      "status": "PAID",
+      "imagePath": null,
+      "userId": "0a29f225-9a13-499f-b21f-7f81b94aa6ba",
+      "companyId": "355e4ee9-ac77-4092-b2e6-3bf85a664e16",
+      "clonedFromId": null,
+      "deletedAt": null,
+      "createdAt": "2026-03-23T16:07:38.295Z",
+      "updatedAt": "2026-03-23T16:07:38.295Z"
+    },
+    {
+      "id": "e0c743ab-12c4-434d-a82c-a7033059328a",
+      "value": "3266.39",
+      "description": "Camisa Rústico de Congelado",
+      "date": "2026-01-02T13:39:23.903Z",
+      "nif": "232722490",
+      "status": "PENDING",
+      "imagePath": null,
+      "userId": "f02155be-c86c-4b9f-91ec-01b7e2e7ed1d",
+      "companyId": "5ccf2380-892a-4838-86e2-490ad5caf73d",
+      "clonedFromId": null,
+      "deletedAt": null,
+      "createdAt": "2026-03-23T16:07:38.296Z",
+      "updatedAt": "2026-03-23T16:07:38.296Z"
+    },
+    {
+      "id": "6c87c49b-aa75-4e99-839d-7119efb71ebc",
+      "value": "3733.89",
+      "description": "Bacon Feito à Mão de Borracha",
+      "date": "2026-01-19T10:37:33.311Z",
+      "nif": "236586127",
+      "status": "PENDING",
+      "imagePath": null,
+      "userId": "65a58a79-bebb-4c24-976b-9ebbe47728d7",
+      "companyId": "0fe89f1a-602d-423c-b4c4-5185d702e6e6",
+      "clonedFromId": null,
+      "deletedAt": null,
+      "createdAt": "2026-03-23T16:07:38.297Z",
+      "updatedAt": "2026-03-23T16:07:38.297Z"
+    },
+    {
+      "id": "6433b2d9-937e-4552-bcc0-dda25d059665",
+      "value": "4345.05",
+      "description": "Computador Pequeno de Granito",
+      "date": "2026-01-08T12:22:17.609Z",
+      "nif": "487752079",
+      "status": "REJECTED",
+      "imagePath": null,
+      "userId": "52efb517-4771-482a-903a-6f3fd479919c",
+      "companyId": "e299f4a3-3e62-4275-b5e5-193b2b987be6",
+      "clonedFromId": null,
+      "deletedAt": null,
+      "createdAt": "2026-03-23T16:07:38.298Z",
+      "updatedAt": "2026-03-23T16:07:38.298Z"
+    },
+    {
+      "id": "5d0ba2d6-e34d-47db-a01f-9806cb0dca87",
+      "value": "296.73",
+      "description": "Luvas Pequeno de Madeira",
+      "date": "2026-01-23T02:40:48.092Z",
+      "nif": "193847853",
+      "status": "PENDING",
+      "imagePath": null,
+      "userId": "6e96a078-1e67-40f3-b0f7-f224218aa856",
+      "companyId": "09388985-047c-465e-a622-2ddf67ef7d8a",
+      "clonedFromId": null,
+      "deletedAt": null,
+      "createdAt": "2026-03-23T16:07:38.299Z",
+      "updatedAt": "2026-03-23T16:07:38.299Z"
+    },
+    {
+      "id": "aa864ec8-c8a9-4427-bdea-57fd56ec7b00",
+      "value": "4091.97",
+      "description": "Bola Impressionante de Aço",
+      "date": "2026-01-05T20:29:44.961Z",
+      "nif": "907317951",
+      "status": "REJECTED",
+      "imagePath": null,
+      "userId": "c2499b0d-8785-4d8a-84aa-2a98051bbe42",
+      "companyId": "e6145587-22fd-46e8-9c8d-15ce980a7514",
+      "clonedFromId": null,
+      "deletedAt": null,
+      "createdAt": "2026-03-23T16:07:38.300Z",
+      "updatedAt": "2026-03-23T16:07:38.300Z"
+    },
+    {
+      "id": "68d52669-b9cd-4776-89ad-299fb7831185",
+      "value": "4618.76",
+      "description": "Pizza Ergonómico de Aço",
+      "date": "2026-01-22T10:34:27.042Z",
+      "nif": "319260104",
+      "status": "PENDING",
+      "imagePath": null,
+      "userId": "4cb2b4f8-d55b-4fa7-aabb-d9fde023bf86",
+      "companyId": "32e7cefc-29ef-48fc-84ff-af7c0559742e",
+      "clonedFromId": null,
+      "deletedAt": null,
+      "createdAt": "2026-03-23T16:07:38.301Z",
+      "updatedAt": "2026-03-23T16:07:38.301Z"
+    },
+    {
+      "id": "2e1d325b-d033-45fb-8c65-6746587315fd",
+      "value": "860.98",
+      "description": "Bola Artesanal de Suave",
+      "date": "2026-03-13T20:18:21.160Z",
+      "nif": "153896316",
+      "status": "REJECTED",
+      "imagePath": null,
+      "userId": "c3008e98-f8f3-454d-9208-4a00950af9ba",
+      "companyId": "0a90c8f8-d856-4388-bf52-e706990c0188",
+      "clonedFromId": null,
+      "deletedAt": null,
+      "createdAt": "2026-03-23T16:07:38.302Z",
+      "updatedAt": "2026-03-23T16:07:38.302Z"
+    },
+    {
+      "id": "4c437fe0-7e47-4f59-9d26-7d429a90cfde",
+      "value": "3027.13",
+      "description": "Toalhas Licenciado de Metal",
+      "date": "2026-03-01T03:15:57.525Z",
+      "nif": "085724117",
+      "status": "PAID",
+      "imagePath": null,
+      "userId": "65a58a79-bebb-4c24-976b-9ebbe47728d7",
+      "companyId": "0fe89f1a-602d-423c-b4c4-5185d702e6e6",
+      "clonedFromId": null,
+      "deletedAt": null,
+      "createdAt": "2026-03-23T16:07:38.303Z",
+      "updatedAt": "2026-03-23T16:07:38.303Z"
+    },
+    {
+      "id": "042e6989-e4bb-426d-b961-801d1b1e0b9c",
+      "value": "618.94",
+      "description": "Peixe Licenciado de Plástico",
+      "date": "2025-12-29T15:34:53.797Z",
+      "nif": "516131209",
+      "status": "REJECTED",
+      "imagePath": null,
+      "userId": "45ce62ee-0413-4653-9dec-a102d615d678",
+      "companyId": "f862ce98-0d1d-41ee-8ebb-549346241e42",
+      "clonedFromId": null,
+      "deletedAt": null,
+      "createdAt": "2026-03-23T16:07:38.304Z",
+      "updatedAt": "2026-03-23T16:07:38.304Z"
+    },
+    {
+      "id": "c588870c-b319-4616-8851-bd699c1b8302",
+      "value": "1351.28",
+      "description": "Salada Genérico de Congelado",
+      "date": "2026-02-14T13:50:04.353Z",
+      "nif": "152463510",
+      "status": "REJECTED",
+      "imagePath": null,
+      "userId": "bd6b378e-40d4-4690-9e6b-ae985ecb27bc",
+      "companyId": "8a36f97b-6beb-4fad-9abf-74961de63576",
+      "clonedFromId": null,
+      "deletedAt": null,
+      "createdAt": "2026-03-23T16:07:38.304Z",
+      "updatedAt": "2026-03-23T16:07:38.304Z"
+    },
+    {
+      "id": "29aa9f71-b672-42ae-bda9-32d9f1fd4940",
+      "value": "4326.58",
+      "description": "Teclado Lustroso de Algodão",
+      "date": "2026-02-25T19:05:31.760Z",
+      "nif": "508502822",
+      "status": "REJECTED",
+      "imagePath": null,
+      "userId": "9eaa34bc-99d7-47ed-b34a-cd7ba3a6ea9b",
+      "companyId": "4862fec2-62f4-4584-affa-3a2f69004d23",
+      "clonedFromId": null,
+      "deletedAt": null,
+      "createdAt": "2026-03-23T16:07:38.306Z",
+      "updatedAt": "2026-03-23T16:07:38.306Z"
+    },
+    {
+      "id": "f6d82054-34d7-4e64-900e-e72bf913ab44",
+      "value": "4875.42",
+      "description": "Sabonete Licenciado de Suave",
+      "date": "2026-01-26T18:18:30.666Z",
+      "nif": "621546106",
+      "status": "PAID",
+      "imagePath": null,
+      "userId": "8d0ee3fe-0fde-40c5-b30d-fff0c5adb0f0",
+      "companyId": "0874eab4-1410-4c12-bd85-779ac38564d2",
+      "clonedFromId": null,
+      "deletedAt": null,
+      "createdAt": "2026-03-23T16:07:38.307Z",
+      "updatedAt": "2026-03-23T16:07:38.307Z"
+    },
+    {
+      "id": "15f5f179-afb2-4e3c-b045-7058f113f8fa",
+      "value": "3218.19",
+      "description": "Frango Fantástico de Algodão",
+      "date": "2026-03-05T09:20:25.835Z",
+      "nif": "106371444",
+      "status": "PAID",
+      "imagePath": null,
+      "userId": "da728b88-3ebf-4841-9fb4-48d765f21069",
+      "companyId": "31177e36-ad60-4f9b-888a-c196c22cc8d5",
+      "clonedFromId": null,
+      "deletedAt": null,
+      "createdAt": "2026-03-23T16:07:38.309Z",
+      "updatedAt": "2026-03-23T16:07:38.309Z"
+    },
+    {
+      "id": "6dc14ab8-b13c-456a-95de-67f2fe3e2777",
+      "value": "2157.08",
+      "description": "Teclado Rústico de Aço",
+      "date": "2026-03-15T14:54:55.076Z",
+      "nif": "139793930",
+      "status": "PENDING",
+      "imagePath": null,
+      "userId": "8d0ee3fe-0fde-40c5-b30d-fff0c5adb0f0",
+      "companyId": "0874eab4-1410-4c12-bd85-779ac38564d2",
+      "clonedFromId": null,
+      "deletedAt": null,
+      "createdAt": "2026-03-23T16:07:38.311Z",
+      "updatedAt": "2026-03-23T16:07:38.311Z"
+    },
+    {
+      "id": "0b99cfca-2862-45d6-9d10-7a31fd3a808b",
+      "value": "696.91",
+      "description": "Computador Feito à Mão de Congelado",
+      "date": "2026-03-21T22:27:32.549Z",
+      "nif": "809507698",
+      "status": "PENDING",
+      "imagePath": null,
+      "userId": "1d4f9ca8-c740-421b-a116-33695b0be7f5",
+      "companyId": "5ccf2380-892a-4838-86e2-490ad5caf73d",
+      "clonedFromId": null,
+      "deletedAt": null,
+      "createdAt": "2026-03-23T16:07:38.312Z",
+      "updatedAt": "2026-03-23T16:07:38.312Z"
+    },
+    {
+      "id": "31273762-3231-4a36-87c1-be944f9de13e",
+      "value": "803.44",
+      "description": "Queijo Fantástico de Betão",
+      "date": "2025-12-26T06:36:01.559Z",
+      "nif": "020894520",
+      "status": "PENDING",
+      "imagePath": null,
+      "userId": "f36d702e-9673-4a31-9379-1041d9941c49",
+      "companyId": "5739809a-e3a4-4691-a0d3-3fe5dcbaad1e",
+      "clonedFromId": null,
+      "deletedAt": null,
+      "createdAt": "2026-03-23T16:07:38.313Z",
+      "updatedAt": "2026-03-23T16:07:38.313Z"
+    },
+    {
+      "id": "c637ece2-762a-4019-b687-32cddee77b0f",
+      "value": "534.13",
+      "description": "Calças Pequeno de Aço",
+      "date": "2026-01-30T12:31:55.653Z",
+      "nif": "150380842",
+      "status": "REJECTED",
+      "imagePath": null,
+      "userId": "4cb2b4f8-d55b-4fa7-aabb-d9fde023bf86",
+      "companyId": "32e7cefc-29ef-48fc-84ff-af7c0559742e",
+      "clonedFromId": null,
+      "deletedAt": null,
+      "createdAt": "2026-03-23T16:07:38.314Z",
+      "updatedAt": "2026-03-23T16:07:38.314Z"
+    },
+    {
+      "id": "0df9e27d-48f4-4e8e-8e48-be8c6d14d245",
+      "value": "3798.32",
+      "description": "Frango Lustroso de Fresco",
+      "date": "2026-01-04T10:34:42.637Z",
+      "nif": "174510832",
+      "status": "REJECTED",
+      "imagePath": null,
+      "userId": "bd6b378e-40d4-4690-9e6b-ae985ecb27bc",
+      "companyId": "8a36f97b-6beb-4fad-9abf-74961de63576",
+      "clonedFromId": null,
+      "deletedAt": null,
+      "createdAt": "2026-03-23T16:07:38.315Z",
+      "updatedAt": "2026-03-23T16:07:38.315Z"
+    },
+    {
+      "id": "0cedd289-a809-4ba5-9995-ef157fe1207d",
+      "value": "255.33",
+      "description": "Batatas Fritas Prático de Metal",
+      "date": "2026-02-18T20:08:38.723Z",
+      "nif": "486408238",
+      "status": "REJECTED",
+      "imagePath": null,
+      "userId": "aa1d8721-7120-4548-90bf-ea7ee846680e",
+      "companyId": "e6145587-22fd-46e8-9c8d-15ce980a7514",
+      "clonedFromId": null,
+      "deletedAt": null,
+      "createdAt": "2026-03-23T16:07:38.316Z",
+      "updatedAt": "2026-03-23T16:07:38.316Z"
+    },
+    {
+      "id": "250dd1d5-ddf8-442a-b696-cc9ff3c7fcce",
+      "value": "1580.16",
+      "description": "Teclado Feito à Mão de Suave",
+      "date": "2026-01-26T20:54:40.902Z",
+      "nif": "022956826",
+      "status": "PAID",
+      "imagePath": null,
+      "userId": "52efb517-4771-482a-903a-6f3fd479919c",
+      "companyId": "e299f4a3-3e62-4275-b5e5-193b2b987be6",
+      "clonedFromId": null,
+      "deletedAt": null,
+      "createdAt": "2026-03-23T16:07:38.317Z",
+      "updatedAt": "2026-03-23T16:07:38.317Z"
+    },
+    {
+      "id": "fac7ec3f-88ef-4e66-badf-a359db4d6004",
+      "value": "3333.56",
+      "description": "Calças Genérico de Plástico",
+      "date": "2026-03-13T06:45:38.592Z",
+      "nif": "704213657",
+      "status": "PAID",
+      "imagePath": null,
+      "userId": "e0983a09-5ea5-40b3-9e3f-8c789fb9213d",
+      "companyId": "f862ce98-0d1d-41ee-8ebb-549346241e42",
+      "clonedFromId": null,
+      "deletedAt": null,
+      "createdAt": "2026-03-23T16:07:38.318Z",
+      "updatedAt": "2026-03-23T16:07:38.318Z"
+    },
+    {
+      "id": "432c77da-e314-47cb-bae2-ca138c4b3484",
+      "value": "853.04",
+      "description": "Bola Pequeno de Suave",
+      "date": "2026-03-09T08:16:40.944Z",
+      "nif": "909013048",
+      "status": "REJECTED",
+      "imagePath": null,
+      "userId": "7c7f29ec-46b2-4b52-b37f-256d8aaa9ce2",
+      "companyId": "e6145587-22fd-46e8-9c8d-15ce980a7514",
+      "clonedFromId": null,
+      "deletedAt": null,
+      "createdAt": "2026-03-23T16:07:38.320Z",
+      "updatedAt": "2026-03-23T16:07:38.320Z"
+    },
+    {
+      "id": "f1bf8374-17c8-4cd5-b037-cefa53703e84",
+      "value": "3465.69",
+      "description": "Cadeira Artesanal de Betão",
+      "date": "2025-12-26T17:40:18.605Z",
+      "nif": "029369159",
+      "status": "REJECTED",
+      "imagePath": null,
+      "userId": "b3d7c3c7-ecc8-4d2c-a718-c2e8594c8248",
+      "companyId": "8a36f97b-6beb-4fad-9abf-74961de63576",
+      "clonedFromId": null,
+      "deletedAt": null,
+      "createdAt": "2026-03-23T16:07:38.321Z",
+      "updatedAt": "2026-03-23T16:07:38.321Z"
+    },
+    {
+      "id": "0be20c67-500b-47b4-b353-fc1420ca7c0c",
+      "value": "4503.42",
+      "description": "Carro Saboroso de Madeira",
+      "date": "2026-01-02T17:56:51.762Z",
+      "nif": "529698341",
+      "status": "PENDING",
+      "imagePath": null,
+      "userId": "4cb2b4f8-d55b-4fa7-aabb-d9fde023bf86",
+      "companyId": "32e7cefc-29ef-48fc-84ff-af7c0559742e",
+      "clonedFromId": null,
+      "deletedAt": null,
+      "createdAt": "2026-03-23T16:07:38.322Z",
+      "updatedAt": "2026-03-23T16:07:38.322Z"
+    },
+    {
+      "id": "d8c22dec-14ad-4b7d-88d3-79acb2e60c15",
+      "value": "1888.4",
+      "description": "Teclado Genérico de Fresco",
+      "date": "2025-12-31T07:50:23.195Z",
+      "nif": "940521004",
+      "status": "REJECTED",
+      "imagePath": null,
+      "userId": "8188391a-23da-49a9-95a7-f82e08758632",
+      "companyId": "31177e36-ad60-4f9b-888a-c196c22cc8d5",
+      "clonedFromId": null,
+      "deletedAt": null,
+      "createdAt": "2026-03-23T16:07:38.325Z",
+      "updatedAt": "2026-03-23T16:07:38.325Z"
+    },
+    {
+      "id": "25620112-3c63-4fef-a441-4a133c57bf67",
+      "value": "2846.3",
+      "description": "Salada Incrível de Congelado",
+      "date": "2026-03-16T06:02:56.614Z",
+      "nif": "557090928",
+      "status": "PAID",
+      "imagePath": null,
+      "userId": "b0111561-ae61-43bf-aec5-ccf621774be4",
+      "companyId": "f862ce98-0d1d-41ee-8ebb-549346241e42",
+      "clonedFromId": null,
+      "deletedAt": null,
+      "createdAt": "2026-03-23T16:07:38.326Z",
+      "updatedAt": "2026-03-23T16:07:38.326Z"
+    },
+    {
+      "id": "964234de-a185-4829-9c93-b46e2a128c95",
+      "value": "403.07",
+      "description": "Computador Lustroso de Borracha",
+      "date": "2026-02-26T12:46:15.679Z",
+      "nif": "601464088",
+      "status": "REJECTED",
+      "imagePath": null,
+      "userId": "aa1d8721-7120-4548-90bf-ea7ee846680e",
+      "companyId": "e6145587-22fd-46e8-9c8d-15ce980a7514",
+      "clonedFromId": null,
+      "deletedAt": null,
+      "createdAt": "2026-03-23T16:07:38.328Z",
+      "updatedAt": "2026-03-23T16:07:38.328Z"
+    },
+    {
+      "id": "35520c25-2dd5-498e-bc20-69d406b2686c",
+      "value": "3049.75",
+      "description": "Teclado Sem Marca de Borracha",
+      "date": "2026-02-05T20:14:16.628Z",
+      "nif": "274340678",
+      "status": "PENDING",
+      "imagePath": null,
+      "userId": "c5a76fa8-ea20-4cc6-8d76-7bf5ef175137",
+      "companyId": "e299f4a3-3e62-4275-b5e5-193b2b987be6",
+      "clonedFromId": null,
+      "deletedAt": null,
+      "createdAt": "2026-03-23T16:07:38.329Z",
+      "updatedAt": "2026-03-23T16:07:38.329Z"
+    },
+    {
+      "id": "09aa4971-4435-46a5-935e-d32568b25c19",
+      "value": "1500.36",
+      "description": "Sabonete Incrível de Congelado",
+      "date": "2025-12-31T20:19:19.722Z",
+      "nif": "948729503",
+      "status": "PAID",
+      "imagePath": null,
+      "userId": "454397a7-3ce6-4146-ad8a-fd87a5965c58",
+      "companyId": "4106c06e-b0a6-498e-a691-23fe2fc0b227",
+      "clonedFromId": null,
+      "deletedAt": null,
+      "createdAt": "2026-03-23T16:07:38.330Z",
+      "updatedAt": "2026-03-23T16:07:38.330Z"
+    },
+    {
+      "id": "4522f84f-7aac-4ff2-8988-58243ce6d95e",
+      "value": "845.46",
+      "description": "Bicicleta Lustroso de Congelado",
+      "date": "2026-01-11T18:35:39.151Z",
+      "nif": "560874784",
+      "status": "PAID",
+      "imagePath": null,
+      "userId": "43943856-efda-4433-a43a-146ac3a71930",
+      "companyId": "8a36f97b-6beb-4fad-9abf-74961de63576",
+      "clonedFromId": null,
+      "deletedAt": null,
+      "createdAt": "2026-03-23T16:07:38.331Z",
+      "updatedAt": "2026-03-23T16:07:38.331Z"
+    },
+    {
+      "id": "d4a0812a-ef2e-4116-af65-d5979ce0d597",
+      "value": "1663.36",
+      "description": "Cadeira Prático de Suave",
+      "date": "2026-03-01T01:35:09.295Z",
+      "nif": "165869566",
+      "status": "REJECTED",
+      "imagePath": null,
+      "userId": "6e96a078-1e67-40f3-b0f7-f224218aa856",
+      "companyId": "09388985-047c-465e-a622-2ddf67ef7d8a",
+      "clonedFromId": null,
+      "deletedAt": null,
+      "createdAt": "2026-03-23T16:07:38.332Z",
+      "updatedAt": "2026-03-23T16:07:38.332Z"
+    },
+    {
+      "id": "fa815578-8a6b-4616-bc61-7b71b8f565f3",
+      "value": "2484.6",
+      "description": "Teclado Fantástico de Metal",
+      "date": "2026-02-08T08:54:00.820Z",
+      "nif": "241452687",
+      "status": "REJECTED",
+      "imagePath": null,
+      "userId": "de7ce6b0-5b3a-4d17-969e-cf752a59e1e9",
+      "companyId": "e6145587-22fd-46e8-9c8d-15ce980a7514",
+      "clonedFromId": null,
+      "deletedAt": null,
+      "createdAt": "2026-03-23T16:07:38.333Z",
+      "updatedAt": "2026-03-23T16:07:38.333Z"
+    },
+    {
+      "id": "4c827587-6d8a-40b4-baee-958c994b4243",
+      "value": "3000.46",
+      "description": "Bacon Genérico de Betão",
+      "date": "2026-02-08T01:37:29.409Z",
+      "nif": "047827769",
+      "status": "PAID",
+      "imagePath": null,
+      "userId": "9eaa34bc-99d7-47ed-b34a-cd7ba3a6ea9b",
+      "companyId": "4862fec2-62f4-4584-affa-3a2f69004d23",
+      "clonedFromId": null,
+      "deletedAt": null,
+      "createdAt": "2026-03-23T16:07:38.334Z",
+      "updatedAt": "2026-03-23T16:07:38.334Z"
+    },
+    {
+      "id": "1af12386-39b0-4afc-89bd-856bbf92b8cb",
+      "value": "1817.46",
+      "description": "Frango Impressionante de Madeira",
+      "date": "2026-02-25T13:08:10.515Z",
+      "nif": "298496818",
+      "status": "PENDING",
+      "imagePath": null,
+      "userId": "d2bb37d2-361c-416c-aa83-5de70e05e97f",
+      "companyId": "09388985-047c-465e-a622-2ddf67ef7d8a",
+      "clonedFromId": null,
+      "deletedAt": null,
+      "createdAt": "2026-03-23T16:07:38.335Z",
+      "updatedAt": "2026-03-23T16:07:38.335Z"
+    },
+    {
+      "id": "183ca906-fb44-402b-9a62-37c46bf5ec49",
+      "value": "1292.09",
+      "description": "Calças Feito à Mão de Congelado",
+      "date": "2026-01-15T22:05:25.691Z",
+      "nif": "489772476",
+      "status": "PENDING",
+      "imagePath": null,
+      "userId": "0a29f225-9a13-499f-b21f-7f81b94aa6ba",
+      "companyId": "355e4ee9-ac77-4092-b2e6-3bf85a664e16",
+      "clonedFromId": null,
+      "deletedAt": null,
+      "createdAt": "2026-03-23T16:07:38.336Z",
+      "updatedAt": "2026-03-23T16:07:38.336Z"
+    },
+    {
+      "id": "14f6d355-ae52-44ef-8796-1f489c8f2d56",
+      "value": "3393.9",
+      "description": "Queijo Rústico de Borracha",
+      "date": "2026-01-18T05:33:52.637Z",
+      "nif": "026969842",
+      "status": "PAID",
+      "imagePath": null,
+      "userId": "c5a76fa8-ea20-4cc6-8d76-7bf5ef175137",
+      "companyId": "e299f4a3-3e62-4275-b5e5-193b2b987be6",
+      "clonedFromId": null,
+      "deletedAt": null,
+      "createdAt": "2026-03-23T16:07:38.337Z",
+      "updatedAt": "2026-03-23T16:07:38.337Z"
+    },
+    {
+      "id": "6ca2016a-42e3-404a-9700-06edb96d52a0",
+      "value": "304.5",
+      "description": "Salsichas Artesanal de Algodão",
+      "date": "2026-03-15T11:14:53.126Z",
+      "nif": "473117968",
+      "status": "REJECTED",
+      "imagePath": null,
+      "userId": "bd6b378e-40d4-4690-9e6b-ae985ecb27bc",
+      "companyId": "8a36f97b-6beb-4fad-9abf-74961de63576",
+      "clonedFromId": null,
+      "deletedAt": null,
+      "createdAt": "2026-03-23T16:07:38.338Z",
+      "updatedAt": "2026-03-23T16:07:38.338Z"
+    },
+    {
+      "id": "bcc6051c-493e-49ae-b4af-1decb205cb29",
+      "value": "2732.89",
+      "description": "Queijo Linda de Borracha",
+      "date": "2026-03-14T23:47:52.025Z",
+      "nif": "835017780",
+      "status": "REJECTED",
+      "imagePath": null,
+      "userId": "c2499b0d-8785-4d8a-84aa-2a98051bbe42",
+      "companyId": "e6145587-22fd-46e8-9c8d-15ce980a7514",
+      "clonedFromId": null,
+      "deletedAt": null,
+      "createdAt": "2026-03-23T16:07:38.339Z",
+      "updatedAt": "2026-03-23T16:07:38.339Z"
+    },
+    {
+      "id": "c566996a-3498-41a7-8daf-3af95fcbd465",
+      "value": "106.64",
+      "description": "Bola Impressionante de Madeira",
+      "date": "2026-01-14T10:09:39.143Z",
+      "nif": "652604242",
+      "status": "PAID",
+      "imagePath": null,
+      "userId": "a0660744-560e-4475-9f5f-77ee5c186861",
+      "companyId": "2679bf99-f69f-4058-8419-d7d965c30468",
+      "clonedFromId": null,
+      "deletedAt": null,
+      "createdAt": "2026-03-23T16:07:38.341Z",
+      "updatedAt": "2026-03-23T16:07:38.341Z"
+    },
+    {
+      "id": "ecca8ce1-784e-4075-be81-b0edaf9bc1fd",
+      "value": "1538.93",
+      "description": "Chapéu Lustroso de Aço",
+      "date": "2026-02-20T07:22:28.570Z",
+      "nif": "844593310",
+      "status": "REJECTED",
+      "imagePath": null,
+      "userId": "bd6b378e-40d4-4690-9e6b-ae985ecb27bc",
+      "companyId": "8a36f97b-6beb-4fad-9abf-74961de63576",
+      "clonedFromId": null,
+      "deletedAt": null,
+      "createdAt": "2026-03-23T16:07:38.342Z",
+      "updatedAt": "2026-03-23T16:07:38.342Z"
+    },
+    {
+      "id": "8e646035-6905-4d1a-a377-eb1ed030f16b",
+      "value": "1453.79",
+      "description": "Salada Linda de Algodão",
+      "date": "2026-02-02T02:35:00.009Z",
+      "nif": "593262920",
+      "status": "REJECTED",
+      "imagePath": null,
+      "userId": "d2bb37d2-361c-416c-aa83-5de70e05e97f",
+      "companyId": "09388985-047c-465e-a622-2ddf67ef7d8a",
+      "clonedFromId": null,
+      "deletedAt": null,
+      "createdAt": "2026-03-23T16:07:38.343Z",
+      "updatedAt": "2026-03-23T16:07:38.343Z"
+    },
+    {
+      "id": "4a13d1af-dec7-49db-9bbe-0a18f1eb2517",
+      "value": "1672.37",
+      "description": "Salsichas Prático de Betão",
+      "date": "2026-03-01T15:11:42.759Z",
+      "nif": "317631741",
+      "status": "PENDING",
+      "imagePath": null,
+      "userId": "c3008e98-f8f3-454d-9208-4a00950af9ba",
+      "companyId": "0a90c8f8-d856-4388-bf52-e706990c0188",
+      "clonedFromId": null,
+      "deletedAt": null,
+      "createdAt": "2026-03-23T16:07:38.344Z",
+      "updatedAt": "2026-03-23T16:07:38.344Z"
+    },
+    {
+      "id": "55abd7dd-1c16-4dcb-b47c-9138476ff611",
+      "value": "4608.61",
+      "description": "Camisa Saboroso de Borracha",
+      "date": "2026-03-11T07:02:39.259Z",
+      "nif": "197772180",
+      "status": "REJECTED",
+      "imagePath": null,
+      "userId": "8d0ee3fe-0fde-40c5-b30d-fff0c5adb0f0",
+      "companyId": "0874eab4-1410-4c12-bd85-779ac38564d2",
+      "clonedFromId": null,
+      "deletedAt": null,
+      "createdAt": "2026-03-23T16:07:38.345Z",
+      "updatedAt": "2026-03-23T16:07:38.345Z"
+    },
+    {
+      "id": "965526ce-3cef-4178-a7fb-587657d6964b",
+      "value": "2593.81",
+      "description": "Chapéu Fantástico de Fresco",
+      "date": "2026-02-03T03:18:16.623Z",
+      "nif": "748723185",
+      "status": "REJECTED",
+      "imagePath": null,
+      "userId": "560d7c1e-214a-45fe-a56f-f86a03d75b7c",
+      "companyId": "0874eab4-1410-4c12-bd85-779ac38564d2",
+      "clonedFromId": null,
+      "deletedAt": null,
+      "createdAt": "2026-03-23T16:07:38.346Z",
+      "updatedAt": "2026-03-23T16:07:38.346Z"
+    },
+    {
+      "id": "ff9cb188-2c84-4932-a2b4-44eb00f1ab24",
+      "value": "2186.5",
+      "description": "Calças Impressionante de Fresco",
+      "date": "2026-01-15T22:34:33.344Z",
+      "nif": "320903058",
+      "status": "PAID",
+      "imagePath": null,
+      "userId": "f02155be-c86c-4b9f-91ec-01b7e2e7ed1d",
+      "companyId": "5ccf2380-892a-4838-86e2-490ad5caf73d",
+      "clonedFromId": null,
+      "deletedAt": null,
+      "createdAt": "2026-03-23T16:07:38.347Z",
+      "updatedAt": "2026-03-23T16:07:38.347Z"
+    },
+    {
+      "id": "4defc155-0e3d-4a39-a94c-ab862db1bd90",
+      "value": "1176.66",
+      "description": "Pizza Refinado de Fresco",
+      "date": "2026-03-18T01:59:28.705Z",
+      "nif": "979105095",
+      "status": "REJECTED",
+      "imagePath": null,
+      "userId": "34bfd45d-9575-4225-9a2b-ae3ad441d799",
+      "companyId": "31177e36-ad60-4f9b-888a-c196c22cc8d5",
+      "clonedFromId": null,
+      "deletedAt": null,
+      "createdAt": "2026-03-23T16:07:38.348Z",
+      "updatedAt": "2026-03-23T16:07:38.348Z"
+    },
+    {
+      "id": "dafe9991-202f-4951-b49e-886870b47cd5",
+      "value": "4496.21",
+      "description": "Sabonete Genérico de Madeira",
+      "date": "2025-12-27T02:29:40.028Z",
+      "nif": "431751453",
+      "status": "REJECTED",
+      "imagePath": null,
+      "userId": "490d6816-20b0-4289-b7a6-aa5648dea497",
+      "companyId": "0aa99b51-d97b-4556-8041-2334833a16c9",
+      "clonedFromId": null,
+      "deletedAt": null,
+      "createdAt": "2026-03-23T16:07:38.349Z",
+      "updatedAt": "2026-03-23T16:07:38.349Z"
+    },
+    {
+      "id": "b4d6b6b0-ca1d-4e6f-a17d-bd648096f718",
+      "value": "3215.29",
+      "description": "Luvas Feito à Mão de Suave",
+      "date": "2026-02-28T01:58:30.625Z",
+      "nif": "999021947",
+      "status": "PAID",
+      "imagePath": null,
+      "userId": "51c5c93c-d945-4925-aace-0afea8dd9ff2",
+      "companyId": "0a90c8f8-d856-4388-bf52-e706990c0188",
+      "clonedFromId": null,
+      "deletedAt": null,
+      "createdAt": "2026-03-23T16:07:38.350Z",
+      "updatedAt": "2026-03-23T16:07:38.350Z"
+    },
+    {
+      "id": "bfd8dad8-d0a3-4308-8b68-3ff7f62645ef",
+      "value": "3109.31",
+      "description": "Carro Licenciado de Madeira",
+      "date": "2026-01-17T22:14:21.474Z",
+      "nif": "839316712",
+      "status": "PENDING",
+      "imagePath": null,
+      "userId": "e9ed290b-b76f-4a3d-938c-bcb1afca2c51",
+      "companyId": "0a90c8f8-d856-4388-bf52-e706990c0188",
+      "clonedFromId": null,
+      "deletedAt": null,
+      "createdAt": "2026-03-23T16:07:38.351Z",
+      "updatedAt": "2026-03-23T16:07:38.351Z"
+    },
+    {
+      "id": "4f3ac4cd-88d1-44a1-8c9d-a9b4a4ab528e",
+      "value": "3946.71",
+      "description": "Toalhas Rústico de Fresco",
+      "date": "2026-02-21T21:10:19.526Z",
+      "nif": "277768227",
+      "status": "REJECTED",
+      "imagePath": null,
+      "userId": "9931b42a-75b7-420c-be46-ea4437039a5d",
+      "companyId": "29a91a06-9f81-48d3-a89b-3fbec921b283",
+      "clonedFromId": null,
+      "deletedAt": null,
+      "createdAt": "2026-03-23T16:07:38.352Z",
+      "updatedAt": "2026-03-23T16:07:38.352Z"
+    },
+    {
+      "id": "46af7053-3183-40d5-bfa0-4e30ff8a37a0",
+      "value": "1681.19",
+      "description": "Chapéu Feito à Mão de Aço",
+      "date": "2026-02-11T04:40:44.426Z",
+      "nif": "260401506",
+      "status": "PAID",
+      "imagePath": null,
+      "userId": "9eaa34bc-99d7-47ed-b34a-cd7ba3a6ea9b",
+      "companyId": "4862fec2-62f4-4584-affa-3a2f69004d23",
+      "clonedFromId": null,
+      "deletedAt": null,
+      "createdAt": "2026-03-23T16:07:38.354Z",
+      "updatedAt": "2026-03-23T16:07:38.354Z"
+    },
+    {
+      "id": "95d519d4-c79d-43cc-97bf-e63ab166deb5",
+      "value": "3348.23",
+      "description": "Atum Rústico de Plástico",
+      "date": "2026-01-21T15:38:38.382Z",
+      "nif": "326174155",
+      "status": "PENDING",
+      "imagePath": null,
+      "userId": "4cb2b4f8-d55b-4fa7-aabb-d9fde023bf86",
+      "companyId": "32e7cefc-29ef-48fc-84ff-af7c0559742e",
+      "clonedFromId": null,
+      "deletedAt": null,
+      "createdAt": "2026-03-23T16:07:38.355Z",
+      "updatedAt": "2026-03-23T16:07:38.355Z"
+    },
+    {
+      "id": "ffc5f256-deee-4afb-acec-9e619526190f",
+      "value": "167.07",
+      "description": "Salada Artesanal de Plástico",
+      "date": "2026-02-20T04:31:18.026Z",
+      "nif": "871259387",
+      "status": "REJECTED",
+      "imagePath": null,
+      "userId": "aa1d8721-7120-4548-90bf-ea7ee846680e",
+      "companyId": "e6145587-22fd-46e8-9c8d-15ce980a7514",
+      "clonedFromId": null,
+      "deletedAt": null,
+      "createdAt": "2026-03-23T16:07:38.356Z",
+      "updatedAt": "2026-03-23T16:07:38.356Z"
+    },
+    {
+      "id": "03c3ee90-5b5e-4f10-aee3-7ce6c3aa302f",
+      "value": "3613.16",
+      "description": "Cadeira Ergonómico de Granito",
+      "date": "2025-12-26T22:52:48.969Z",
+      "nif": "832367039",
+      "status": "PENDING",
+      "imagePath": null,
+      "userId": "8188391a-23da-49a9-95a7-f82e08758632",
+      "companyId": "31177e36-ad60-4f9b-888a-c196c22cc8d5",
+      "clonedFromId": null,
+      "deletedAt": null,
+      "createdAt": "2026-03-23T16:07:38.357Z",
+      "updatedAt": "2026-03-23T16:07:38.357Z"
+    },
+    {
+      "id": "738b1bf3-28b8-4863-9121-77481c265d5c",
+      "value": "1227.02",
+      "description": "Sabonete Sem Marca de Algodão",
+      "date": "2026-03-01T03:29:34.194Z",
+      "nif": "656716916",
+      "status": "PENDING",
+      "imagePath": null,
+      "userId": "1d4f9ca8-c740-421b-a116-33695b0be7f5",
+      "companyId": "5ccf2380-892a-4838-86e2-490ad5caf73d",
+      "clonedFromId": null,
+      "deletedAt": null,
+      "createdAt": "2026-03-23T16:07:38.358Z",
+      "updatedAt": "2026-03-23T16:07:38.358Z"
+    },
+    {
+      "id": "0ac7158e-d0a2-406c-a3d5-45bccf592438",
+      "value": "3750.29",
+      "description": "Frango Rústico de Aço",
+      "date": "2026-01-28T17:55:45.745Z",
+      "nif": "918773260",
+      "status": "PAID",
+      "imagePath": null,
+      "userId": "6e96a078-1e67-40f3-b0f7-f224218aa856",
+      "companyId": "09388985-047c-465e-a622-2ddf67ef7d8a",
+      "clonedFromId": null,
+      "deletedAt": null,
+      "createdAt": "2026-03-23T16:07:38.359Z",
+      "updatedAt": "2026-03-23T16:07:38.359Z"
+    },
+    {
+      "id": "3318ac8d-06fd-4e97-bc4f-6de92f9e6e52",
+      "value": "2459.1",
+      "description": "Bacon Incrível de Borracha",
+      "date": "2026-02-23T04:20:12.727Z",
+      "nif": "757042545",
+      "status": "PAID",
+      "imagePath": null,
+      "userId": "8d0ee3fe-0fde-40c5-b30d-fff0c5adb0f0",
+      "companyId": "0874eab4-1410-4c12-bd85-779ac38564d2",
+      "clonedFromId": null,
+      "deletedAt": null,
+      "createdAt": "2026-03-23T16:07:38.360Z",
+      "updatedAt": "2026-03-23T16:07:38.360Z"
+    },
+    {
+      "id": "862cbedf-8b52-4e8a-980a-12728cc5563f",
+      "value": "271.54",
+      "description": "Computador Artesanal de Aço",
+      "date": "2026-02-11T17:49:51.881Z",
+      "nif": "817281339",
+      "status": "PENDING",
+      "imagePath": null,
+      "userId": "9715d47d-f179-4fdc-9603-d44528d7e0bc",
+      "companyId": "f862ce98-0d1d-41ee-8ebb-549346241e42",
+      "clonedFromId": null,
+      "deletedAt": null,
+      "createdAt": "2026-03-23T16:07:38.362Z",
+      "updatedAt": "2026-03-23T16:07:38.362Z"
+    },
+    {
+      "id": "a88b0bb8-1510-43f1-bbe7-9482be106deb",
+      "value": "4125.75",
+      "description": "Pizza Genérico de Suave",
+      "date": "2026-02-20T07:46:24.214Z",
+      "nif": "705539450",
+      "status": "PENDING",
+      "imagePath": null,
+      "userId": "cd713448-acc4-4b5b-999b-9c9e25a1277c",
+      "companyId": "aa295bca-b273-4e73-aae7-1ffb39ef24ae",
+      "clonedFromId": null,
+      "deletedAt": null,
+      "createdAt": "2026-03-23T16:07:38.363Z",
+      "updatedAt": "2026-03-23T16:07:38.363Z"
+    },
+    {
+      "id": "3347a5dd-9d03-4a7e-b5d9-53864a2e4581",
+      "value": "4711.18",
+      "description": "Batatas Fritas Genérico de Granito",
+      "date": "2026-02-13T17:16:17.089Z",
+      "nif": "597270914",
+      "status": "PAID",
+      "imagePath": null,
+      "userId": "454397a7-3ce6-4146-ad8a-fd87a5965c58",
+      "companyId": "4106c06e-b0a6-498e-a691-23fe2fc0b227",
+      "clonedFromId": null,
+      "deletedAt": null,
+      "createdAt": "2026-03-23T16:07:38.363Z",
+      "updatedAt": "2026-03-23T16:07:38.363Z"
+    },
+    {
+      "id": "dba90541-4eda-4c0c-8998-ecfc329ad846",
+      "value": "2895.15",
+      "description": "Luvas Pequeno de Betão",
+      "date": "2026-01-13T03:56:29.481Z",
+      "nif": "669276219",
+      "status": "REJECTED",
+      "imagePath": null,
+      "userId": "f02155be-c86c-4b9f-91ec-01b7e2e7ed1d",
+      "companyId": "5ccf2380-892a-4838-86e2-490ad5caf73d",
+      "clonedFromId": null,
+      "deletedAt": null,
+      "createdAt": "2026-03-23T16:07:38.364Z",
+      "updatedAt": "2026-03-23T16:07:38.364Z"
+    },
+    {
+      "id": "e4d01d1b-c6cd-4485-a79a-9a7696b90211",
+      "value": "4533.43",
+      "description": "Salada Impressionante de Suave",
+      "date": "2026-02-25T09:36:51.289Z",
+      "nif": "227835546",
+      "status": "PAID",
+      "imagePath": null,
+      "userId": "0d9db618-34ed-4afa-8906-7edcb8d34f81",
+      "companyId": "8a36f97b-6beb-4fad-9abf-74961de63576",
+      "clonedFromId": null,
+      "deletedAt": null,
+      "createdAt": "2026-03-23T16:07:38.365Z",
+      "updatedAt": "2026-03-23T16:07:38.365Z"
+    },
+    {
+      "id": "9539b1e7-38c4-4ce7-accc-80d044d8f511",
+      "value": "524.41",
+      "description": "Frango Pequeno de Madeira",
+      "date": "2026-01-09T05:52:33.010Z",
+      "nif": "670787754",
+      "status": "PAID",
+      "imagePath": null,
+      "userId": "65a58a79-bebb-4c24-976b-9ebbe47728d7",
+      "companyId": "0fe89f1a-602d-423c-b4c4-5185d702e6e6",
+      "clonedFromId": null,
+      "deletedAt": null,
+      "createdAt": "2026-03-23T16:07:38.366Z",
+      "updatedAt": "2026-03-23T16:07:38.366Z"
+    },
+    {
+      "id": "3fe844c7-af42-430a-b51a-da221b80a0af",
+      "value": "1370.59",
+      "description": "Bicicleta Sem Marca de Plástico",
+      "date": "2026-01-01T13:12:29.022Z",
+      "nif": "300775975",
+      "status": "PENDING",
+      "imagePath": null,
+      "userId": "d2bb37d2-361c-416c-aa83-5de70e05e97f",
+      "companyId": "09388985-047c-465e-a622-2ddf67ef7d8a",
+      "clonedFromId": null,
+      "deletedAt": null,
+      "createdAt": "2026-03-23T16:07:38.367Z",
+      "updatedAt": "2026-03-23T16:07:38.367Z"
+    },
+    {
+      "id": "5427b16c-b8cc-4e8d-8243-d4c4fee0d2d9",
+      "value": "1566.24",
+      "description": "Sabonete Linda de Suave",
+      "date": "2026-01-21T04:32:41.003Z",
+      "nif": "181803754",
+      "status": "PENDING",
+      "imagePath": null,
+      "userId": "67f8c6eb-c892-4394-84d8-aaaf2e9fe0ad",
+      "companyId": "5ccf2380-892a-4838-86e2-490ad5caf73d",
+      "clonedFromId": null,
+      "deletedAt": null,
+      "createdAt": "2026-03-23T16:07:38.368Z",
+      "updatedAt": "2026-03-23T16:07:38.368Z"
+    },
+    {
+      "id": "64585a9d-ffdb-4f68-94ac-ef326518c266",
+      "value": "1021.48",
+      "description": "Bacon Feito à Mão de Congelado",
+      "date": "2026-03-07T22:24:44.921Z",
+      "nif": "999421208",
+      "status": "REJECTED",
+      "imagePath": null,
+      "userId": "9eaa34bc-99d7-47ed-b34a-cd7ba3a6ea9b",
+      "companyId": "4862fec2-62f4-4584-affa-3a2f69004d23",
+      "clonedFromId": null,
+      "deletedAt": null,
+      "createdAt": "2026-03-23T16:07:38.369Z",
+      "updatedAt": "2026-03-23T16:07:38.369Z"
+    },
+    {
+      "id": "8d860df0-cedf-4651-b665-3b65d7934f4b",
+      "value": "496.99",
+      "description": "Salada Impressionante de Betão",
+      "date": "2025-12-29T23:47:57.670Z",
+      "nif": "725213446",
+      "status": "PAID",
+      "imagePath": null,
+      "userId": "f282ca7d-b94d-4b29-a775-60e68e8087d7",
+      "companyId": "80540f11-d997-426c-accb-fd54587ed78a",
+      "clonedFromId": null,
+      "deletedAt": null,
+      "createdAt": "2026-03-23T16:07:38.370Z",
+      "updatedAt": "2026-03-23T16:07:38.370Z"
+    },
+    {
+      "id": "afa57f38-dd5a-44a2-b35d-e8053debbb20",
+      "value": "1242.74",
+      "description": "Camisa Fantástico de Fresco",
+      "date": "2026-03-01T19:26:13.900Z",
+      "nif": "525878381",
+      "status": "REJECTED",
+      "imagePath": null,
+      "userId": "86db1f9a-b816-43c4-9525-8433333165ec",
+      "companyId": "31177e36-ad60-4f9b-888a-c196c22cc8d5",
+      "clonedFromId": null,
+      "deletedAt": null,
+      "createdAt": "2026-03-23T16:07:38.371Z",
+      "updatedAt": "2026-03-23T16:07:38.371Z"
+    }
+  ],
+  "sharedInvoices": [
+    {
+      "id": "5c2b86c6-4371-4539-9645-1a44bf77e1fa",
+      "userId": "7c7f29ec-46b2-4b52-b37f-256d8aaa9ce2",
+      "invoiceId": "e163bea0-5cc5-4d05-98e7-ffb3efed5d50",
+      "createdAt": "2026-03-23T16:07:38.372Z"
+    },
+    {
+      "id": "aed11960-14af-4018-8268-af541b41dfba",
+      "userId": "de7ce6b0-5b3a-4d17-969e-cf752a59e1e9",
+      "invoiceId": "20ffc8de-3615-44ed-84ec-8d7d96dd2fe2",
+      "createdAt": "2026-03-23T16:07:38.378Z"
+    },
+    {
+      "id": "44669064-4a3f-45c9-a446-82d71b4b42da",
+      "userId": "c2499b0d-8785-4d8a-84aa-2a98051bbe42",
+      "invoiceId": "40d6ace3-74f6-487b-9c0f-6bf4fd9a30d5",
+      "createdAt": "2026-03-23T16:07:38.380Z"
+    },
+    {
+      "id": "b1e4f8d8-c069-491e-bc57-bcf5c258de4a",
+      "userId": "45ce62ee-0413-4653-9dec-a102d615d678",
+      "invoiceId": "424f9160-6d97-4f74-9f72-6bed9f0f38ec",
+      "createdAt": "2026-03-23T16:07:38.382Z"
+    },
+    {
+      "id": "9618d3ba-a85b-4c99-b40c-8d3894ee39eb",
+      "userId": "6e96a078-1e67-40f3-b0f7-f224218aa856",
+      "invoiceId": "c4c0ed60-60c3-4ad1-9592-c90c7b9cbb41",
+      "createdAt": "2026-03-23T16:07:38.384Z"
+    },
+    {
+      "id": "69880721-ad13-4497-b506-131e4950b276",
+      "userId": "b0111561-ae61-43bf-aec5-ccf621774be4",
+      "invoiceId": "164b9397-68c3-44da-a92b-89023298322e",
+      "createdAt": "2026-03-23T16:07:38.387Z"
+    },
+    {
+      "id": "e98b6684-257c-44d6-96fd-8f125e0f625f",
+      "userId": "3b38643c-203b-44d7-be55-62d9fcf87924",
+      "invoiceId": "a0821924-ebae-468c-996b-cd1a9d119d3b",
+      "createdAt": "2026-03-23T16:07:38.389Z"
+    },
+    {
+      "id": "9697dcf8-f616-4963-bc26-da55b5953ee9",
+      "userId": "d15a47bf-c4a9-4c77-9363-d7a3b4e36d4a",
+      "invoiceId": "b794c61c-818c-4b7c-a0cc-8cdac45ad107",
+      "createdAt": "2026-03-23T16:07:38.393Z"
+    },
+    {
+      "id": "a5bd5edc-f0f2-4f72-ba47-7843231f2ae4",
+      "userId": "43943856-efda-4433-a43a-146ac3a71930",
+      "invoiceId": "2c29efd5-ccfe-433e-82a8-f938bac99fe3",
+      "createdAt": "2026-03-23T16:07:38.394Z"
+    },
+    {
+      "id": "6737ff79-91d9-4913-9938-883dadd2390d",
+      "userId": "8188391a-23da-49a9-95a7-f82e08758632",
+      "invoiceId": "0543e046-2723-41ad-b35f-c967deab633b",
+      "createdAt": "2026-03-23T16:07:38.396Z"
+    },
+    {
+      "id": "7aab9075-f183-4d72-a81b-7526098a153c",
+      "userId": "f2f0f6ff-2d97-40fe-9948-643c59ad1d43",
+      "invoiceId": "91927011-477a-4830-9569-f5cf47e2e2cc",
+      "createdAt": "2026-03-23T16:07:38.398Z"
+    },
+    {
+      "id": "18ef6a89-3521-41fe-a711-006aa5463b45",
+      "userId": "560d7c1e-214a-45fe-a56f-f86a03d75b7c",
+      "invoiceId": "bb18a45f-787e-422e-8493-09d654985fe9",
+      "createdAt": "2026-03-23T16:07:38.399Z"
+    },
+    {
+      "id": "b78c3ada-33ea-49c5-98be-a1ad8ad0a584",
+      "userId": "8d0ee3fe-0fde-40c5-b30d-fff0c5adb0f0",
+      "invoiceId": "ba15fd07-8af9-4769-9b77-d16c163abfd7",
+      "createdAt": "2026-03-23T16:07:38.401Z"
+    },
+    {
+      "id": "535feef5-d2d5-4da5-828f-0eeda84be412",
+      "userId": "86db1f9a-b816-43c4-9525-8433333165ec",
+      "invoiceId": "c7a64a82-ae0b-4e81-9f4e-625ada9e3d1f",
+      "createdAt": "2026-03-23T16:07:38.402Z"
+    },
+    {
+      "id": "8793a936-8d7e-47fe-baff-9b833b23d60a",
+      "userId": "45ce62ee-0413-4653-9dec-a102d615d678",
+      "invoiceId": "1c75059f-263e-4729-bd3e-a25f23e4db56",
+      "createdAt": "2026-03-23T16:07:38.403Z"
+    },
+    {
+      "id": "761e9c01-ee65-4376-81f2-a77b90dd99cc",
+      "userId": "d2bb37d2-361c-416c-aa83-5de70e05e97f",
+      "invoiceId": "1e26c1e6-7e2b-4962-bd95-620e69ddee9a",
+      "createdAt": "2026-03-23T16:07:38.405Z"
+    },
+    {
+      "id": "a8e0df77-3058-4dc1-9500-b4365e46f3ba",
+      "userId": "86db1f9a-b816-43c4-9525-8433333165ec",
+      "invoiceId": "5f1fedf7-19c4-4f0c-b852-e293d4d70848",
+      "createdAt": "2026-03-23T16:07:38.408Z"
+    },
+    {
+      "id": "7ba7cc91-b68e-4990-8e4b-75853f7302d6",
+      "userId": "f02155be-c86c-4b9f-91ec-01b7e2e7ed1d",
+      "invoiceId": "6b2fe572-f1ea-4441-90b9-277567c5bc06",
+      "createdAt": "2026-03-23T16:07:38.410Z"
+    },
+    {
+      "id": "df4126ea-33e9-423e-8d5e-e2f4f5ed0168",
+      "userId": "bbb150d0-e977-4c22-97e8-c26bb4a75b8d",
+      "invoiceId": "038498c9-ef80-4887-9736-0278dc30d996",
+      "createdAt": "2026-03-23T16:07:38.411Z"
+    },
+    {
+      "id": "5af84128-7abf-4f76-a554-a5678d93d8f3",
+      "userId": "f02155be-c86c-4b9f-91ec-01b7e2e7ed1d",
+      "invoiceId": "a7d999c6-497e-438e-97cb-e7566d411b02",
+      "createdAt": "2026-03-23T16:07:38.413Z"
+    },
+    {
+      "id": "a7914a83-ab0c-498b-8858-c04fb03de1f7",
+      "userId": "de7ce6b0-5b3a-4d17-969e-cf752a59e1e9",
+      "invoiceId": "653b7b70-aeac-47d8-8a39-ca372983dbf3",
+      "createdAt": "2026-03-23T16:07:38.414Z"
+    },
+    {
+      "id": "fba1480d-4bc2-40f4-abf0-1817ee6a0868",
+      "userId": "6e96a078-1e67-40f3-b0f7-f224218aa856",
+      "invoiceId": "c252c58b-5b4c-4cc3-b451-c390b6c8645a",
+      "createdAt": "2026-03-23T16:07:38.416Z"
+    },
+    {
+      "id": "09908599-2018-49ed-94a5-b42bc75550c8",
+      "userId": "d15a47bf-c4a9-4c77-9363-d7a3b4e36d4a",
+      "invoiceId": "29d312c9-302e-4118-98d2-ff3b90e0b48a",
+      "createdAt": "2026-03-23T16:07:38.417Z"
+    },
+    {
+      "id": "65155d00-27b0-4351-9656-f85d9926601a",
+      "userId": "c5a76fa8-ea20-4cc6-8d76-7bf5ef175137",
+      "invoiceId": "fedb29f2-1102-463a-aed2-29cc7382faf7",
+      "createdAt": "2026-03-23T16:07:38.420Z"
+    },
+    {
+      "id": "5c0fc5c9-1b67-4ec0-b560-c84776761c79",
+      "userId": "34bfd45d-9575-4225-9a2b-ae3ad441d799",
+      "invoiceId": "39972daa-57fc-461c-a078-9c68d22b393e",
+      "createdAt": "2026-03-23T16:07:38.421Z"
+    },
+    {
+      "id": "c599813c-97ec-4c4c-aa8e-cb3db31ecdc1",
+      "userId": "1d4f9ca8-c740-421b-a116-33695b0be7f5",
+      "invoiceId": "e0c743ab-12c4-434d-a82c-a7033059328a",
+      "createdAt": "2026-03-23T16:07:38.423Z"
+    },
+    {
+      "id": "58fcfc84-3ffa-4552-942d-498c46146215",
+      "userId": "b817b8d2-2602-48d3-8be5-04b9f800ea3a",
+      "invoiceId": "6433b2d9-937e-4552-bcc0-dda25d059665",
+      "createdAt": "2026-03-23T16:07:38.430Z"
+    },
+    {
+      "id": "f7cb427a-2bb5-4f46-999a-949a398f2192",
+      "userId": "d2bb37d2-361c-416c-aa83-5de70e05e97f",
+      "invoiceId": "5d0ba2d6-e34d-47db-a01f-9806cb0dca87",
+      "createdAt": "2026-03-23T16:07:38.432Z"
+    },
+    {
+      "id": "67589a87-f4cc-4f29-8ff7-c01cffe67aeb",
+      "userId": "7c7f29ec-46b2-4b52-b37f-256d8aaa9ce2",
+      "invoiceId": "aa864ec8-c8a9-4427-bdea-57fd56ec7b00",
+      "createdAt": "2026-03-23T16:07:38.433Z"
+    },
+    {
+      "id": "bd35100b-1255-45cd-afe5-d5f66dd07870",
+      "userId": "f2f0f6ff-2d97-40fe-9948-643c59ad1d43",
+      "invoiceId": "68d52669-b9cd-4776-89ad-299fb7831185",
+      "createdAt": "2026-03-23T16:07:38.435Z"
+    }
+  ],
+  "sharedInvoiceAudits": [
+    {
+      "id": "165e77c0-725f-4288-854b-5185a8fb6625",
+      "sharedInvoiceId": "5c2b86c6-4371-4539-9645-1a44bf77e1fa",
+      "fromUserId": "aa1d8721-7120-4548-90bf-ea7ee846680e",
+      "toUserId": "7c7f29ec-46b2-4b52-b37f-256d8aaa9ce2",
+      "permissionType": "READ",
+      "createdAt": "2026-03-23T16:07:38.375Z"
+    },
+    {
+      "id": "b2a3ead0-1a8f-43ae-a6a6-2c2852f1552d",
+      "sharedInvoiceId": "aed11960-14af-4018-8268-af541b41dfba",
+      "fromUserId": "7c7f29ec-46b2-4b52-b37f-256d8aaa9ce2",
+      "toUserId": "de7ce6b0-5b3a-4d17-969e-cf752a59e1e9",
+      "permissionType": "READ",
+      "createdAt": "2026-03-23T16:07:38.379Z"
+    },
+    {
+      "id": "17603e75-6e29-4b5a-ac95-7332147f14cc",
+      "sharedInvoiceId": "44669064-4a3f-45c9-a446-82d71b4b42da",
+      "fromUserId": "7c7f29ec-46b2-4b52-b37f-256d8aaa9ce2",
+      "toUserId": "c2499b0d-8785-4d8a-84aa-2a98051bbe42",
+      "permissionType": "READ",
+      "createdAt": "2026-03-23T16:07:38.381Z"
+    },
+    {
+      "id": "8ee58a12-4365-4e43-966c-a86cb6cbc0ba",
+      "sharedInvoiceId": "b1e4f8d8-c069-491e-bc57-bcf5c258de4a",
+      "fromUserId": "e0983a09-5ea5-40b3-9e3f-8c789fb9213d",
+      "toUserId": "45ce62ee-0413-4653-9dec-a102d615d678",
+      "permissionType": "READ",
+      "createdAt": "2026-03-23T16:07:38.383Z"
+    },
+    {
+      "id": "1277c44f-8634-43e6-b50d-f5505fd401a3",
+      "sharedInvoiceId": "9618d3ba-a85b-4c99-b40c-8d3894ee39eb",
+      "fromUserId": "d2bb37d2-361c-416c-aa83-5de70e05e97f",
+      "toUserId": "6e96a078-1e67-40f3-b0f7-f224218aa856",
+      "permissionType": "READ",
+      "createdAt": "2026-03-23T16:07:38.385Z"
+    },
+    {
+      "id": "a7c4d2d5-4d11-48f6-93a8-3d5f52bb1d21",
+      "sharedInvoiceId": "69880721-ad13-4497-b506-131e4950b276",
+      "fromUserId": "9715d47d-f179-4fdc-9603-d44528d7e0bc",
+      "toUserId": "b0111561-ae61-43bf-aec5-ccf621774be4",
+      "permissionType": "READ",
+      "createdAt": "2026-03-23T16:07:38.388Z"
+    },
+    {
+      "id": "0c503361-1af6-4ea0-8949-173c717fda65",
+      "sharedInvoiceId": "e98b6684-257c-44d6-96fd-8f125e0f625f",
+      "fromUserId": "45ce62ee-0413-4653-9dec-a102d615d678",
+      "toUserId": "3b38643c-203b-44d7-be55-62d9fcf87924",
+      "permissionType": "READ",
+      "createdAt": "2026-03-23T16:07:38.391Z"
+    },
+    {
+      "id": "5bd42c06-4c8d-47b6-bd51-5bd4f9d70ce5",
+      "sharedInvoiceId": "9697dcf8-f616-4963-bc26-da55b5953ee9",
+      "fromUserId": "6e96a078-1e67-40f3-b0f7-f224218aa856",
+      "toUserId": "d15a47bf-c4a9-4c77-9363-d7a3b4e36d4a",
+      "permissionType": "READ",
+      "createdAt": "2026-03-23T16:07:38.394Z"
+    },
+    {
+      "id": "877b0b84-93e6-4fda-8eab-1ec5733a93a7",
+      "sharedInvoiceId": "a5bd5edc-f0f2-4f72-ba47-7843231f2ae4",
+      "fromUserId": "b3d7c3c7-ecc8-4d2c-a718-c2e8594c8248",
+      "toUserId": "43943856-efda-4433-a43a-146ac3a71930",
+      "permissionType": "READ",
+      "createdAt": "2026-03-23T16:07:38.395Z"
+    },
+    {
+      "id": "b22e3713-0934-4262-b9dc-52d901e11081",
+      "sharedInvoiceId": "6737ff79-91d9-4913-9938-883dadd2390d",
+      "fromUserId": "da728b88-3ebf-4841-9fb4-48d765f21069",
+      "toUserId": "8188391a-23da-49a9-95a7-f82e08758632",
+      "permissionType": "READ",
+      "createdAt": "2026-03-23T16:07:38.397Z"
+    },
+    {
+      "id": "8eb25977-f324-4d6f-b2ef-d65ee646f4cf",
+      "sharedInvoiceId": "7aab9075-f183-4d72-a81b-7526098a153c",
+      "fromUserId": "4cb2b4f8-d55b-4fa7-aabb-d9fde023bf86",
+      "toUserId": "f2f0f6ff-2d97-40fe-9948-643c59ad1d43",
+      "permissionType": "READ",
+      "createdAt": "2026-03-23T16:07:38.398Z"
+    },
+    {
+      "id": "06968072-2ba6-4374-a931-c1e3c4c2f239",
+      "sharedInvoiceId": "18ef6a89-3521-41fe-a711-006aa5463b45",
+      "fromUserId": "8d0ee3fe-0fde-40c5-b30d-fff0c5adb0f0",
+      "toUserId": "560d7c1e-214a-45fe-a56f-f86a03d75b7c",
+      "permissionType": "READ",
+      "createdAt": "2026-03-23T16:07:38.400Z"
+    },
+    {
+      "id": "7c1e3617-8153-4b7e-b926-8087cb1d3626",
+      "sharedInvoiceId": "b78c3ada-33ea-49c5-98be-a1ad8ad0a584",
+      "fromUserId": "560d7c1e-214a-45fe-a56f-f86a03d75b7c",
+      "toUserId": "8d0ee3fe-0fde-40c5-b30d-fff0c5adb0f0",
+      "permissionType": "READ",
+      "createdAt": "2026-03-23T16:07:38.401Z"
+    },
+    {
+      "id": "0d40ec0a-99dc-444e-8c6f-f1243d340ee1",
+      "sharedInvoiceId": "535feef5-d2d5-4da5-828f-0eeda84be412",
+      "fromUserId": "da728b88-3ebf-4841-9fb4-48d765f21069",
+      "toUserId": "86db1f9a-b816-43c4-9525-8433333165ec",
+      "permissionType": "READ",
+      "createdAt": "2026-03-23T16:07:38.403Z"
+    },
+    {
+      "id": "dcc49279-6d07-4fe7-a03c-42e64cd51d9e",
+      "sharedInvoiceId": "8793a936-8d7e-47fe-baff-9b833b23d60a",
+      "fromUserId": "b0111561-ae61-43bf-aec5-ccf621774be4",
+      "toUserId": "45ce62ee-0413-4653-9dec-a102d615d678",
+      "permissionType": "READ",
+      "createdAt": "2026-03-23T16:07:38.404Z"
+    },
+    {
+      "id": "2d64d0e8-9c39-4181-b56e-a5ede2c622f1",
+      "sharedInvoiceId": "761e9c01-ee65-4376-81f2-a77b90dd99cc",
+      "fromUserId": "6e96a078-1e67-40f3-b0f7-f224218aa856",
+      "toUserId": "d2bb37d2-361c-416c-aa83-5de70e05e97f",
+      "permissionType": "READ",
+      "createdAt": "2026-03-23T16:07:38.406Z"
+    },
+    {
+      "id": "320811db-9b49-456a-921b-51a4265c9d25",
+      "sharedInvoiceId": "a8e0df77-3058-4dc1-9500-b4365e46f3ba",
+      "fromUserId": "34bfd45d-9575-4225-9a2b-ae3ad441d799",
+      "toUserId": "86db1f9a-b816-43c4-9525-8433333165ec",
+      "permissionType": "READ",
+      "createdAt": "2026-03-23T16:07:38.409Z"
+    },
+    {
+      "id": "72e42ea7-f332-4f44-b934-720f367dbc8a",
+      "sharedInvoiceId": "7ba7cc91-b68e-4990-8e4b-75853f7302d6",
+      "fromUserId": "1d4f9ca8-c740-421b-a116-33695b0be7f5",
+      "toUserId": "f02155be-c86c-4b9f-91ec-01b7e2e7ed1d",
+      "permissionType": "READ",
+      "createdAt": "2026-03-23T16:07:38.410Z"
+    },
+    {
+      "id": "a1fc9986-d5d8-49ae-bc58-dec4fefd104f",
+      "sharedInvoiceId": "df4126ea-33e9-423e-8d5e-e2f4f5ed0168",
+      "fromUserId": "76d525b2-ff36-4692-9f43-052f9d2c687a",
+      "toUserId": "bbb150d0-e977-4c22-97e8-c26bb4a75b8d",
+      "permissionType": "READ",
+      "createdAt": "2026-03-23T16:07:38.412Z"
+    },
+    {
+      "id": "5b74ed4e-f3d2-45e8-bbbd-003a5cd1bba9",
+      "sharedInvoiceId": "5af84128-7abf-4f76-a554-a5678d93d8f3",
+      "fromUserId": "67f8c6eb-c892-4394-84d8-aaaf2e9fe0ad",
+      "toUserId": "f02155be-c86c-4b9f-91ec-01b7e2e7ed1d",
+      "permissionType": "READ",
+      "createdAt": "2026-03-23T16:07:38.413Z"
+    },
+    {
+      "id": "195f547d-57d2-4253-8e5a-192477e42336",
+      "sharedInvoiceId": "a7914a83-ab0c-498b-8858-c04fb03de1f7",
+      "fromUserId": "7c7f29ec-46b2-4b52-b37f-256d8aaa9ce2",
+      "toUserId": "de7ce6b0-5b3a-4d17-969e-cf752a59e1e9",
+      "permissionType": "READ",
+      "createdAt": "2026-03-23T16:07:38.415Z"
+    },
+    {
+      "id": "1f24f491-fe32-4475-a425-eb8da5afcd2c",
+      "sharedInvoiceId": "fba1480d-4bc2-40f4-abf0-1817ee6a0868",
+      "fromUserId": "d15a47bf-c4a9-4c77-9363-d7a3b4e36d4a",
+      "toUserId": "6e96a078-1e67-40f3-b0f7-f224218aa856",
+      "permissionType": "READ",
+      "createdAt": "2026-03-23T16:07:38.417Z"
+    },
+    {
+      "id": "069373cd-2c08-48d1-8fe4-f499b76d0a8f",
+      "sharedInvoiceId": "09908599-2018-49ed-94a5-b42bc75550c8",
+      "fromUserId": "6e96a078-1e67-40f3-b0f7-f224218aa856",
+      "toUserId": "d15a47bf-c4a9-4c77-9363-d7a3b4e36d4a",
+      "permissionType": "READ",
+      "createdAt": "2026-03-23T16:07:38.419Z"
+    },
+    {
+      "id": "fd78638a-7860-4f74-a3ba-231479e800ac",
+      "sharedInvoiceId": "65155d00-27b0-4351-9656-f85d9926601a",
+      "fromUserId": "52efb517-4771-482a-903a-6f3fd479919c",
+      "toUserId": "c5a76fa8-ea20-4cc6-8d76-7bf5ef175137",
+      "permissionType": "READ",
+      "createdAt": "2026-03-23T16:07:38.420Z"
+    },
+    {
+      "id": "def91313-8b2e-4ae2-b1fe-3dac37270582",
+      "sharedInvoiceId": "5c0fc5c9-1b67-4ec0-b560-c84776761c79",
+      "fromUserId": "86db1f9a-b816-43c4-9525-8433333165ec",
+      "toUserId": "34bfd45d-9575-4225-9a2b-ae3ad441d799",
+      "permissionType": "READ",
+      "createdAt": "2026-03-23T16:07:38.422Z"
+    },
+    {
+      "id": "9e400064-935a-46af-b4c6-8109a43867b1",
+      "sharedInvoiceId": "c599813c-97ec-4c4c-aa8e-cb3db31ecdc1",
+      "fromUserId": "f02155be-c86c-4b9f-91ec-01b7e2e7ed1d",
+      "toUserId": "1d4f9ca8-c740-421b-a116-33695b0be7f5",
+      "permissionType": "READ",
+      "createdAt": "2026-03-23T16:07:38.428Z"
+    },
+    {
+      "id": "c7f192de-c004-45b2-9042-16e85d6fc0c8",
+      "sharedInvoiceId": "58fcfc84-3ffa-4552-942d-498c46146215",
+      "fromUserId": "52efb517-4771-482a-903a-6f3fd479919c",
+      "toUserId": "b817b8d2-2602-48d3-8be5-04b9f800ea3a",
+      "permissionType": "READ",
+      "createdAt": "2026-03-23T16:07:38.431Z"
+    },
+    {
+      "id": "088bfcc4-db2a-48a1-b478-28384f1a087f",
+      "sharedInvoiceId": "f7cb427a-2bb5-4f46-999a-949a398f2192",
+      "fromUserId": "6e96a078-1e67-40f3-b0f7-f224218aa856",
+      "toUserId": "d2bb37d2-361c-416c-aa83-5de70e05e97f",
+      "permissionType": "READ",
+      "createdAt": "2026-03-23T16:07:38.433Z"
+    },
+    {
+      "id": "581b316a-7d9c-4b03-a480-05376d26c96f",
+      "sharedInvoiceId": "67589a87-f4cc-4f29-8ff7-c01cffe67aeb",
+      "fromUserId": "c2499b0d-8785-4d8a-84aa-2a98051bbe42",
+      "toUserId": "7c7f29ec-46b2-4b52-b37f-256d8aaa9ce2",
+      "permissionType": "READ",
+      "createdAt": "2026-03-23T16:07:38.434Z"
+    },
+    {
+      "id": "0ea54f30-4591-4442-a148-4a2faa19cc9b",
+      "sharedInvoiceId": "bd35100b-1255-45cd-afe5-d5f66dd07870",
+      "fromUserId": "4cb2b4f8-d55b-4fa7-aabb-d9fde023bf86",
+      "toUserId": "f2f0f6ff-2d97-40fe-9948-643c59ad1d43",
+      "permissionType": "READ",
+      "createdAt": "2026-03-23T16:07:38.436Z"
+    }
+  ],
+  "userAuditLogs": [
+    {
+      "id": "6ae8fbbe-06ea-4afc-922e-fe247eb58027",
+      "userId": "da728b88-3ebf-4841-9fb4-48d765f21069",
+      "action": "LOGIN",
+      "oldStatus": null,
+      "newStatus": null,
+      "createdAt": "2026-03-15T22:54:34.941Z",
+      "ipAddr": "211.40.204.99",
+      "metadata": {
+        "browser": "Chrome",
+        "location": "Ribeira Grande"
+      }
+    },
+    {
+      "id": "18919bd0-e8ea-4d01-890d-db0fed64907d",
+      "userId": "1567eb52-a107-4fa5-9ee2-e17cd84356d9",
+      "action": "PROFILE_UPDATE",
+      "oldStatus": null,
+      "newStatus": null,
+      "createdAt": "2026-03-02T14:48:21.738Z",
+      "ipAddr": "183.218.249.36",
+      "metadata": {
+        "browser": "Chrome",
+        "location": "Reguengos de Monsaraz"
+      }
+    },
+    {
+      "id": "3f0a4fde-d733-4c20-8b0e-ff551c9b9cfe",
+      "userId": "9715d47d-f179-4fdc-9603-d44528d7e0bc",
+      "action": "LOGIN",
+      "oldStatus": null,
+      "newStatus": null,
+      "createdAt": "2026-03-16T21:33:22.554Z",
+      "ipAddr": "32.139.31.218",
+      "metadata": {
+        "browser": "Chrome",
+        "location": "Vila Nova de Santo André"
+      }
+    },
+    {
+      "id": "58edb160-7670-4355-a042-4e0205f6618b",
+      "userId": "1dba079f-a87a-4afe-926c-a28901866bac",
+      "action": "LOGOUT",
+      "oldStatus": null,
+      "newStatus": null,
+      "createdAt": "2026-03-22T23:43:57.426Z",
+      "ipAddr": "241.232.194.155",
+      "metadata": {
+        "browser": "Chrome",
+        "location": "Sacavém"
+      }
+    },
+    {
+      "id": "22e02ddd-2786-4c29-a96b-196d1ead6080",
+      "userId": "67f8c6eb-c892-4394-84d8-aaaf2e9fe0ad",
+      "action": "LOGIN",
+      "oldStatus": null,
+      "newStatus": null,
+      "createdAt": "2026-03-01T17:31:02.787Z",
+      "ipAddr": "38.169.227.164",
+      "metadata": {
+        "browser": "Chrome",
+        "location": "Câmara de Lobos"
+      }
+    },
+    {
+      "id": "316fd75b-9479-4cfa-9951-ea607edddc28",
+      "userId": "9eaa34bc-99d7-47ed-b34a-cd7ba3a6ea9b",
+      "action": "PROFILE_UPDATE",
+      "oldStatus": null,
+      "newStatus": null,
+      "createdAt": "2026-02-22T08:56:31.551Z",
+      "ipAddr": "254.27.202.144",
+      "metadata": {
+        "browser": "Chrome",
+        "location": "Seixal"
+      }
+    },
+    {
+      "id": "04f41853-6528-494b-b6ff-74c58eb1dfe7",
+      "userId": "6b3072c1-721b-4db1-9920-8f05f045eaf7",
+      "action": "LOGOUT",
+      "oldStatus": null,
+      "newStatus": null,
+      "createdAt": "2026-03-05T19:34:53.560Z",
+      "ipAddr": "152.19.28.109",
+      "metadata": {
+        "browser": "Chrome",
+        "location": "Vila Nova de Famalicão"
+      }
+    },
+    {
+      "id": "d1f7f8ba-1c2f-4ea3-83ed-3ecf0b73fef8",
+      "userId": "ce58d7cf-5a3a-418b-8bc2-a8a483ad64df",
+      "action": "LOGOUT",
+      "oldStatus": null,
+      "newStatus": null,
+      "createdAt": "2026-03-10T03:06:38.905Z",
+      "ipAddr": "212.158.23.2",
+      "metadata": {
+        "browser": "Chrome",
+        "location": "Câmara de Lobos"
+      }
+    },
+    {
+      "id": "9297bfe1-98d1-4e4a-9e3d-97e4ef628c5b",
+      "userId": "1567eb52-a107-4fa5-9ee2-e17cd84356d9",
+      "action": "LOGIN",
+      "oldStatus": null,
+      "newStatus": null,
+      "createdAt": "2026-02-23T17:11:46.848Z",
+      "ipAddr": "40.46.169.147",
+      "metadata": {
+        "browser": "Chrome",
+        "location": "Vila Nova de Famalicão"
+      }
+    },
+    {
+      "id": "aab54ef0-c1dc-4491-8349-c73afdd8af5a",
+      "userId": "43943856-efda-4433-a43a-146ac3a71930",
+      "action": "LOGOUT",
+      "oldStatus": null,
+      "newStatus": null,
+      "createdAt": "2026-03-12T01:02:17.394Z",
+      "ipAddr": "178.36.83.69",
+      "metadata": {
+        "browser": "Chrome",
+        "location": "Gouveia"
+      }
+    },
+    {
+      "id": "99784859-414a-461e-9139-4f6e1af6ff18",
+      "userId": "a0660744-560e-4475-9f5f-77ee5c186861",
+      "action": "LOGOUT",
+      "oldStatus": null,
+      "newStatus": null,
+      "createdAt": "2026-03-13T10:15:25.287Z",
+      "ipAddr": "156.235.239.137",
+      "metadata": {
+        "browser": "Chrome",
+        "location": "Leiria"
+      }
+    },
+    {
+      "id": "67973e52-8a07-4bba-8df7-117e0453e87e",
+      "userId": "011a1bc1-299e-4b60-93c0-9ac6dbdb32d3",
+      "action": "LOGIN",
+      "oldStatus": null,
+      "newStatus": null,
+      "createdAt": "2026-03-10T16:33:19.975Z",
+      "ipAddr": "8.106.254.3",
+      "metadata": {
+        "browser": "Chrome",
+        "location": "Peso da Régua"
+      }
+    },
+    {
+      "id": "979f408d-0edf-4f66-875a-a81a0b051f51",
+      "userId": "76d525b2-ff36-4692-9f43-052f9d2c687a",
+      "action": "LOGOUT",
+      "oldStatus": null,
+      "newStatus": null,
+      "createdAt": "2026-03-18T19:36:59.993Z",
+      "ipAddr": "115.122.107.110",
+      "metadata": {
+        "browser": "Chrome",
+        "location": "Santa Cruz"
+      }
+    },
+    {
+      "id": "7ba777d3-7594-4ac9-a18a-6a2f059a6113",
+      "userId": "0d9db618-34ed-4afa-8906-7edcb8d34f81",
+      "action": "LOGIN",
+      "oldStatus": null,
+      "newStatus": null,
+      "createdAt": "2026-02-24T07:44:18.493Z",
+      "ipAddr": "114.137.190.125",
+      "metadata": {
+        "browser": "Chrome",
+        "location": "Tondela"
+      }
+    },
+    {
+      "id": "4d1c3561-be50-491a-84be-db596cc323a4",
+      "userId": "5b3db190-31f9-4d0b-aca1-9f70ad1bebe9",
+      "action": "LOGOUT",
+      "oldStatus": null,
+      "newStatus": null,
+      "createdAt": "2026-03-19T16:54:09.207Z",
+      "ipAddr": "250.148.79.66",
+      "metadata": {
+        "browser": "Chrome",
+        "location": "Rebordosa"
+      }
+    },
+    {
+      "id": "de899fef-d01a-47b4-9b7f-098f6d62b02d",
+      "userId": "96dc51b2-15dd-430f-88d0-c4b807953f4d",
+      "action": "PROFILE_UPDATE",
+      "oldStatus": null,
+      "newStatus": null,
+      "createdAt": "2026-03-05T01:11:09.186Z",
+      "ipAddr": "138.242.58.22",
+      "metadata": {
+        "browser": "Chrome",
+        "location": "Felgueiras"
+      }
+    },
+    {
+      "id": "7d0a1a75-ec82-4fa5-82d9-58f07f718063",
+      "userId": "e99e5ce6-450f-49ab-9e83-c89c99b14690",
+      "action": "LOGOUT",
+      "oldStatus": null,
+      "newStatus": null,
+      "createdAt": "2026-03-09T23:52:24.498Z",
+      "ipAddr": "107.146.11.163",
+      "metadata": {
+        "browser": "Chrome",
+        "location": "Tavira"
+      }
+    },
+    {
+      "id": "020dc2fa-2dac-4f38-8052-3039ab45cc01",
+      "userId": "cce4da2f-3636-4f17-a0f6-05b9ac1f1e97",
+      "action": "LOGOUT",
+      "oldStatus": null,
+      "newStatus": null,
+      "createdAt": "2026-03-02T00:50:05.996Z",
+      "ipAddr": "195.251.99.126",
+      "metadata": {
+        "browser": "Chrome",
+        "location": "Matosinhos"
+      }
+    },
+    {
+      "id": "56da868c-c5a6-4dd4-b9f7-a480b59be2af",
+      "userId": "88e8b315-b2c3-43dd-96ea-2340962a755b",
+      "action": "LOGIN",
+      "oldStatus": null,
+      "newStatus": null,
+      "createdAt": "2026-03-01T21:57:34.648Z",
+      "ipAddr": "88.213.128.198",
+      "metadata": {
+        "browser": "Chrome",
+        "location": "São Mamede de Infesta"
+      }
+    },
+    {
+      "id": "d0b530b0-d3a3-4a64-80c7-5ebbad5f1f3e",
+      "userId": "45ce62ee-0413-4653-9dec-a102d615d678",
+      "action": "PROFILE_UPDATE",
+      "oldStatus": null,
+      "newStatus": null,
+      "createdAt": "2026-02-28T00:47:05.338Z",
+      "ipAddr": "155.188.49.234",
+      "metadata": {
+        "browser": "Chrome",
+        "location": "Tondela"
+      }
+    },
+    {
+      "id": "af35fe89-f1f7-45c7-bb61-8127f11f7661",
+      "userId": "45ce62ee-0413-4653-9dec-a102d615d678",
+      "action": "LOGIN",
+      "oldStatus": null,
+      "newStatus": null,
+      "createdAt": "2026-03-09T22:08:23.612Z",
+      "ipAddr": "115.147.122.111",
+      "metadata": {
+        "browser": "Chrome",
+        "location": "Almada"
+      }
+    },
+    {
+      "id": "d5d65023-6a7f-4ae3-9dad-b76f42ed2152",
+      "userId": "43943856-efda-4433-a43a-146ac3a71930",
+      "action": "LOGOUT",
+      "oldStatus": null,
+      "newStatus": null,
+      "createdAt": "2026-02-24T11:04:50.565Z",
+      "ipAddr": "242.138.80.202",
+      "metadata": {
+        "browser": "Chrome",
+        "location": "Barcelos"
+      }
+    },
+    {
+      "id": "1a8e9b19-9c1c-4c53-8cb6-da9b2f8c0caa",
+      "userId": "8188391a-23da-49a9-95a7-f82e08758632",
+      "action": "LOGOUT",
+      "oldStatus": null,
+      "newStatus": null,
+      "createdAt": "2026-03-17T20:03:33.459Z",
+      "ipAddr": "166.56.149.176",
+      "metadata": {
+        "browser": "Chrome",
+        "location": "Fundão"
+      }
+    },
+    {
+      "id": "67bac191-bd0e-4fdf-aa59-0b7790b3078c",
+      "userId": "107a382f-9ea9-40c7-8b2b-7000f30d478e",
+      "action": "LOGOUT",
+      "oldStatus": null,
+      "newStatus": null,
+      "createdAt": "2026-02-28T07:07:33.867Z",
+      "ipAddr": "74.59.60.21",
+      "metadata": {
+        "browser": "Chrome",
+        "location": "Barcelos"
+      }
+    },
+    {
+      "id": "eed54300-dc0f-4c6a-a85f-60ad5e8d02ba",
+      "userId": "e43572df-ab21-440d-98ad-9bf0d735026c",
+      "action": "LOGOUT",
+      "oldStatus": null,
+      "newStatus": null,
+      "createdAt": "2026-03-16T13:23:11.700Z",
+      "ipAddr": "55.69.206.93",
+      "metadata": {
+        "browser": "Chrome",
+        "location": "Freamunde"
+      }
+    },
+    {
+      "id": "7d18c134-7e3d-4555-9312-740faec18459",
+      "userId": "f2f0f6ff-2d97-40fe-9948-643c59ad1d43",
+      "action": "PROFILE_UPDATE",
+      "oldStatus": null,
+      "newStatus": null,
+      "createdAt": "2026-03-10T03:03:05.911Z",
+      "ipAddr": "45.74.32.194",
+      "metadata": {
+        "browser": "Chrome",
+        "location": "Oliveira do Hospital"
+      }
+    },
+    {
+      "id": "bc0d4073-1fb2-4731-8614-befb150de1f5",
+      "userId": "107a382f-9ea9-40c7-8b2b-7000f30d478e",
+      "action": "LOGOUT",
+      "oldStatus": null,
+      "newStatus": null,
+      "createdAt": "2026-03-09T07:47:48.916Z",
+      "ipAddr": "73.162.38.74",
+      "metadata": {
+        "browser": "Chrome",
+        "location": "Olhão da Restauração"
+      }
+    },
+    {
+      "id": "36ee1b68-49e4-4071-bfb0-4d0e5cf31afa",
+      "userId": "cd713448-acc4-4b5b-999b-9c9e25a1277c",
+      "action": "PROFILE_UPDATE",
+      "oldStatus": null,
+      "newStatus": null,
+      "createdAt": "2026-03-10T18:36:25.745Z",
+      "ipAddr": "72.101.236.33",
+      "metadata": {
+        "browser": "Chrome",
+        "location": "Oliveira do Hospital"
+      }
+    },
+    {
+      "id": "61e55cba-8ffb-4b5d-9e2d-ce539de86e05",
+      "userId": "cd713448-acc4-4b5b-999b-9c9e25a1277c",
+      "action": "LOGIN",
+      "oldStatus": null,
+      "newStatus": null,
+      "createdAt": "2026-03-14T02:17:57.076Z",
+      "ipAddr": "87.92.234.6",
+      "metadata": {
+        "browser": "Chrome",
+        "location": "Valongo"
+      }
+    },
+    {
+      "id": "ff99f94d-f1c3-41b6-8117-8d46b1c10cf9",
+      "userId": "14688103-884e-4a66-bf54-62aa387393be",
+      "action": "PROFILE_UPDATE",
+      "oldStatus": null,
+      "newStatus": null,
+      "createdAt": "2026-03-13T12:55:31.738Z",
+      "ipAddr": "79.200.32.7",
+      "metadata": {
+        "browser": "Chrome",
+        "location": "Cantanhede"
+      }
+    },
+    {
+      "id": "5c6fd607-47d7-4277-ac31-1b3265ab81e6",
+      "userId": "67f8c6eb-c892-4394-84d8-aaaf2e9fe0ad",
+      "action": "LOGIN",
+      "oldStatus": null,
+      "newStatus": null,
+      "createdAt": "2026-02-25T08:08:02.729Z",
+      "ipAddr": "203.226.146.200",
+      "metadata": {
+        "browser": "Chrome",
+        "location": "Machico"
+      }
+    },
+    {
+      "id": "f544ee29-e88f-4285-a747-751508849d23",
+      "userId": "454397a7-3ce6-4146-ad8a-fd87a5965c58",
+      "action": "LOGIN",
+      "oldStatus": null,
+      "newStatus": null,
+      "createdAt": "2026-03-02T22:23:35.246Z",
+      "ipAddr": "205.73.109.152",
+      "metadata": {
+        "browser": "Chrome",
+        "location": "Évora"
+      }
+    },
+    {
+      "id": "ad2687c0-cc31-494b-91cd-c2cc4fda3aee",
+      "userId": "107a382f-9ea9-40c7-8b2b-7000f30d478e",
+      "action": "PROFILE_UPDATE",
+      "oldStatus": null,
+      "newStatus": null,
+      "createdAt": "2026-03-08T21:48:00.695Z",
+      "ipAddr": "117.98.168.12",
+      "metadata": {
+        "browser": "Chrome",
+        "location": "Vila do Conde"
+      }
+    },
+    {
+      "id": "edbc85a6-9eb3-4e15-80d1-39cc38f460e0",
+      "userId": "7e72a11b-f1b3-4896-8de1-4de664e02f94",
+      "action": "LOGIN",
+      "oldStatus": null,
+      "newStatus": null,
+      "createdAt": "2026-03-16T17:21:42.601Z",
+      "ipAddr": "140.48.25.84",
+      "metadata": {
+        "browser": "Chrome",
+        "location": "Quarteira"
+      }
+    },
+    {
+      "id": "550de9bd-59c9-4ce6-8e88-9c359724affc",
+      "userId": "7c7f29ec-46b2-4b52-b37f-256d8aaa9ce2",
+      "action": "LOGOUT",
+      "oldStatus": null,
+      "newStatus": null,
+      "createdAt": "2026-03-11T07:52:32.319Z",
+      "ipAddr": "139.110.88.250",
+      "metadata": {
+        "browser": "Chrome",
+        "location": "Figueira da Foz"
+      }
+    },
+    {
+      "id": "1f407aba-9d03-4ad1-a76d-c80e917390a3",
+      "userId": "e43572df-ab21-440d-98ad-9bf0d735026c",
+      "action": "LOGIN",
+      "oldStatus": null,
+      "newStatus": null,
+      "createdAt": "2026-03-03T12:43:59.107Z",
+      "ipAddr": "96.155.234.119",
+      "metadata": {
+        "browser": "Chrome",
+        "location": "Vila Nova de Santo André"
+      }
+    },
+    {
+      "id": "dec7d7c2-1c84-4c04-81b9-ae64e1d13e20",
+      "userId": "de7ce6b0-5b3a-4d17-969e-cf752a59e1e9",
+      "action": "LOGOUT",
+      "oldStatus": null,
+      "newStatus": null,
+      "createdAt": "2026-03-12T09:46:26.357Z",
+      "ipAddr": "224.94.66.100",
+      "metadata": {
+        "browser": "Chrome",
+        "location": "Entroncamento"
+      }
+    },
+    {
+      "id": "43f7d9be-d5df-4eae-b2c0-ca99be2910d3",
+      "userId": "454397a7-3ce6-4146-ad8a-fd87a5965c58",
+      "action": "LOGOUT",
+      "oldStatus": null,
+      "newStatus": null,
+      "createdAt": "2026-02-27T21:12:53.321Z",
+      "ipAddr": "169.164.27.166",
+      "metadata": {
+        "browser": "Chrome",
+        "location": "Machico"
+      }
+    },
+    {
+      "id": "f9a212fe-0cd1-4a95-ba8d-924649a31969",
+      "userId": "04e4260b-2ba8-4b2e-b855-e13311404732",
+      "action": "LOGOUT",
+      "oldStatus": null,
+      "newStatus": null,
+      "createdAt": "2026-03-17T22:08:33.532Z",
+      "ipAddr": "2.213.162.17",
+      "metadata": {
+        "browser": "Chrome",
+        "location": "Santarém"
+      }
+    },
+    {
+      "id": "f23ca78c-b47e-466e-bc72-7e08027c23ef",
+      "userId": "661b4ae2-9a54-4f95-9008-0d72dbc0b56a",
+      "action": "LOGIN",
+      "oldStatus": null,
+      "newStatus": null,
+      "createdAt": "2026-03-10T20:40:59.155Z",
+      "ipAddr": "206.196.93.18",
+      "metadata": {
+        "browser": "Chrome",
+        "location": "Oliveira do Bairro"
+      }
+    },
+    {
+      "id": "49ecbf82-cc94-45dc-9cd2-72292caad0b1",
+      "userId": "c3008e98-f8f3-454d-9208-4a00950af9ba",
+      "action": "PROFILE_UPDATE",
+      "oldStatus": null,
+      "newStatus": null,
+      "createdAt": "2026-03-01T18:01:12.434Z",
+      "ipAddr": "56.134.102.121",
+      "metadata": {
+        "browser": "Chrome",
+        "location": "Évora"
+      }
+    },
+    {
+      "id": "a783f850-ca19-46c9-95d7-7c885e2bc880",
+      "userId": "ddca7594-0be7-43f1-a2d4-8a2b7e095c9b",
+      "action": "LOGOUT",
+      "oldStatus": null,
+      "newStatus": null,
+      "createdAt": "2026-03-07T17:06:37.136Z",
+      "ipAddr": "233.101.84.129",
+      "metadata": {
+        "browser": "Chrome",
+        "location": "Leiria"
+      }
+    },
+    {
+      "id": "68dade14-3bed-420a-838c-97d6316c9507",
+      "userId": "f282ca7d-b94d-4b29-a775-60e68e8087d7",
+      "action": "LOGOUT",
+      "oldStatus": null,
+      "newStatus": null,
+      "createdAt": "2026-03-10T12:31:45.857Z",
+      "ipAddr": "171.94.86.98",
+      "metadata": {
+        "browser": "Chrome",
+        "location": "Mangualde"
+      }
+    },
+    {
+      "id": "a3b7cfd6-6e1d-4b24-8a23-296f32e118de",
+      "userId": "86db1f9a-b816-43c4-9525-8433333165ec",
+      "action": "LOGIN",
+      "oldStatus": null,
+      "newStatus": null,
+      "createdAt": "2026-03-10T01:36:39.171Z",
+      "ipAddr": "38.41.226.56",
+      "metadata": {
+        "browser": "Chrome",
+        "location": "Queluz"
+      }
+    },
+    {
+      "id": "c033ef30-7af6-4c6f-8b08-abb2bc0fa6ed",
+      "userId": "5b3db190-31f9-4d0b-aca1-9f70ad1bebe9",
+      "action": "LOGIN",
+      "oldStatus": null,
+      "newStatus": null,
+      "createdAt": "2026-03-09T16:01:30.985Z",
+      "ipAddr": "65.69.148.34",
+      "metadata": {
+        "browser": "Chrome",
+        "location": "Oliveira do Hospital"
+      }
+    },
+    {
+      "id": "859af0a8-d90d-4a1a-818a-7be4b51bd687",
+      "userId": "3c852b1e-49c5-449e-aac8-c78e139afb90",
+      "action": "LOGIN",
+      "oldStatus": null,
+      "newStatus": null,
+      "createdAt": "2026-02-24T12:09:31.784Z",
+      "ipAddr": "172.44.110.113",
+      "metadata": {
+        "browser": "Chrome",
+        "location": "Mangualde"
+      }
+    },
+    {
+      "id": "3ce1a0c2-286a-4ae0-bc14-dbe991a680be",
+      "userId": "d15a47bf-c4a9-4c77-9363-d7a3b4e36d4a",
+      "action": "LOGIN",
+      "oldStatus": null,
+      "newStatus": null,
+      "createdAt": "2026-03-02T19:26:28.430Z",
+      "ipAddr": "38.254.131.86",
+      "metadata": {
+        "browser": "Chrome",
+        "location": "Esposende"
+      }
+    },
+    {
+      "id": "1c12e425-1e56-41c6-92af-019dd571375a",
+      "userId": "14b63c6b-72c5-4d09-b4e9-9d89e9d61c6c",
+      "action": "LOGOUT",
+      "oldStatus": null,
+      "newStatus": null,
+      "createdAt": "2026-03-03T04:09:24.352Z",
+      "ipAddr": "114.241.16.181",
+      "metadata": {
+        "browser": "Chrome",
+        "location": "Póvoa de Santa Iria"
+      }
+    },
+    {
+      "id": "853eaf2f-7682-45c1-8441-acd0e281b6ea",
+      "userId": "04e4260b-2ba8-4b2e-b855-e13311404732",
+      "action": "LOGOUT",
+      "oldStatus": null,
+      "newStatus": null,
+      "createdAt": "2026-03-20T18:22:44.318Z",
+      "ipAddr": "40.136.49.42",
+      "metadata": {
+        "browser": "Chrome",
+        "location": "Loures"
+      }
+    },
+    {
+      "id": "f63a2a78-a91c-41c9-bd63-cd27a41b1dbc",
+      "userId": "78bbdfad-96c6-44de-a1ba-d1b1b3e50870",
+      "action": "LOGIN",
+      "oldStatus": null,
+      "newStatus": null,
+      "createdAt": "2026-03-12T00:17:32.415Z",
+      "ipAddr": "230.114.137.73",
+      "metadata": {
+        "browser": "Chrome",
+        "location": "Rio Maior"
+      }
+    },
+    {
+      "id": "ffca1808-cc60-41d3-9b79-0988597f7856",
+      "userId": "4fcf055d-160c-4a3a-a20b-7b154571bd26",
+      "action": "LOGOUT",
+      "oldStatus": null,
+      "newStatus": null,
+      "createdAt": "2026-03-08T06:38:46.958Z",
+      "ipAddr": "36.119.66.43",
+      "metadata": {
+        "browser": "Chrome",
+        "location": "Montijo"
+      }
+    },
+    {
+      "id": "ea834b55-e145-492a-9622-918743c89131",
+      "userId": "f282ca7d-b94d-4b29-a775-60e68e8087d7",
+      "action": "PROFILE_UPDATE",
+      "oldStatus": null,
+      "newStatus": null,
+      "createdAt": "2026-03-07T15:39:51.644Z",
+      "ipAddr": "85.181.189.227",
+      "metadata": {
+        "browser": "Chrome",
+        "location": "Caldas da Rainha"
+      }
+    },
+    {
+      "id": "4f6a3cfa-2087-467a-9b55-336ac39fa0ef",
+      "userId": "e99e5ce6-450f-49ab-9e83-c89c99b14690",
+      "action": "PROFILE_UPDATE",
+      "oldStatus": null,
+      "newStatus": null,
+      "createdAt": "2026-03-07T05:41:48.630Z",
+      "ipAddr": "92.22.250.87",
+      "metadata": {
+        "browser": "Chrome",
+        "location": "Sines"
+      }
+    },
+    {
+      "id": "3d641ab9-8325-4c3f-a9c3-ae30795ab661",
+      "userId": "ddca7594-0be7-43f1-a2d4-8a2b7e095c9b",
+      "action": "PROFILE_UPDATE",
+      "oldStatus": null,
+      "newStatus": null,
+      "createdAt": "2026-02-27T03:40:05.133Z",
+      "ipAddr": "3.162.122.131",
+      "metadata": {
+        "browser": "Chrome",
+        "location": "Moura"
+      }
+    },
+    {
+      "id": "7d933d6e-00fb-418a-acd8-f5ac3261c137",
+      "userId": "a74ab0ce-8c22-490a-9652-e28dff6e90c2",
+      "action": "LOGOUT",
+      "oldStatus": null,
+      "newStatus": null,
+      "createdAt": "2026-03-14T10:43:45.413Z",
+      "ipAddr": "76.235.77.66",
+      "metadata": {
+        "browser": "Chrome",
+        "location": "Vila Nova de Gaia"
+      }
+    },
+    {
+      "id": "3dd9f6c0-792c-45a0-aeb5-953b3f031ba8",
+      "userId": "4fcf055d-160c-4a3a-a20b-7b154571bd26",
+      "action": "LOGIN",
+      "oldStatus": null,
+      "newStatus": null,
+      "createdAt": "2026-03-02T14:17:41.355Z",
+      "ipAddr": "171.113.135.124",
+      "metadata": {
+        "browser": "Chrome",
+        "location": "Queluz"
+      }
+    },
+    {
+      "id": "4b00ba60-5dd1-4a10-b1d9-1f0c38a97548",
+      "userId": "9931b42a-75b7-420c-be46-ea4437039a5d",
+      "action": "LOGOUT",
+      "oldStatus": null,
+      "newStatus": null,
+      "createdAt": "2026-03-12T16:31:00.155Z",
+      "ipAddr": "53.188.249.45",
+      "metadata": {
+        "browser": "Chrome",
+        "location": "Albufeira"
+      }
+    },
+    {
+      "id": "4c6db2de-9537-4d34-a068-15ac5e022ea1",
+      "userId": "1dba079f-a87a-4afe-926c-a28901866bac",
+      "action": "LOGOUT",
+      "oldStatus": null,
+      "newStatus": null,
+      "createdAt": "2026-03-11T22:08:51.861Z",
+      "ipAddr": "27.129.0.33",
+      "metadata": {
+        "browser": "Chrome",
+        "location": "Braga"
+      }
+    },
+    {
+      "id": "06ef9579-4254-4d45-9dab-3b6dbd03f075",
+      "userId": "4fcf055d-160c-4a3a-a20b-7b154571bd26",
+      "action": "LOGOUT",
+      "oldStatus": null,
+      "newStatus": null,
+      "createdAt": "2026-03-05T11:10:24.248Z",
+      "ipAddr": "93.90.45.192",
+      "metadata": {
+        "browser": "Chrome",
+        "location": "Queluz"
+      }
+    },
+    {
+      "id": "8b344b1c-5fe2-49ee-aafe-620d401b8aca",
+      "userId": "0a29f225-9a13-499f-b21f-7f81b94aa6ba",
+      "action": "LOGIN",
+      "oldStatus": null,
+      "newStatus": null,
+      "createdAt": "2026-03-02T18:11:16.049Z",
+      "ipAddr": "18.213.117.72",
+      "metadata": {
+        "browser": "Chrome",
+        "location": "Guimarães"
+      }
+    }
+  ],
+  "passwordResets": [
+    {
+      "id": "c68b8667-b208-4e5d-b7bf-669e7516345d",
+      "userId": "d15a47bf-c4a9-4c77-9363-d7a3b4e36d4a",
+      "token": "88509b48-eee0-40c2-b6a7-35a893b32d0d",
+      "used": false,
+      "expiresAt": "2025-03-31T11:32:52.588Z",
+      "createdAt": "2026-03-23T16:07:38.507Z"
+    },
+    {
+      "id": "b9693c48-fe6d-4f62-8f64-e9b6048aeabc",
+      "userId": "86db1f9a-b816-43c4-9525-8433333165ec",
+      "token": "1493eb7f-58d7-480d-a022-d3b9ab34638c",
+      "used": false,
+      "expiresAt": "2025-12-08T10:32:13.834Z",
+      "createdAt": "2026-03-23T16:07:38.510Z"
+    },
+    {
+      "id": "7c3dabe8-316b-4b7e-a771-26fd9028abcc",
+      "userId": "011a1bc1-299e-4b60-93c0-9ac6dbdb32d3",
+      "token": "ce8cbdc2-3ed2-4d42-a128-5fc90a31b8b9",
+      "used": true,
+      "expiresAt": "2026-02-21T18:39:55.056Z",
+      "createdAt": "2026-03-23T16:07:38.511Z"
+    },
+    {
+      "id": "b1fd1ce5-73de-4b6c-917b-abbe70ad82e1",
+      "userId": "aec128a1-5a35-4ca8-8dfe-762dc6d33731",
+      "token": "3e4e3ebd-1986-437f-a7a7-d104f659b482",
+      "used": false,
+      "expiresAt": "2025-12-23T06:04:19.966Z",
+      "createdAt": "2026-03-23T16:07:38.512Z"
+    },
+    {
+      "id": "f4974ecf-1f36-4191-9d2b-026f3e2f143b",
+      "userId": "7e72a11b-f1b3-4896-8de1-4de664e02f94",
+      "token": "93025c9f-bc50-4422-99dd-1189f84a8399",
+      "used": true,
+      "expiresAt": "2025-11-05T03:19:46.862Z",
+      "createdAt": "2026-03-23T16:07:38.512Z"
+    },
+    {
+      "id": "36579db0-5796-4a9f-aae4-c2e3285d9acf",
+      "userId": "6e96a078-1e67-40f3-b0f7-f224218aa856",
+      "token": "7d32d019-2938-4c67-9cff-0f8a83f33b20",
+      "used": false,
+      "expiresAt": "2026-03-12T01:56:43.159Z",
+      "createdAt": "2026-03-23T16:07:38.513Z"
+    },
+    {
+      "id": "e7a05fed-ac24-4fce-891c-2d6c1f678fb1",
+      "userId": "8d0ee3fe-0fde-40c5-b30d-fff0c5adb0f0",
+      "token": "9d4eaa0c-9ced-4f17-b5c3-daed5efdd9cb",
+      "used": false,
+      "expiresAt": "2025-12-18T03:53:41.180Z",
+      "createdAt": "2026-03-23T16:07:38.514Z"
+    },
+    {
+      "id": "aad4d452-88ba-44e3-ac1a-d2c15f89f2d7",
+      "userId": "c3008e98-f8f3-454d-9208-4a00950af9ba",
+      "token": "b2840599-8115-4888-a877-028a36deb0f7",
+      "used": false,
+      "expiresAt": "2025-10-11T04:59:47.385Z",
+      "createdAt": "2026-03-23T16:07:38.516Z"
+    },
+    {
+      "id": "2d50376c-f549-4c27-ae66-70e07204a58e",
+      "userId": "52efb517-4771-482a-903a-6f3fd479919c",
+      "token": "14a26958-8b8e-4d49-8ea4-af8a1a2e414d",
+      "used": true,
+      "expiresAt": "2025-08-12T07:57:45.274Z",
+      "createdAt": "2026-03-23T16:07:38.517Z"
+    },
+    {
+      "id": "001a21e2-8ebb-435c-b3bb-3551750d9435",
+      "userId": "9eaa34bc-99d7-47ed-b34a-cd7ba3a6ea9b",
+      "token": "2da5c044-3d4d-4ef4-ba34-69ecb32b5434",
+      "used": false,
+      "expiresAt": "2025-09-25T06:18:27.296Z",
+      "createdAt": "2026-03-23T16:07:38.518Z"
+    },
+    {
+      "id": "3b16d7ff-538d-4081-b26e-dbbbb613069c",
+      "userId": "8d0ee3fe-0fde-40c5-b30d-fff0c5adb0f0",
+      "token": "9d86f53a-2a07-43ee-9da2-c4359d3840b8",
+      "used": false,
+      "expiresAt": "2026-02-04T08:18:26.257Z",
+      "createdAt": "2026-03-23T16:07:38.518Z"
+    },
+    {
+      "id": "6d3a4a19-af50-4ab6-8fa0-dedeca8db9ae",
+      "userId": "a74ab0ce-8c22-490a-9652-e28dff6e90c2",
+      "token": "39e272bb-7fc8-437f-b862-9a892f1831d6",
+      "used": false,
+      "expiresAt": "2025-10-23T16:15:46.861Z",
+      "createdAt": "2026-03-23T16:07:38.519Z"
+    },
+    {
+      "id": "a663c9c7-df41-4358-ac85-42070fd6afb8",
+      "userId": "76d525b2-ff36-4692-9f43-052f9d2c687a",
+      "token": "073ad508-44e5-4e88-ae51-30b7d776ddf9",
+      "used": false,
+      "expiresAt": "2025-11-12T15:32:58.055Z",
+      "createdAt": "2026-03-23T16:07:38.520Z"
+    },
+    {
+      "id": "0cbe5f17-c969-48fe-8c05-1b63ad0fbbc6",
+      "userId": "da728b88-3ebf-4841-9fb4-48d765f21069",
+      "token": "3129aadf-19dc-43fb-8718-d1ce659ed588",
+      "used": true,
+      "expiresAt": "2025-10-30T00:37:23.691Z",
+      "createdAt": "2026-03-23T16:07:38.521Z"
+    },
+    {
+      "id": "667f3083-9a0d-4037-babf-ee73616a26ce",
+      "userId": "560d7c1e-214a-45fe-a56f-f86a03d75b7c",
+      "token": "798667e5-6918-47dd-aea4-dc0c13697699",
+      "used": true,
+      "expiresAt": "2025-05-04T01:21:17.031Z",
+      "createdAt": "2026-03-23T16:07:38.521Z"
+    },
+    {
+      "id": "5791a3fe-d254-44d0-ac57-0f1d1c7e85d1",
+      "userId": "a0660744-560e-4475-9f5f-77ee5c186861",
+      "token": "7f1acf74-6968-4997-9c69-7330efe3bd22",
+      "used": false,
+      "expiresAt": "2025-05-14T16:56:07.580Z",
+      "createdAt": "2026-03-23T16:07:38.523Z"
+    },
+    {
+      "id": "6934fce7-a858-44fc-89f9-e6953dfd142b",
+      "userId": "b3d7c3c7-ecc8-4d2c-a718-c2e8594c8248",
+      "token": "ab441206-1511-4848-a190-2e80d61a5a12",
+      "used": true,
+      "expiresAt": "2025-12-08T23:28:36.066Z",
+      "createdAt": "2026-03-23T16:07:38.524Z"
+    },
+    {
+      "id": "1b544b10-0e5c-476d-b002-5f7797aa11a2",
+      "userId": "86db1f9a-b816-43c4-9525-8433333165ec",
+      "token": "ffa59bf8-de56-457a-8cc5-24e371723f8f",
+      "used": true,
+      "expiresAt": "2025-07-18T09:34:28.534Z",
+      "createdAt": "2026-03-23T16:07:38.525Z"
+    },
+    {
+      "id": "f0672aaa-7c86-48ad-bf0a-4cbb73d5e59c",
+      "userId": "da728b88-3ebf-4841-9fb4-48d765f21069",
+      "token": "bbf7a880-c3c7-4d01-b02e-a9951b5cea95",
+      "used": false,
+      "expiresAt": "2025-11-24T22:17:41.747Z",
+      "createdAt": "2026-03-23T16:07:38.526Z"
+    },
+    {
+      "id": "31190cc2-06b2-4a25-b52c-519029ad58a7",
+      "userId": "6c74f7d7-144a-424b-8bd4-26a1af106a7a",
+      "token": "a0054668-3fa4-4f10-b06a-096717a1209a",
+      "used": true,
+      "expiresAt": "2025-10-31T15:26:52.015Z",
+      "createdAt": "2026-03-23T16:07:38.527Z"
+    }
+  ]
+}

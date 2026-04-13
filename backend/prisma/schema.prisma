@@ -1,0 +1,239 @@
+// Localização: backend/prisma/schema.prisma
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+// --- ENUMS ---
+
+enum Role {
+  USER // Acesso individual
+  COMPANY_ADMIN // Gere a sua empresa e respetivos membros
+  SUPER_ADMIN // Acesso total ao ecossistema (Gestão de Admins e Recuperação)
+}
+
+enum AuditAction {
+  LOGIN
+  LOGOUT
+  STATUS_CHANGE
+  REGISTER
+  PASSWORD_RESET
+  PASSWORD_CHANGE
+  PROFILE_UPDATE
+  DELETED
+  BANNED
+  BLOCKED
+  SUSPENDED
+  REACTIVATED
+}
+
+enum Status {
+  ACTIVE
+  INACTIVE
+  SUSPENDED
+  PENDING
+  BLOCKED
+  DELETED
+  BANNED
+}
+
+enum PermissionType {
+  READ
+  WRITE
+}
+
+enum InvoiceStatus {
+  PENDING
+  PAID
+  CANCELLED
+  REJECTED
+}
+
+enum AIStatus {
+  PENDING             // Aguarda processamento
+  DETECTING           // YOLO está a localizar os campos (NIF, Data, Total)
+  DETECTION_FAILED    // YOLO não encontrou os campos necessários
+  OCR_PROCESSING      // Campos localizados, a extrair texto agora
+  ANNOTATION_REQUIRED // Falhou ou confiança baixa: precisa de ir para o LabelStudio
+  SUCCESS             // Tudo lido e validado
+  FAILED              // Erro técnico no pipeline
+}
+
+// --- MODELS ---
+
+model Company {
+  id       String  @id @default(uuid())
+  name     String
+  location String?
+
+  // Relações
+  users    User[]
+  invoices Invoice[]
+
+  // Metadados de Auditoria e Soft Delete
+  deletedAt DateTime?
+  createdAt DateTime  @default(now())
+  updatedAt DateTime  @updatedAt
+
+  // Relação de Propriedade (Owner)
+  userId String @map("user_id")
+  user   User   @relation("UserCompanies", fields: [userId], references: [id])
+
+  @@map("companies") // Mapeamento para nome de tabela em snake_case na DB
+}
+
+model User {
+  id        String @id @default(uuid())
+  email     String @unique
+  password  String
+  firstName String @map("first_name")
+  lastName  String @map("last_name")
+  role      Role   @default(USER)
+  status    Status @default(ACTIVE) // Adiciona esta linha
+
+  // Relacionamento Multi-tenant (Onde o user trabalha)
+  companyId String?  @map("company_id")
+  company   Company? @relation(fields: [companyId], references: [id])
+
+  // NOVO: Relação de Propriedade (Empresas que este user criou/é dono)
+  ownedCompanies Company[] @relation("UserCompanies")
+
+  // Relações de Faturas
+  invoices       Invoice[]       @relation("UserInvoices")
+  sharedInvoices SharedInvoice[]
+
+  // Autenticação e Recuperação
+  passwordResets PasswordReset[]
+
+  // Metadados
+  deletedAt DateTime?
+  createdAt DateTime  @default(now())
+  updatedAt DateTime  @updatedAt
+
+  sentAudits     SharedInvoiceAudit[] @relation("SentAudits")
+  receivedAudits SharedInvoiceAudit[] @relation("ReceivedAudits")
+
+  userLogs UserAuditLog[] @relation("UserLog")
+
+  @@map("users")
+}
+
+model UserAuditLog {
+  id     String @id @default(uuid())
+  userId String @map("user_id")
+  user   User   @relation("UserLog", fields: [userId], references: [id])
+
+  action AuditAction // Mudado para obrigar ao uso do Enum e evitar typos
+
+  oldStatus Status? @map("old_status") // Aspas fechadas!
+  newStatus Status? @map("new_status") // Recomendado ser opcional (ex: Login não muda estado)
+
+  createdAt DateTime @default(now()) @map("created_at")
+  ipAddr    String?  @map("ip_addr")
+  metadata  Json? // Opcional. Permite guardar info flexível (ex: browser, campos mudados, etc)
+
+  @@map("user_audit_logs")
+}
+
+model Invoice {
+  id          String        @id @default(uuid())
+  value       Decimal       @db.Decimal(10, 2)
+  description String?
+  date        DateTime
+  nif         String
+  status      InvoiceStatus @default(PENDING)
+  imagePath   String?       @map("image_path")
+
+  ocrRawOutput    String?
+  visionRawOutput String?
+
+  confidenceScore Decimal     @db.Decimal(6,5)
+
+  manualReviewRequired  Boolean
+
+  aiStatus AIStatus
+
+  // Relação de Propriedade (Owner)
+  userId String @map("user_id")
+  user   User   @relation("UserInvoices", fields: [userId], references: [id])
+
+  // Relação de Tenancy (Empresa)
+  companyId String?  @map("company_id")
+  company   Company? @relation(fields: [companyId], references: [id])
+
+  // Lógica de Lazy-Cloning (Self-Relation)
+  clonedFromId String?   @map("cloned_from_id")
+  clonedFrom   Invoice?  @relation("InvoiceClones", fields: [clonedFromId], references: [id])
+  clones       Invoice[] @relation("InvoiceClones")
+
+  // Partilhas de apenas leitura
+  sharedWith SharedInvoice[]
+
+  // Metadados de Auditoria e Soft Delete
+  deletedAt DateTime?
+  createdAt DateTime  @default(now())
+  updatedAt DateTime  @updatedAt
+
+  @@map("invoices")
+}
+
+model SharedInvoice {
+  id String @id @default(uuid())
+
+  // Quem recebeu o acesso
+  userId String @map("user_id")
+  user   User   @relation(fields: [userId], references: [id])
+
+  // Qual a fatura partilhada
+  invoiceId String  @map("invoice_id")
+  invoice   Invoice @relation(fields: [invoiceId], references: [id])
+
+  createdAt           DateTime             @default(now())
+  sharedInvoiceAudits SharedInvoiceAudit[]
+
+  @@unique([userId, invoiceId]) // Um user não pode ter a mesma fatura partilhada duas vezes
+  @@map("shared_invoices")
+}
+
+model SharedInvoiceAudit {
+  id String @id @default(uuid())
+
+  sharedInvoiceId String        @map("shared_invoice_id")
+  sharedInvoice   SharedInvoice @relation(fields: [sharedInvoiceId], references: [id])
+
+  fromUserId String @map("from_user_id")
+  fromUser   User   @relation("SentAudits", fields: [fromUserId], references: [id])
+
+  toUserId String @map("to_user_id")
+  toUser   User   @relation("ReceivedAudits", fields: [toUserId], references: [id])
+
+  permissionType PermissionType @default(READ)
+
+  createdAt DateTime @default(now())
+}
+
+model PasswordReset {
+  id        String   @id @default(uuid())
+  userId    String   @map("user_id")
+  token     String   @unique
+  used      Boolean  @default(false)
+  expiresAt DateTime @map("expires_at")
+  createdAt DateTime @default(now()) @map("created_at")
+
+  user User @relation(fields: [userId], references: [id])
+
+  @@map("password_resets")
+}
+
+model SystemSettings {
+  id              Int      @id @default(1)
+  maintenanceMode Boolean  @default(false) @map("maintenance_mode")
+  updatedAt       DateTime @updatedAt @map("updated_at")
+
+  @@map("system_settings")
+}
