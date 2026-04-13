@@ -1,0 +1,132 @@
+
+:root {
+    --sidebar-width: 220px;
+    --topheader-height: 64px;
+}
+
+.dashboardRoot {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    background: var(--bg-body);
+}
+
+.mainArea {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    margin-left: var(--sidebar-width);
+    height: 100vh;
+}
+
+@media (max-width: 1023px) {
+    .mainArea {
+        margin-left: 0;
+    }
+}
+
+.sidebarBackdrop {
+    display: none;
+    position: fixed;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background: rgba(0,0,0,0.6);
+    backdrop-filter: blur(2px);
+    z-index: 150;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    pointer-events: none;
+}
+.sidebarBackdrop.backdropOpen {
+    opacity: 1;
+    pointer-events: auto;
+}
+@media (max-width: 1023px) {
+    .sidebarBackdrop {
+        display: block;
+    }
+}
+
+.contentArea {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    min-height: 0;
+    overflow-y: auto;
+    background: var(--bg-body);
+}
+
+.contentArea > * {
+    min-width: 0;
+}
+
+.footerCopyright {
+    margin-top: auto;
+    width: 100%;
+    text-align: center;
+    padding: var(--space-md) 0;
+    font-size: var(--text-xs);
+    color: var(--text-secondary);
+    background: transparent;
+}
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: var(--sidebar-width);
+    height: 100vh;
+    background: var(--glass-bg);
+    z-index: 100;
+    display: flex;
+    flex-direction: column;
+    transition: background 0.3s;
+    box-shadow: var(--glass-shadow);
+    border-right: 1px solid var(--glass-border);
+    backdrop-filter: blur(16px);
+}
+
+@media (max-width: 1023px) {
+    .sidebar {
+        width: 80vw;
+        max-width: 320px;
+        min-width: 200px;
+        z-index: 200;
+    }
+}
+
+.logo {
+    height: var(--topheader-height);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.4rem;
+    font-weight: 800;
+    color: var(--primary);
+    letter-spacing: -0.5px;
+    margin-bottom: 8px;
+}
+
+.options {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    padding: 0 16px;
+}
+
+.active {
+    color: var(--primary);
+    font-weight: 600;
+}
+
+.closeBtn {
+    position: absolute;
+    top: 16px;
+    right: 16px;
+    background: none;
+    border: none;
+    color: var(--primary);
+    z-index: 10;
+    cursor: pointer;
+}
